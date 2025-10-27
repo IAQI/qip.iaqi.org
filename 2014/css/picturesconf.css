@@ -1,0 +1,78 @@
+/**********************
+         PICTURESCONF CSS
+************************/
+
+@import url('form.css');
+
+/******************
+        BIG PHOTO
+********************/
+.photo{
+        border:#dfdfdf 1px solid;
+        width:35em;
+        height:23.1em;
+        padding:0.375em;
+        margin:0.5em 0em 0em 0.4em;
+        float:left;
+        }
+.photo img{
+        width:35em;
+        height:23.1em;
+        }
+#note{
+        float:right;
+        margin:0.1em 2.5em 0em 0em;
+        color:#D6161A;
+        font-size:0.6em;
+        }
+#prenext{
+        float:center;
+        margin:0.1em 2.5em 0em 0em;
+        color:#D6161A;
+        font-size:0.8em;
+        }
+/*******************
+        THUMBNAILS
+*******************/
+.thumbnails{
+        clear:both;
+        display:block;
+        padding:1.7em 0em;
+        }
+.thumbnails .row{
+        clear:both;
+        width:34em;
+        margin:0 auto 0.87em auto;
+        display:block;
+        overflow:hidden;
+        }
+.thumbnail{
+        float:left;
+        width:6.25em;
+        margin-right:0.5em;
+        }
+.thumbnail img{
+        width:6.25em;
+        height:4.125em;
+        }
+.thumbnail p{
+        clear:both;
+        text-align:center;
+        background-color:#e5e5e5;
+        color:#5a5a5a;
+        width:100%;
+        font-size:0.6em;
+        margin:0.1em 0em 0em 0em;
+        }
+.thumbnail input.picbutton{
+        border:none;
+        background-color:#dd2c20;
+	text-align:center;
+        font-size:1em;
+        color:#ffffff;
+	width:9em;
+        }
+.thumbnail input.picbutton:hover{
+        background-color:#c92211;
+	color:#ffffff;
+        }

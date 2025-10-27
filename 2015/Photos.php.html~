@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>QIP2015 - Photo Gallery</title>
+
+<meta name="author" content="QCIS">
+<meta name="description" content="The official website of QIP 2015. QIP 2015 is an international workshop on quantum information processing to be held in Sydney, Australia in January 2015.">
+<meta name="keywords" content="QIP, QIP2015, QIP 2015, 18th Workshop on Quantum Information Processing, Workshop on Quantum Information Processing, Quantum Physics, Quantum Information, Workshop">
+<script type="text/javascript" async="" src="QIP2015/ga.js"></script><script async="" src="QIP2015/cloudflare.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="QIP2015/file.css">
+<!--
+<link rel="stylesheet" href="http://conference.iiis.tsinghua.edu.cn/QIP2013/wp-content/themes/picolight/style.css" type="text/css" media="screen" />
+-->
+<style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style>
+
+<style>a{text-decoration:none}</style>
+</head>
+
+
+
+<body>
+<table align="center" class="maintable">
+<tbody>
+<tr>
+<td id="logo"><img src="QIP2015/logo3.jpg" border="0" usemap="#logoMap" id="logo"></td></tr>
+
+<tr>
+<td id="content">
+<table width="980px" align="center">
+<tbody><tr><td width="230" row-span="2" id="menu_tbl">
+
+<a href="index.php.html" id="menu_tbl">HOME</a><br>
+<a href="Committees.php.html" id="menu_tbl">COMMITTEES</a><br>
+<a href="Speakers.php.html" id="menu_tbl">PLENARY SPEAKERS</a><br>
+<a href="Tutorial.php.html" id="menu_tbl">TUTORIAL LECTURERS</a><br>
+<a href="Submission.php.html" id="menu_tbl">CALL FOR SUBMISSIONS</a><br>
+<a href="AcceptedTalks.php.html" id="menu_tbl">ACCEPTED TALKS</a><br> 
+<a href="AcceptedPosters.php.html" id="menu_tbl">ACCEPTED POSTERS</a><br> 
+<a href="Program.php.html" id="menu_tbl">SCIENTIFIC PROGRAM</a><br>
+
+
+<a href="Rump.php.html" id="menu_tbl">RUMP SESSION</a><br>
+<a href="Photos.php.html" id="menu_tbl">PHOTO GALLERY</a><br> 
+
+<a href="Registration.php.html" id="menu_tbl">REGISTRATION</a><br>
+<a href="Participants.php.html" id="menu_tbl">PARTICIPANTS</a><br>
+<a href="Venues.php.html" id="menu_tbl">CONFERENCE VENUES</a><br>
+<a href="Accommodation.php.html" id="menu_tbl">ACCOMMODATION</a><br>
+<a href="Visa.php.html" id="menu_tbl">TRAVEL AND VISA</a><br>
+<a href="LocalInformation.php.html" id="menu_tbl">LOCAL INFORMATION</a><br>
+<a href="TravelSupport.php.html" id="menu_tbl">TRAVEL SUPPORT</a><br>
+<a href="listQIPs.php.html" id="menu_tbl">LIST OF QIP CONFERENCES</a><br>
+
+<!--<a href="http://www.quantum-lab.org/qip2015/Conferences.php" id="menu_tbl">RELATED CONFERENCES</a><br>-->
+<a href="Charter.php.html" id="menu_tbl">QIP CHARTER</a><br>
+<a href="Contactus.php.html" id="menu_tbl">CONTACT US</a><br>
+<a href="https://www.surveymonkey.com/s/SurveyQIP" id="menu_tbl"><font color="#0000FF">QIP SURVEY</font></a><br>
+ 
+</td>
+<td width="720" id="content_tbl">
+ 
+<h3 id="content"><strong>Photo Gallery</strong> </h3>
+<p id="content">
+
+
+<hr color=grey>
+					
+<div class="entry">
+					<p style="text-align: center;">
+<p style="text-align: center;"><a href="http://quantum-lab.org/qip2015/pictures/QIP2015/QIP2015_Group_N.jpg">
+<img class="aligncenter" title="QIP 2105 Group Photo" src="http://quantum-lab.org/qip2015/pictures/QIP2015/QIP2015_Group_N.jpg" alt="" width="720" height="258" /></a></p>
+</div>
+
+
+
+<script type="text/javascript">
+        function Href(div_id) {
+            var divDisp = document.getElementById(div_id).style.display;
+            if (divDisp == "block") {
+                document.getElementById(div_id).style.display = "none";
+            } else {
+                document.getElementById(div_id).style.display = "block";
+            }
+        }
+    </script>
+	
+<a onclick="javacript:Href('Group')"><em> <font color="#FF0000">Click to view/hide the Name List of the Group Photo</font></em></a><br/> 
+ <div id="Group" style="display: none">
+ <br/>
+<table class="info" width=100%>
+<tr align="center">
+<td width=5%>1</td><td  width=20%>Michael Brenner</td><td  width=5%>51</td><td  width=20%>Pawel Mazurek</td>
+<td width=5%>101</td><td  width=20%>Toby Qubit</td><td  width=5%>151</td><td  width=20%>Pawel Mazurek</td>
+</tr>
+
+<tr align="center">
+<td width=5%>2</td><td  width=20%>Cécilia Lancien</td><td  width=5%>52</td><td  width=20%>Stephanie Wehner</td>
+<td width=5%>102</td><td  width=20%>Laura Mancinska</td><td  width=5%>152</td><td  width=20%>Stefan Baeumi</td>
+</tr>
+
+<tr align="center">
+<td width=5%>3</td><td  width=20%>Barry Sanders</td><td  width=5%>53</td><td  width=20%>Ran Raz</td>
+<td width=5%>103</td><td  width=20%>Karol Horrodecki</td><td  width=5%>153</td><td  width=20%>John Wright</td>
+</tr>
+
+<tr align="center">
+<td width=5%>4</td><td  width=20%>Stephen Bartlett</td><td  width=5%>54</td><td  width=20%>Katarzyna Roszak</td>
+<td width=5%>104</td><td  width=20%> </td><td  width=5%>154</td><td  width=20%>Akibue Seiseki</td>
+</tr>
+
+<tr align="center">
+<td width=5%>5</td><td  width=20%>Fernando Pastawski</td><td  width=5%>55</td><td  width=20%>Parth Girdhar</td>
+<td width=5%>105</td><td  width=20%>Hanna Wojewódka</td><td  width=5%>155</td><td  width=20%>Robert Raussendorf</td>
+</tr>
+
+<tr align="center">
+<td width=5%>6</td><td  width=20%>Grant Salton</td><td  width=5%>56</td><td  width=20%>Rotem Arnon-Friedman</td>
+<td width=5%>106</td><td  width=20%> </td><td  width=5%>156</td><td  width=20%>Adam Bouland</td>
+</tr>
+
+<tr align="center">
+<td width=5%>7</td><td  width=20%>Beni Yoshida</td><td  width=5%>57</td><td  width=20%>Dominic Berry</td>
+<td width=5%>107</td><td  width=20%>Jacob Bridgeman</td><td  width=5%>157</td><td  width=20%>Toyohiro Tsurumaru</td>
+</tr>
+
+<tr align="center">
+<td width=5%>8</td><td  width=20%>Le Huy Nguyen</td><td  width=5%>58</td><td  width=20%>Zixin Huang</td>
+<td width=5%>108</td><td  width=20%> </td><td  width=5%>158</td><td  width=20%>Chunhao Wang</td>
+</tr>
+
+<tr align="center">
+<td width=5%>9</td><td  width=20%>Angela Karanjai</td><td  width=5%>59</td><td  width=20%>Martin Ringbauer</td>
+<td width=5%>109</td><td  width=20%>Eunou Lee</td><td  width=5%>159</td><td  width=20%>Ludovico Lami</td>
+</tr>
+
+<tr align="center">
+<td width=5%>10</td><td  width=20%>Le Phuc Thinh</td><td  width=5%>60</td><td  width=20%>Cedric Lin</td>
+<td width=5%>110</td><td  width=20%>Aleksander Kubica</td><td  width=5%>160</td><td  width=20%> </td>
+</tr>
+
+<tr align="center">
+<td width=5%>11</td><td  width=20%> </td><td  width=5%>61</td><td  width=20%>Hakop Pashayan</td>
+<td width=5%>111</td><td  width=20%>Nai-Hui Chia</td><td  width=5%>161</td><td  width=20%>Penghui Yao</td>
+</tr>
+
+<tr align="center">
+<td width=5%>12</td><td  width=20%>Saleh Rahimi Keshari</td><td  width=5%>62</td><td  width=20%> </td>
+<td width=5%>112</td><td  width=20%>Taewan Kim</td><td  width=5%>162</td><td  width=20%>Shenggang Ying</td>
+</tr>
+
+<tr align="center">
+<td width=5%>13</td><td  width=20%>Ning Bao</td><td  width=5%>63</td><td  width=20%>Keith Motes</td>
+<td width=5%>113</td><td  width=20%>DongRyo Chi</td><td  width=5%>163</td><td  width=20%>Rafael Alexander</td>
+</tr>
+
+<tr align="center">
+<td width=5%>14</td><td  width=20%>Nima Lashkari</td><td  width=5%>64</td><td  width=20%>Michael Kastoryano</td>
+<td width=5%>114</td><td  width=20%>Sandra Rankovic</td><td  width=5%>164</td><td  width=20%>Priyanka Mukhopadhyay</td>
+</tr>
+
+<tr align="center">
+<td width=5%>15</td><td  width=20%>David Arvisson Shukur</td><td  width=5%>65</td><td  width=20%> </td>
+<td width=5%>115</td><td  width=20%>Kabgyun Jeong</td><td  width=5%>165</td><td  width=20%>Marcus Cramer</td>
+</tr>
+
+<tr align="center">
+<td width=5%>16</td><td  width=20%>Younghun Kwon</td><td  width=5%>66</td><td  width=20%>Maris Ozols</td>
+<td width=5%>116</td><td  width=20%>Gláucia Murta</td><td  width=5%>166</td><td  width=20%>Kenneth Rudinger</td>
+</tr>
+
+<tr align="center">
+<td width=5%>17</td><td  width=20%>Jacek Mosakowski</td><td  width=5%>67</td><td  width=20%>Oliver Buerschaper</td>
+<td width=5%>117</td><td  width=20%> </td><td  width=5%>167</td><td  width=20%>Xin Wang</td>
+</tr>
+
+<tr align="center">
+<td width=5%>18</td><td  width=20%>Min Namkung</td><td  width=5%>68</td><td  width=20%> </td>
+<td width=5%>118</td><td  width=20%>Anna Szymusiak</td><td  width=5%>168</td><td  width=20%> </td>
+</tr>
+
+<tr align="center">
+<td width=5%>19</td><td  width=20%>Donghoon  Ha</td><td  width=5%>69</td><td  width=20%>Babatunde Ayeni</td>
+<td width=5%>119</td><td  width=20%>Daniel Suess</td><td  width=5%>169</td><td  width=20%>Hao-Chung Cheng</td>
+</tr>
+
+<tr align="center">
+<td width=5%>20</td><td  width=20%>Richard Jozsa</td><td  width=5%>70</td><td  width=20%>Youming Qiao</td>
+<td width=5%>120</td><td  width=20%>Mathieu Lauriere</td><td  width=5%>170</td><td  width=20%>Seong-Woo Lee</td>
+</tr>
+
+<tr align="center">
+<td width=5%>21</td><td  width=20%>Nguyil Tomamichel</td><td  width=5%>71</td><td  width=20%>Nengkun Yu</td>
+<td width=5%>121</td><td  width=20%>Monika Rosicka</td><td  width=5%>171</td><td  width=20%>Elizabeth Crosson</td>
+</tr>
+
+<tr align="center">
+<td width=5%>22</td><td  width=20%>Supartha Podder</td><td  width=5%>72</td><td  width=20%>Rafael Chaves</td>
+<td width=5%>122</td><td  width=20%>Pankaj Joshi</td><td  width=5%>172</td><td  width=20%>Robin Blume-Kohout</td>
+</tr>
+
+<tr align="center">
+<td width=5%>23</td><td  width=20%>Ciara Morgan</td><td  width=5%>73</td><td  width=20%>Li Liu</td>
+<td width=5%>123</td><td  width=20%>Dave Touchette</td><td  width=5%>173</td><td  width=20%>Nairi Usher</td>
+</tr>
+
+<tr align="center">
+<td width=5%>24</td><td  width=20%>Aarthi Sundaram</td><td  width=5%>74</td><td  width=20%>Dave Chapman</td>
+<td width=5%>124</td><td  width=20%>Lukasz Czekaj</td><td  width=5%>174</td><td  width=20%>Srinivasan Arunachalam</td>
+</tr>
+
+<tr align="center">
+<td width=5%>25</td><td  width=20%>Mateud Araújo</td><td  width=5%>75</td><td  width=20%>Eric Cavalcanti</td>
+<td width=5%>125</td><td  width=20%>Ashley Montanaaro</td><td  width=5%>175</td><td  width=20%>Jedrzej Kaniewski</td>
+</tr>
+
+<tr align="center">
+<td width=5%>26</td><td  width=20%>Min-Hsiu Hsieh</td><td  width=5%>67</td><td  width=20%> </td>
+<td width=5%>126</td><td  width=20%>Yohannes Bousch</td><td  width=5%>176</td><td  width=20%>Mischa Woods</td>
+</tr>
+
+<tr align="center">
+<td width=5%>27</td><td  width=20%>Burak Sahinoglu</td><td  width=5%>77</td><td  width=20%>Gavin Brennen</td>
+<td width=5%>127</td><td  width=20%>Marco Piani</td><td  width=5%>177</td><td  width=20%>Hari Kovi</td>
+</tr>
+
+<tr align="center">
+<td width=5%>28</td><td  width=20%>Zhaofeng Su </td><td  width=5%>78</td><td  width=20%>Bill Fefferman</td>
+<td width=5%>128</td><td  width=20%>Adam Sawicki</td><td  width=5%>178</td><td  width=20%>Vikash Hegde</td>
+</tr>
+
+<tr align="center">
+<td width=5%>28a</td><td  width=20%>Mateus de Oliveira Oliveira </td>
+</tr>
+
+
+<tr align="center">
+<td width=5%>29</td><td  width=20%>Andrea Mari</td><td  width=5%>79</td><td  width=20%>David Wineland</td>
+<td width=5%>129</td><td  width=20%> </td><td  width=5%>179</td><td  width=20%>Jamie Sikora</td>
+</tr>
+
+<tr align="center">
+<td width=5%>30</td><td  width=20%>Aurel Gábris</td><td  width=5%>80</td><td  width=20%>Yasser Omar</td>
+<td width=5%>130</td><td  width=20%>Peter Shor</td><td  width=5%>180</td><td  width=20%>Chris Perry</td>
+</tr>
+
+<tr align="center">
+<td width=5%>31</td><td  width=20%>Noon Silk</td><td  width=5%>81</td><td  width=20%>Salman Beigi</td>
+<td width=5%>131</td><td  width=20%>Arjit Dutta</td><td  width=5%>181</td><td  width=20%>Kaushik Seshadreesan</td>
+</tr>
+
+<tr align="center">
+<td width=5%>32</td><td  width=20%>Fabio Costa</td><td  width=5%>82</td><td  width=20%>Anand Natarajan</td>
+<td width=5%>132</td><td  width=20%>John Smolin</td><td  width=5%>182</td><td  width=20%>Raben Iten</td>
+</tr>
+
+<tr align="center">
+<td width=5%>33</td><td  width=20%>Milán Mosoyoni</td><td  width=5%>83</td><td  width=20%>Steve Figmmia</td>
+<td width=5%>133</td><td  width=20%>Cheng Guo</td><td  width=5%>183</td><td  width=20%>Dan Browne</td>
+</tr>
+
+<tr align="center">
+<td width=5%>34</td><td  width=20%>Anurag Anshu</td><td  width=5%>84</td><td  width=20%>David Rosenbaum</td>
+<td width=5%>134</td><td  width=20%>Frederic Magniez</td><td  width=5%>184</td><td  width=20%>William Matthews</td>
+</tr>
+
+<tr align="center">
+<td width=5%>35</td><td  width=20%>Adrien Fiex</td><td  width=5%>85</td><td  width=20%>Daniel Gottesman</td>
+<td width=5%>135</td><td  width=20%>Debbie Leung</td><td  width=5%>185</td><td  width=20%>Marcin Jarzyna</td>
+</tr>
+
+<tr align="center">
+<td width=5%>36</td><td  width=20%>Issac Kim</td><td  width=5%>86</td><td  width=20%> </td>
+<td width=5%>136</td><td  width=20%> </td><td  width=5%>186</td><td  width=20%>Roger Colbbeck</td>
+</tr>
+
+<tr align="center">
+<td width=5%>37</td><td  width=20%>Chris Granade</td><td  width=5%>87</td><td  width=20%>Zhi-Chao Zhang</td>
+<td width=5%>137</td><td  width=20%>Iordanis Kerenidis</td><td  width=5%>187</td><td  width=20%>Nelly Ng</td>
+</tr>
+
+<tr align="center">
+<td width=5%>38</td><td  width=20%>Ying-Hui Yang</td><td  width=5%>88</td><td  width=20%>Seiichiro Tani</td>
+<td width=5%>138</td><td  width=20%> </td><td  width=5%>188</td><td  width=20%>Benoit Descamps</td>
+</tr>
+
+<tr align="center">
+<td width=5%>39</td><td  width=20%>Runyao Duan</td><td  width=5%>89</td><td  width=20%>Aram Harrow</td>
+<td width=5%>139</td><td  width=20%>Ji Guan</td><td  width=5%>189</td><td  width=20%> </td>
+</tr>
+
+<tr align="center">
+<td width=5%>40</td><td  width=20%>Adam Bookatz</td><td  width=5%>90</td><td  width=20%>Jean-Pierre Tillich</td>
+<td width=5%>140</td><td  width=20%>Koji Azuma</td><td  width=5%>190</td><td  width=20%>David Gross</td>
+</tr>
+
+<tr align="center">
+<td width=5%>41</td><td  width=20%>Fei Gao</td><td  width=5%>91</td><td  width=20%>Miklos Santha</td>
+<td width=5%>141</td><td  width=20%>Andreas Winter</td><td  width=5%>191</td><td  width=20%>érémie Roland</td>
+</tr>
+
+<tr align="center">
+<td width=5%>42</td><td  width=20%>Mark Hodson</td><td  width=5%>92</td><td  width=20%>Tomas Jochym-O’Connor</td>
+<td width=5%>142</td><td  width=20%> </td><td  width=5%>192</td><td  width=20%>Yudong Cao</td>
+</tr>
+
+<tr align="center">
+<td width=5%>43</td><td  width=20%>Zak Webb</td><td  width=5%>93</td><td  width=20%>David Sulter</td>
+<td width=5%>143</td><td  width=20%> </td><td  width=5%>193</td><td  width=20%>Daniel Nagaj</td>
+</tr>
+
+<tr align="center">
+<td width=5%>44</td><td  width=20%>Ching-Yi Lai</td><td  width=5%>94</td><td  width=20%>Krysta Svore</td>
+<td width=5%>144</td><td  width=20%> </td><td  width=5%>194</td><td  width=20%>Mingsheng Ying</td>
+</tr>
+
+<tr align="center">
+<td width=5%>45</td><td  width=20%>Charles Bennett</td><td  width=5%>95</td><td  width=20%>Philipp Kemmerlander</td>
+<td width=5%>145</td><td  width=20%> </td><td  width=5%>195</td><td  width=20%>Tom Cooney</td>
+</tr>
+
+<tr align="center">
+<td width=5%>46</td><td  width=20%>Ronald De Wolf</td><td  width=5%>96</td><td  width=20%>Han-Hsuan Lin</td>
+<td width=5%>146</td><td  width=20%>Alexander Miller-Hermes</td><td  width=5%>196</td><td  width=20%>Yuchun Wu</td>
+</tr>
+
+<tr align="center">
+<td width=5%>47</td><td  width=20%>Rui Cao</td><td  width=5%>97</td><td  width=20%>Robin Kothari</td>
+<td width=5%>147</td><td  width=20%>Brad Lackey</td><td  width=5%>197</td><td  width=20%>Dmitry Kravchenko</td>
+</tr>
+
+<tr align="center">
+<td width=5%>48</td><td  width=20%>Itai Arad</td><td  width=5%>98</td><td  width=20%>Shengyu Zhang</td>
+<td width=5%>148</td><td  width=20%>Yinan Li</td><td  width=5%>198</td><td  width=20%>Mikolaj Czechlewski</td>
+</tr>
+
+<tr align="center">
+<td width=5%>49</td><td  width=20%>Yuxiang Yang</td><td  width=5%>99</td><td  width=20%>Lukasz Rudnicki</td>
+<td width=5%>149</td><td  width=20%>Carl Miller</td><td  width=5%>199</td><td  width=20%>Henrik Wilming</td>
+</tr>
+
+<tr align="center">
+<td width=5%>50</td><td  width=20%>Carlo Maria Scandolo</td><td  width=5%>100</td><td  width=20%>Rahul Jain</td>
+<td width=5%>150</td><td  width=20%>Eyuri Wakakuwa</td><td  width=5%>200</td><td  width=20%>Michał Studzinski</td>
+</tr>
+
+<tr align="center">
+<td width=5%>201</td><td  width=20%>Robin Harper</td><td  width=5%>202</td><td  width=20%>Nicholas Funai</td>
+<td width=5%>203</td><td  width=20%>Christopher Chubb</td><td  width=5%>204</td><td  width=20%>Sam Roberts</td>
+</tr>
+
+<tr align="center">
+<td width=5%>205</td><td  width=20%>Go Kato</td><td  width=5%>206</td><td  width=20%>Cyril Stark</td>
+<td width=5%>207</td><td  width=20%>Andrew Darmawan</td><td  width=5%>208</td><td  width=20%>Romain Alléaume</td>
+</tr>
+
+<tr align="center">
+<td width=5%>209</td><td  width=20%>Fernando Brandao</td><td  width=5%>210</td><td  width=20%>Giulio Chiribella</td>
+<td width=5%>211</td><td  width=20%>David Gosset</td><td  width=5%>212</td><td  width=20%>Stacey Jeffrey</td>
+</tr>
+
+<tr align="center">
+<td width=5%>213</td><td  width=20%>Hector Bombin</td><td  width=5%>214</td><td  width=20%>David Poulin</td>
+<td width=5%>215</td><td  width=20%>Alexei Gilchrist</td><td  width=5%>216</td><td  width=20%>Nicolas Menicucci</td>
+</tr>
+
+<tr align="center">
+<td width=5%>217</td><td  width=20%>Shelby Kimmel</td><td  width=5%>218</td><td  width=20%>Masoud Mohseni</td>
+<td width=5%>219</td><td  width=20%>Kamil Konekwa</td><td  width=5%>220</td><td  width=20%>Weien Chen</td>
+</tr>
+
+<tr align="center">
+<td width=5%>221</td><td  width=20%>Franklin Marquexino</td><td  width=5%>222</td><td  width=20%>Danghoon Ha</td>
+<td width=5%>223</td><td  width=20%>Min Namkung</td><td  width=5%>224</td><td  width=20%>Pawel Wocjan</td>
+</tr>
+
+<tr align="center">
+<td width=5%>225</td><td  width=20%>Jess Riedel</td><td  width=5%>226</td><td  width=20%>Volker Scholz</td>
+<td width=5%>227</td><td  width=20%>Liming Zhao</td><td  width=5%> </td><td  width=20%> </td>
+</tr>
+
+
+
+
+</table>
+</div>
+
+
+
+</br>
+<hr color=grey>
+
+</br>
+
+<table>
+<tbody>
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2583.JPG">
+<img class="aligncenter" title="Tutorial: Itai Arad" src="pictures/QIP2015/s_MG_2583.jpg" alt="" width="180" height="120" /></a><br>Tutorial: Itai Arad</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2599.JPG">
+<img class="aligncenter" title="Tutorial: Roger Colbeck" src="pictures/QIP2015/s_MG_2599.jpg" alt="" width="180" height="120" /></a><br>Tutorial: Roger Colbeck</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2607.JPG">
+<img class="aligncenter" title="Tutorial: Krysta Svore" src="pictures/QIP2015/s_MG_2607.jpg" alt="" width="180" height="120" /></a><br>Tutorial: Krysta Svore</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2611.JPG">
+<img class="aligncenter" title="Tutorial: Alexandre Blais" src="pictures/QIP2015/s_MG_2611.jpg" alt="" width="180" height="120" /></a><br>Tutorial: Alexandre Blais</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2621.JPG">
+<img class="aligncenter" title="Opening: Runyao Duan" src="pictures/QIP2015/s_MG_2621.jpg" alt="" width="180" height="120" /></a><br>Opening: Runyao Duan</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2628.JPG">
+<img class="aligncenter" title="Opening: Ming-Sheng Ying" src="pictures/QIP2015/s_MG_2628.jpg" alt="" width="180" height="120" /></a><br>Opening: Mingsheng Ying</td>
+</tr>
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2636.JPG">
+<img class="aligncenter" title="Ronald de Wolf" src="pictures/QIP2015/s_MG_2636.jpg" alt="" width="180" height="120" /></a><br>Ronald de Wolf</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2638.JPG">
+<img class="aligncenter" title="Ran Raz" src="pictures/QIP2015/s_MG_2638.jpg" alt="" width="180" height="120" /></a><br>Ran Raz</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2645.JPG">
+<img class="aligncenter" title="Ashley Montanaro" src="pictures/QIP2015/s_MG_2645.jpg" alt="" width="180" height="120" /></a><br>Ashley Montanaro</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2648.JPG">
+<img class="aligncenter" title="Francois Le Gall" src="pictures/QIP2015/s_MG_2648.jpg" alt="" width="180" height="120" /></a><br>Francois Le Gall</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2652.JPG">
+<img class="aligncenter" title="Ryan O'Donnell" src="pictures/QIP2015/s_MG_2652.jpg" alt="" width="180" height="120" /></a><br>John Wright</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2653.JPG">
+<img class="aligncenter" title="Cedric Yen-Yu Lin" src="pictures/QIP2015/s_MG_2653.jpg" alt="" width="180" height="120" /></a><br>Cedric Yen-Yu Lin</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2661.JPG">
+<img class="aligncenter" title="Fang Song" src="pictures/QIP2015/s_MG_2661.jpg" alt="" width="180" height="120" /></a><br>Fang Song</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2665.JPG">
+<img class="aligncenter" title="Dominic Berry" src="pictures/QIP2015/s_MG_2665.jpg" alt="" width="180" height="120" /></a><br>Dominic Berry</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2668.JPG">
+<img class="aligncenter" title="Salman Beigi " src="pictures/QIP2015/s_MG_2668.jpg" alt="" width="180" height="120" /></a><br>Salman Beigi </td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2672.JPG">
+<img class="aligncenter" title="Masahito Hayashi" src="pictures/QIP2015/s_MG_2672.jpg" alt="" width="180" height="120" /></a><br>Masahito Hayashi</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2674.JPG">
+<img class="aligncenter" title="Poster Session" src="pictures/QIP2015/s_MG_2674.jpg" alt="" width="180" height="120" /></a><br>Poster Session</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2678.JPG">
+<img class="aligncenter" title="David J. Wineland" src="pictures/QIP2015/s_MG_2678.jpg" alt="" width="180" height="120" /></a><br>David J. Wineland</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2684.JPG">
+<img class="aligncenter" title="Steve Flammia" src="pictures/QIP2015/s_MG_2684.jpg" alt="" width="180" height="120" /></a><br>Steve Flammia</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2692.JPG">
+<img class="aligncenter" title="Marcus Cramer" src="pictures/QIP2015/s_MG_2692.jpg" alt="" width="180" height="120" /></a><br>Marcus Cramer</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2699.JPG">
+<img class="aligncenter" title="Michael Kastoryano" src="pictures/QIP2015/s_MG_2699.jpg" alt="" width="180" height="120" /></a><br>Michael Kastoryano</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2704.JPG">
+<img class="aligncenter" title="Burak Sahinoglu" src="pictures/QIP2015/s_MG_2704.jpg" alt="" width="180" height="120" /></a><br>Burak Sahinoglu</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2710.JPG">
+<img class="aligncenter" title="Daniel Nagaj" src="pictures/QIP2015/s_MG_2710.jpg" alt="" width="180" height="120" /></a><br>Daniel Nagaj</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2716.JPG">
+<img class="aligncenter" title="Xiaotong Ni" src="pictures/QIP2015/s_MG_2716.jpg" alt="" width="180" height="120" /></a><br>Xiaotong Ni</td>
+</tr>
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2725.JPG">
+<img class="aligncenter" title="David Touchette" src="pictures/QIP2015/s_MG_2725.jpg" alt="" width="180" height="120" /></a><br>David Touchette</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2727.JPG">
+<img class="aligncenter" title="David Elkouss" src="pictures/QIP2015/s_MG_2727.jpg" alt="" width="180" height="120" /></a><br>David Elkouss</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2739.JPG">
+<img class="aligncenter" title="Jean-Pierre Tillich " src="pictures/QIP2015/s_MG_2739.jpg" alt="" width="180" height="120" /></a><br>Jean-Pierre Tillich </td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2743.JPG">
+<img class="aligncenter" title="Beni Yoshida" src="pictures/QIP2015/s_MG_2743.jpg" alt="" width="180" height="120" /></a><br>Beni Yoshida</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2753.JPG">
+<img class="aligncenter" title="Marco Piani" src="pictures/QIP2015/s_MG_2753.jpg" alt="" width="180" height="120" /></a><br>Marco Piani</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2757.JPG">
+<img class="aligncenter" title="Stefan Baeuml" src="pictures/QIP2015/s_MG_2757.jpg" alt="" width="180" height="120" /></a><br>Stefan Baeuml</td>
+</tr>
+
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2763.JPG">
+<img class="aligncenter" title="William Matthews" src="pictures/QIP2015/s_MG_2763.jpg" alt="" width="180" height="120" /></a><br>William Matthews</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2914.JPG">
+<img class="aligncenter" title="Conference Banquet" src="pictures/QIP2015/s_MG_2914.jpg" alt="" width="180" height="120" /></a><br>Conference Banquet</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2939.JPG">
+<img class="aligncenter" title="Andrea Mari" src="pictures/QIP2015/s_MG_2939.jpg" alt="" width="180" height="120" /></a><br>Andrea Mari</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2943.JPG">
+<img class="aligncenter" title="Andreas Winter" src="pictures/QIP2015/s_MG_2943.jpg" alt="" width="180" height="120" /></a><br>Andreas Winter</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2949.JPG">
+<img class="aligncenter" title="Volkher Scholz" src="pictures/QIP2015/s_MG_2949.jpg" alt="" width="180" height="120" /></a><br>Volkher Scholz</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2952.JPG">
+<img class="aligncenter" title="Li Liu" src="pictures/QIP2015/s_MG_2952.jpg" alt="" width="180" height="120" /></a><br>Li Liu</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2956.JPG">
+<img class="aligncenter" title="Carl Miller" src="pictures/QIP2015/s_MG_2956.jpg" alt="" width="180" height="120" /></a><br>Carl Miller</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2959.JPG">
+<img class="aligncenter" title="Neil Ross" src="pictures/QIP2015/s_MG_2959.jpg" alt="" width="180" height="120" /></a><br>Neil Ross</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2961.JPG">
+<img class="aligncenter" title="Adam Bouland" src="pictures/QIP2015/s_MG_2961.jpg" alt="" width="180" height="120" /></a><br>Adam Bouland</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2966.JPG">
+<img class="aligncenter" title="Isaac Kim" src="pictures/QIP2015/s_MG_2966.jpg" alt="" width="180" height="120" /></a><br>Isaac Kim</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2967.JPG">
+<img class="aligncenter" title="Nima Lashkari" src="pictures/QIP2015/s_MG_2967.jpg" alt="" width="180" height="120" /></a><br>Nima Lashkari</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2971.JPG">
+<img class="aligncenter" title="Thomas Vidick" src="pictures/QIP2015/s_MG_2971.jpg" alt="" width="180" height="120" /></a><br>Thomas Vidick</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2976.JPG">
+<img class="aligncenter" title="David Gosset" src="pictures/QIP2015/s_MG_2976.jpg" alt="" width="180" height="120" /></a><br>David Gosset</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2979.JPG">
+<img class="aligncenter" title="Rafael Chaves" src="pictures/QIP2015/s_MG_2979.jpg" alt="" width="180" height="120" /></a><br>Rafael Chaves</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2984.JPG">
+<img class="aligncenter" title="Robert Raussendorf" src="pictures/QIP2015/s_MG_2984.jpg" alt="" width="180" height="120" /></a><br>Robert Raussendorf</td>
+</tr>
+
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2988.JPG">
+<img class="aligncenter" title="Peter Shor" src="pictures/QIP2015/s_MG_2988.jpg" alt="" width="180" height="120" /></a><br>Peter Shor</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2992.JPG">
+<img class="aligncenter" title="Hector Bombin" src="pictures/QIP2015/s_MG_2992.jpg" alt="" width="180" height="120" /></a><br>Hector Bombin</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2997.JPG">
+<img class="aligncenter" title="Courtney Brell" src="pictures/QIP2015/s_MG_2997.jpg" alt="" width="180" height="120" /></a><br>Courtney Brell</td>
+</tr>
+
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_3029.JPG">
+<img class="aligncenter" title="Henrik Wilming" src="pictures/QIP2015/s_MG_3029.jpg" alt="" width="180" height="120" /></a><br>Henrik Wilming</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_3030.JPG">
+<img class="aligncenter" title="Venue: UTS Aerial Functions Centre" src="pictures/QIP2015/s_MG_3030.jpg" alt="" width="180" height="120" /></a><br>Venue: UTS Aerial Functions Centre</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_3033.JPG">
+<img class="aligncenter" title="Sponsors" src="pictures/QIP2015/s_MG_3033.jpg" alt="" width="180" height="120" /></a><br>Sponsors</td>
+</tr>
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_3039.JPG">
+<img class="aligncenter" title="QIP Volunteers" src="pictures/QIP2015/s_MG_3039.jpg" alt="" width="180" height="120" /></a><br>QIP Volunteers</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2760.JPG">
+<img class="aligncenter" title="Venue" src="pictures/QIP2015/_MG_2760.JPG" alt="" width="180" height="120" /></a><br>Venue</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2791.JPG">
+<img class="aligncenter" title="Banquet" src="pictures/QIP2015/_MG_2791.JPG" alt="" width="180" height="120" /></a><br>Conference Banquet</td>
+</tr>
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2597.JPG">
+<img class="aligncenter" title="Michael Bremner" src="pictures/QIP2015/s_MG_3039.jpg" alt="" width="180" height="120" /></a><br>Michael Bremner</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2707.JPG">
+<img class="aligncenter" title="Registration" src="pictures/QIP2015/_MG_2707.JPG" alt="" width="180" height="120" /></a><br>Registration</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2589.JPG">
+<img class="aligncenter" title="Registration" src="pictures/QIP2015/_MG_2589.JPG" alt="" width="180" height="120" /></a><br>Registration</td>
+</tr>
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2660.JPG">
+<img class="aligncenter" title="Venue" src="pictures/QIP2015/s_MG_2660.jpg" alt="" width="180" height="120" /></a><br>Venue</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2586.JPG">
+<img class="aligncenter" title="Venue" src="pictures/QIP2015/_MG_2586.JPG" alt="" width="180" height="120" /></a><br>Venue</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2626.JPG">
+<img class="aligncenter" title="Venue" src="pictures/QIP2015/_MG_2626.JPG" alt="" width="180" height="120" /></a><br>Venue</td>
+</tr>
+
+<tr width="720">
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2836_7_8.JPG">
+<img class="aligncenter" title="Opera House" src="pictures/QIP2015/s_MG_2836_7_8.jpg" alt="" width="180" height="120" /></a><br>Opera House</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2902.JPG">
+<img class="aligncenter" title="Opera House" src="pictures/QIP2015/_MG_2902.JPG" alt="" width="180" height="120" /></a><br>Opera House</td>
+<td width="240" align=center style="font-size:12px;"><a href="pictures/QIP2015/_MG_2921.JPG">
+<img class="aligncenter" title="Sydney Harbour" src="pictures/QIP2015/s_MG_2921.jpg" alt="" width="180" height="120" /></a><br>Sydney Harbour</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+
+
+<br><br><br><br>
+</p></td>
+</tr>
+</tbody></table> 
+</td>
+</tr>
+</tbody></table>
+
+
+</body></html>

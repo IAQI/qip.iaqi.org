@@ -1,0 +1,10 @@
+(function ($) { 
+    $(document).ready(function() { 
+	    $.ajax({ 
+		    type: "POST", 
+		    cache: false, 
+		    url: Drupal.settings.system_uofc.url, 
+		    data: Drupal.settings.system_uofc.data 
+		}); 
+	}); 
+})(jQuery);

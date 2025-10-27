@@ -1,0 +1,94 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 19:55:42 Aug 20, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:29:50 Dec 2, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body {
+	margin: 0px;
+	background-color: #1873BA;
+	background-image: url(/web/20060820195542/http://www.qinfo.org/qip/images/body_background.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+
+
+
+	
+}
+td {
+	font-family: "Palatino Linotype", "Times New Roman", Times, serif;
+	font-size: small;
+	color: #003366;
+	font-weight: 600;
+
+	
+}
+h1 {
+	font-size: x-large;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+	color: #000066;
+
+
+
+
+	
+}
+a {
+	color: #1272BD;
+	text-decoration: none;
+
+	
+}
+a:hover {
+	color: #3399FF;
+	text-decoration: underline;
+
+
+	
+}
+a:visited {
+	
+}
+
+.menu {
+	color: #FFFFFF;
+
+	
+}
+.menu a {
+	background-color: #1873BA;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: none;
+
+
+
+
+	
+}
+.menu a:hover {
+	color: #33CC66;
+	text-decoration: none;
+
+	
+}
+.menu a:visited {
+	
+}
+h2 {
+	font-size: medium;
+}
+.institution {
+	color: #336699;
+	font-style: italic;
+
+}

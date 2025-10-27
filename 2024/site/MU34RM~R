@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head><link href="App_Themes/6005/def.css" type="text/css" rel="stylesheet" /><title>
+	qip2024
+</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="The international conference on Quantum Information Processing (QIP) is the premier annual meeting for quantum information research. Since the first meeting in Aarhus (Denmark) in 1998, the conference has featured breakthroughs by leaders in the disciplines of computing, cryptography, information theory, mathematics, and physics.
+The scientific objective of the series is to gather the theoretical quantum information community to present and discuss the latest groundbreaking work in the field." /><meta name="author" />
+                            
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://qip2024.tw/site/favicon.ico" />
+
+    <!-- Web Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin" />
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="assets/css/style.css" /><link href="assets/css/app.css" rel="stylesheet" />
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="assets/css/headers/header-default.css" /><link rel="stylesheet" href="assets/css/footers/footer-v1.css" />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/animate.css" /><link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css" /><link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" /><link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css" />
+
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="assets/css/pages/portfolio-v2.css" /><link href="assets/css/pages/pricing/pricing_v8.css" rel="stylesheet" />
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+     
+<style>
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 483px;
+}
+* {
+    font-family: 'times new roman', times, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'times new roman', times, serif;
+}
+@media (min-width: 992px){
+
+.header .navbar-nav > li > a {
+    bottom: -2px;
+    position: relative;
+    padding: 9px 15px 9px 15px;
+}
+
+.header .navbar-nav > li:hover > a {
+    color: #e66e52;
+}
+
+.header .navbar-nav > li > a:hover, .header .navbar-nav > .active > a {
+    border-bottom: solid 2px #d1684f;
+}
+
+.paddingTop {
+    padding-top: 132px;
+}
+
+}
+
+.header .dropdown > a:after {
+    right: 5px;}
+
+.header .nav > li > .search:hover {
+    color: #d1674e;
+    background: #f7f7f7;
+    border-bottom-color: #c66950;
+}
+.btn-u, .btn-u:hover {
+    background: #c76951;
+}
+.header .navbar-nav > li > a {
+     font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+input[type=radio] {
+margin:5px;
+}
+
+@media (min-width: 992px){
+.header-fixed .header.header-fixed-shrink .logo img {
+    max-width: INITIAL;
+
+}}
+
+.header .logo img {
+    margin: 5px 0;
+}
+
+
+
+
+element.style {
+}
+.breadcrumbs {
+    padding: 40px 0 6px;
+}
+
+.header-fixed .header.header-fixed-shrink .logo img {
+    max-height: 120px;
+}
+.header .logo img {
+    height: 120px;
+}
+
+.header > .container {
+    display: table;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 992px){
+.header-fixed .header.header-fixed-shrink > .container {
+    margin-bottom: 0px;
+}
+.header-fixed .header.header-fixed-shrink .navbar-nav > li > a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.header-fixed .header.header-fixed-shrink .dropdown > a:after {
+    top: 9px;
+}.header .navbar-nav {
+    float: left;
+}
+.header-fixed .header.header-fixed-shrink .nav > li > .search {
+    color: #777;
+    padding: 11px 0 12px;}
+}
+</style>
+<link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css" /><meta name="keywords" content="QIP,QIP2024,QIP 2024,2024QIP, 2024 QIP, QIP Taipei" /></head>
+
+<body  class="header-fixed">
+        <form name="aspnetForm" method="post" action="mypage.aspx%3Fpid=239&amp;lang=en&amp;sid=1522.html" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="assets/plugins/fancybox/source/jquery.fancybox.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EF943D4F" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="vrPXAj9lOKf2RN2jyEwi6AXSotD45nACeORMNa_pGYphNC4Mz2qDMT-it1USQ8EWrJ47KIGrVGDwuPhuO5yv69qvmi81" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="F5yx14j0u1ZYXl5ys1Obf5bTy4xpCwvI3a3n0k+joCTbPofkv3a6OemJ8vJJ6X3xaoJKWk1Y/TekIuTLIHBb001dP9ZojG2e2ktZxLFF+b5w29beCOL46VbkLFy6DpY5s4NHUc3Xy1JZfNOPIPbBR4bRmg3cv6vfbihtmAawaEoqwOXj" />   
+<div class="wrapper">
+    <!--=== Header ===-->
+    <div class="header header-sticky">
+        <div class="container">
+            <!-- Logo -->
+   <a  class="logo" href="../index.html"><img id="ctl00_Img_logo" class="img-responsive" src="userdata/1522.png" align="absmiddle" border="0" /></a>
+            
+             <!-- End Logo -->
+
+            <!-- Topbar -->
+            
+            <!-- End Topbar -->
+
+            <!-- Toggle get grouped for better mobile display -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <!-- End Toggle -->
+        </div><!--/end container-->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+            <div class="container">
+                 <ul class="nav navbar-nav">
+                <li><a href='../site%3Fsid=1522&amp;lang=en.html' target='_self''  >Home</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=246&amp;lang=en&amp;sid=1522.html'  >Registration</a>
+</li>
+<li class='dropdown'><a href='javascript:void(0);'  class='dropdown-toggle' data-toggle='dropdown'>Local Information</a>
+<ul class='dropdown-menu'> 
+<li><a href='mypage.aspx%3Fpid=242&amp;lang=en&amp;sid=1522.html'  >Venue</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=244&amp;lang=en&amp;sid=1522.html'  >Accommodation</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=248&amp;lang=en&amp;sid=1522.html'  >Visa</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=249&amp;lang=en&amp;sid=1522.html'  >About TAIWAN</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=273&amp;lang=en&amp;sid=1522.html'  >Visiting TAIPEI</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=250&amp;lang=en&amp;sid=1522.html'  >Restaurant around the Venue</a>
+</li>
+</ul></li>
+<li><a href='mypage.aspx%3Fpid=245&amp;lang=en&amp;sid=1522.html'  >Call for Submissions</a>
+</li>
+<li class='dropdown'><a href='javascript:void(0);'  class='dropdown-toggle' data-toggle='dropdown'>Accepted Submissions</a>
+<ul class='dropdown-menu'> 
+<li><a href='mypage.aspx%3Fpid=259&amp;lang=en&amp;sid=1522.html'  >Accepted Talks</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=263&amp;lang=en&amp;sid=1522.html'  >Accepted Posters</a>
+</li>
+</ul></li>
+<li class='dropdown'><a href='javascript:void(0);'  class='dropdown-toggle' data-toggle='dropdown'>Program</a>
+<ul class='dropdown-menu'> 
+<li><a href='mypage.aspx%3Fpid=261&amp;lang=en&amp;sid=1522.html'  >Program at a Glance</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=262&amp;lang=en&amp;sid=1522.html'  >Tutorial</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=264&amp;lang=en&amp;sid=1522.html'  >Plenary Talks</a>
+</li>
+<li class='dropdown-submenu'> <a href='javascript:void(0);'>Schedule</a>
+<ul Class='dropdown-menu'>
+<li><a href='mypage.aspx%3Fpid=266&amp;lang=en&amp;sid=1522.html'  >Morning/ Plenary Session</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=271&amp;lang=en&amp;sid=1522.html'  >Afternoon/ Parallel Session</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=274&amp;lang=en&amp;sid=1522.html'  >Industry Session</a>
+</li>
+</ul></li>
+<li><a href='mypage.aspx%3Fpid=275&amp;lang=en&amp;sid=1522.html'  >Rump Session</a>
+</li>
+</ul></li>
+<li class='dropdown'><a href='javascript:void(0);'  class='dropdown-toggle' data-toggle='dropdown'>About QIP</a>
+<ul class='dropdown-menu'> 
+<li><a href='mypage.aspx%3Fpid=237&amp;lang=en&amp;sid=1522.html'  >Code of Conduct</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=238&amp;lang=en&amp;sid=1522.html'  >Steering Committee</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=239&amp;lang=en&amp;sid=1522.html'>Local Organizing Committee</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=254&amp;lang=en&amp;sid=1522.html'  >Program Committee</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=257&amp;lang=en&amp;sid=1522.html'  >Student Stipend</a>
+</li>
+</ul></li>
+<li class='dropdown'><a href='javascript:void(0);'  class='dropdown-toggle' data-toggle='dropdown'>Sponsors</a>
+<ul class='dropdown-menu'> 
+<li><a href='mypage.aspx%3Fpid=272&amp;lang=en&amp;sid=1522.html'  >Our Sponsors</a>
+</li>
+<li><a href='mypage.aspx%3Fpid=253&amp;lang=en&amp;sid=1522.html'  >Call for Sponsorship</a>
+</li>
+</ul></li>
+<li><a href='order/1522/signupen.aspx%3Fsid=1522&amp;lang=en.html' target='_self''  >Login</a>
+</li>
+
+                <!-- Search Block -->
+                    <li>
+                        <i class="search fa fa-search search-btn"></i>
+                        <div class="search-open">
+                            <div class="input-group animated fadeInDown">
+                                <input name="ctl00$TB_SearchBox" type="text" id="ctl00_TB_SearchBox" class="form-control" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <input type="submit" name="ctl00$BTN_SearchBox" value="Go" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BTN_SearchBox&quot;, &quot;&quot;, true, &quot;Search&quot;, &quot;sys_find.aspx?sid=1522&amp;lang=en&quot;, false, false))" id="ctl00_BTN_SearchBox" class="btn-u" />
+                                    &nbsp;
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- End Search Block -->
+                     </ul>
+
+            </div><!--/end container-->
+        </div><!--/navbar-collapse-->
+    </div>
+    <!--=== End Header ===-->
+
+
+    <div class="paddingTop"></div>
+    
+   
+            
+            
+    <link href="assets/css/pages/shortcode_timeline2.css" rel="stylesheet" />
+    <link href="plugin/tinymce/plugins/bootstrap/css/iconpicker/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        .line-icon-page .item-box {
+            width: 50%;
+        }
+
+    </style>
+    <div class="breadcrumbs_container">
+<div class="breadcrumbs">
+        <div class="container">
+            <h1 class="pull-left">  Local Organizing Committee</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href='../site%3Fsid=1522&amp;lang=en.html'>Home</a></li><li>About QIP</li>
+<li class='active'>Local Organizing Committee</li>
+
+            </ul>
+                     
+       
+        </div>
+    </div>
+</div>
+       <div class="outerclassdiv">
+    <div class="container content">
+        <div class="row">
+
+
+            <!-- Begin Content -->
+            <div id="ctl00_ContentPlaceHolder1_mypage_left" class="col-md-9">
+                
+                           <!DOCTYPE html><html><head></head><body><div class="panel panel-primary"><div class="panel-heading"><h3 class="panel-title"><span style="font-size: 12pt; font-family: 'times new roman', times, serif;"><strong>Chairs</strong></span></h3></div><div class="panel-body"><ul><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Chair: Min-Hsiu Hsieh 謝明修 (Hon-Hai Quantum Computing Center)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Co-Chair: Hao-Chung Cheng 鄭皓中 (NTUEE)</span></li></ul></div></div><div class="panel panel-info"><div class="panel-heading"><h3 class="panel-title"><span style="font-family: 'times new roman', times, serif;"><strong>Members</strong></span></h3></div><div class="panel-body"><ul><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Ching-Ray Chang 張慶瑞 (CYCU-Phys)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Hsi-Sheng Goan 管希聖 (NTU-Phys)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Kai-Min Chung 鐘楷閔 (Academia Sinica-IIS)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Yeong-Cherng Liang 梁永成 (NCKU-Phys)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Kuei-Lin Chiu 邱奎霖 (NSYSU-Phys)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Ching-Yi Lai 賴青沂 (NYCU-EE)</span></li><li><span style="font-size: 12pt; font-family: 'times new roman', times, serif;">Han-Hsuan Lin 林瀚仚 (NTHU-CSIE)</span></li></ul></div></div><p></p></body></html>
+                    
+                  
+<div class="text-right">
+       </div>
+            </div>
+            <!-- End Content -->
+
+                        <!-- Begin Sidebar Menu -->
+            <div class="col-md-3">
+                        
+                <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
+                    <!-- SubMenu -->
+<li  class='list-group-item'><a href='mypage.aspx%3Fpid=237&amp;lang=en&amp;sid=1522.html'>Code of Conduct</a>
+<li  class='list-group-item'><a href='mypage.aspx%3Fpid=238&amp;lang=en&amp;sid=1522.html'>Steering Committee</a>
+<li  class='list-group-item active'><a href='mypage.aspx%3Fpid=239&amp;lang=en&amp;sid=1522.html'>Local Organizing Committee</a>
+<li  class='list-group-item'><a href='mypage.aspx%3Fpid=254&amp;lang=en&amp;sid=1522.html'>Program Committee</a>
+<li  class='list-group-item'><a href='mypage.aspx%3Fpid=257&amp;lang=en&amp;sid=1522.html'>Student Stipend</a>
+</li>
+
+
+                    <!-- End SubMenu --> 
+                  
+                </ul>
+                <br />
+
+            <!-- End Sidebar Menu -->
+    </div> </div></div>
+           </div>
+          <script type='text/javascript'>
+          $(function () {
+              /* 判斷連結若為圖片，加上fancybox的對應*/
+              //            $("a[href$='.png']").attr("target", "_blank");
+              $("a[href$='.jpg']").attr("class", "group1").attr("rel", "imggroup");
+              $("a[href$='.JPG']").attr("class", "group1").attr("rel", "imggroup");
+              $("a[href$='.png']").attr("class", "group1").attr("rel", "imggroup");
+              $("a[href$='.PNG']").attr("class", "group1").attr("rel", "imggroup");
+              $("a[href$='.gif']").attr("class", "group1").attr("rel", "imggroup");
+              $("a[href$='.GIF']").attr("class", "group1").attr("rel", "imggroup");
+          });
+
+          $(document).ready(function () {
+              /* Apply fancybox to multiple items */
+              $("a.group1").fancybox({
+                  'showCloseButton': true,
+                  'titlePosition': 'inside',
+                  'title': this.title,
+                  'autoScale': false,
+                  'titleShow': false,
+                  'height': 1000
+              });
+          });
+    </script>
+
+
+            
+
+
+  
+</div><!--/wrapper-->
+<span id="ctl00_Lab_footer"><!DOCTYPE html><html><head><style>.footer-v2 .footer {	padding: 40px 0;	background: #e6e6e7;	border-top: 3px solid #e6e6e7;color:#000000;}</style></head><body><div class="footer-v2" id="footer-v2"><div class="footer"><div style="text-align: center;" class="container"><span style="font-size: 12pt; color: #333399; font-family: 'times new roman', times, serif;"><strong>QIP 2024&nbsp;Taipei Taiwan</strong></span></div><div style="text-align: center;" class="container"><span style="font-size: 10pt; font-family: 'times new roman', times, serif;">Contact:&nbsp;<a href="mailto:%20qip2024taipei@gmail.com">qip2024taipei@gmail.com</a></span></div><div style="text-align: center;" class="container"><span style="font-size: 10pt; font-family: 'times new roman', times, serif;"></span></div></div><!--/footer--></div></body></html></span>
+
+<!-- JS Global Compulsory -->
+
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+
+<script type="text/javascript" src="assets/plugins/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/pages/page_portfolio.js"></script>
+<script type="text/javascript" src="assets/js/plugins/parallax-slider.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        PortfolioPage.init();
+        ParallaxSlider.initParallaxSlider();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="/site/assets/plugins/respond.js"></script>
+    <script src="/site/assets/plugins/html5shiv.js"></script>
+    <script src="/site/assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /info/
+Disallow: /awstats/
+Disallow: /bb/
+Disallow: /archives/
+Disallow: /bureau_docs/
+Disallow: /Machine/
+Disallow: /webssh/
+Disallow: /video/

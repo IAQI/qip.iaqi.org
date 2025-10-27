@@ -1,0 +1,12 @@
+# robots.txt for http://www.mit.edu/
+
+User-agent: *
+Disallow: /cgi/
+Disallow: /comment
+Disallow: /finger
+Disallow: /machine
+Disallow: /zlocate
+Disallow: /zwrite
+Disallow: /afs/athena/project/net_dev/thorne/sigs.out
+Disallow: /afs/sipb/project/wot/data
+Disallow: /afs/sipb.mit.edu/project/wot/data

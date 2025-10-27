@@ -1,0 +1,73 @@
+/**********************
+	 HOME CSS
+************************/
+
+@import url('default.css');
+@import url('dreta_yourdata.css');
+@import url('registration.css');
+
+.center h3{
+	background:none;
+	}
+.center p{
+	margin:1.2em 0em 0.7em 0.9em;
+	font-size:0.7em;
+	}
+.center p.borderBottom{
+	border-bottom:1px solid #e0e0e0;
+	padding: 0em 0em 1em 0em;
+	}
+strong{
+	color:#222121;
+	font-weight:normal;
+	}
+
+/****************
+	TABLES
+*****************/
+.center ul.simpleTable{
+	display:block;
+	overflow:hidden;
+	clear:both;
+	height:1%;
+        width:100% 
+	}
+.center ul.simpleTable li{
+	clear: both;
+	overflow: hidden;
+	font-size:0.7em;
+	margin:0em 0em 0.1em 0em;
+	padding:0.1em 0em;
+	color:#424242;
+	background-color: #f7f7f7;
+	font-weight:normal;
+	line-height:1.3em;
+	width:100%;
+	float:left;
+	display:block;
+	}
+*+html .center ul.simpleTable li{
+	margin-bottom:0.1em;
+	}
+.center ul.simpleTable li.par{
+	background-color: #ededed;
+	}
+.center ul.simpleTable li .left{
+	display: block;
+	float: left;
+	text-align: left;
+	color:#424242;
+	width:82%;
+	}
+.center ul.simpleTable li .left strong{
+	color:#424242;
+        font-weight:bold;
+	}
+.center ul.simpleTable li .right{
+	float:right;
+	color:#7d7d7d;
+	font-size:0.95em;
+	margin:0px;
+	text-align:right;
+	width:18%;
+	}

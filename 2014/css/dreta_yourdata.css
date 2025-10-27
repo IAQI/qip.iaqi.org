@@ -1,0 +1,190 @@
+/**********************
+	MENU RIGHT
+	YOURDATA TYPE
+************************/
+.destacat1,
+.destacat2,
+.destacat3{
+	display:block;
+	overflow:hidden;
+	margin-left:-1px;
+	}
+* html .destacat1,
+* html .destacat2,
+* html .destacat3{
+	margin-left:0px;
+	}
+*+html .destacat1,
+*+html .destacat2,
+*+html .destacat3{
+	margin-left:0px;
+	}
+.destacat1{
+	padding-top:0.3em;
+	padding-bottom:0.2em;
+	background-color:#ffffff;
+	}
+.destacat3{
+	padding-bottom:0.2em;
+	background-color:#ffffff;
+	}
+.destacat1 h3,
+.destacat2 h3,
+.destacat3 h3{
+	background:url(img/bg_destacat.gif) top right no-repeat;
+	color:#fff;
+	background-color:#323031;
+	text-transform:uppercase;
+	font-size:0.9em;
+	font-size:0.71em;
+	padding-left:10px;
+	line-height:1.95em;
+	}
+.destacat1 .inDestacat,
+.destacat2 .inDestacat,
+.destacat3 .inDestacat{
+	background-color:#E6E6E6;
+	float:left;
+	display:block;
+	width:100%;
+	}
+* html .destacat1 .inDestacat,
+* html .destacat2 .inDestacat,
+* html .destacat3 .inDestacat{
+	width:99.9%;
+	float:none;
+	}
+.destacat1 .inDestacat{
+	padding:0.3em 0em 0em 0em;
+	}
+ul.logos{
+	text-align:center;
+	}
+.inDestacat ul.yourdata_opt li{
+	padding-bottom:0.875em;
+	}
+.inDestacat ul li p.bullet{
+	text-align:left;
+	background:url(img/bullet_destacat.gif) 6px 6px no-repeat;
+	color:#000000;
+	font-weight:bold;
+	font-size:0.7em;
+	padding-left:1em;
+	margin:0.5em 0em 0.8em 0em;
+	}
+* html .destacat1 .inDestacat ul li p.bullet{
+	background-position:6px 10px;
+	}
+*+html .destacat1 .inDestacat ul li p.bullet{
+	background-position:6px 10px;
+	}
+.inDestacat ul li a{
+	display:block;
+	margin:0 auto;
+	}
+.inDestacat ul li a.red{
+	display:inline;
+	text-align:right;
+	margin:0px;
+	}
+.inDestacat ul.logos li {
+	margin:1.1em 0pt;
+	}
+p.datadetails {
+	font-size:0.7em;
+	font-weight:bold;
+	padding:0.5em 0.4em;
+	margin:0.5em 0.45em 0em 0.45em;
+	border-bottom:1px solid #c6c6c6;
+	color:#323232;
+	}
+ul.yourdata_opt {
+	padding:0.8em 0.1em 0em 0.15em;
+	text-transform:uppercase;
+	}
+ul.yourdata_opt li a{
+	color:#335472;
+	display:block;
+	font-weight:bold !important;
+	font-size:0.66em;
+	height:2.7em;
+	padding:7px 0em 0em 35px;
+	}
+a#application {
+	background:url(img/button_llapis.gif) no-repeat;
+	}
+a#application:hover ,
+li.selected a#application{
+	background:url(img/button_llapis_h.gif) no-repeat;
+	}
+/*** prueba para noactive  ***/
+li.noactive a#application:hover{
+	background:url(img/button_llapis.gif) no-repeat;
+	}
+/***/
+a#registration {
+	background:url(img/button_check.gif) no-repeat;
+	}
+a#registration:hover,
+li.selected a#registration{
+	background:url(img/button_check_h.gif) no-repeat;
+	}
+li.noactive a#registration:hover {
+	background:url(img/button_check.gif) no-repeat;
+	}
+a#accomodation {
+	background:url(img/button_casa.gif) no-repeat;
+	}
+a#accomodation:hover,
+li.selected a#accomodation {
+	background:url(img/button_casa_h.gif) no-repeat;
+	}
+li.noactive a#accomodation:hover {
+	background:url(img/button_casa.gif) no-repeat;
+	}
+a#participants {
+	background:url(img/button_people.gif) no-repeat;
+	}
+a#participants:hover,
+li.selected a#participants {
+	background:url(img/button_people_h.gif) no-repeat;
+	}
+li.noactive a#participants:hover {
+	background:url(img/button_people.gif) no-repeat;
+	}
+a#program {
+	background:url(img/button_program.gif) no-repeat;
+	}
+a#program:hover,
+li.selected a#program {
+	background:url(img/button_program_h.gif) no-repeat;
+	}
+li.noactive a#program:hover {
+	background:url(img/button_program.gif) no-repeat;
+	}
+a#pictures {
+	background:url(img/button_camera.gif) no-repeat;
+	}
+a#pictures:hover,
+li.selected a#pictures {
+	background:url(img/button_camera_h.gif) no-repeat;
+	}
+li.noactive a#pictures:hover {
+	background:url(img/button_camera.gif) no-repeat;
+	}
+/***********************
+	APARTAT DE LINKS
+***********************/
+ul#links {
+	height:130px;
+	min-height:30px;
+	display:block;
+	padding:10px;
+	}
+ul#links li a:link,
+ul#links li a:visited {
+	/*color:#d6161a;*/
+	font-size:0.6em;
+	font-weight:bold;
+	padding:10px;
+	}
