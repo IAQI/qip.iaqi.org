@@ -1,0 +1,135 @@
+/**********************
+	SESSION CSS
+************************/
+
+@import url('default.css');
+@import url('dreta_yourdata.css');
+
+/******************
+	CENTER
+******************/
+.center {
+	width:36.88em;
+	padding: 0em 1.25em 0em 1.25em;
+	color:#545050;
+	line-height:1.03em;
+	}
+.center .top{
+	overflow:hidden;
+	width:100%;
+	margin-top:2.18em;
+	}
+.center .top img{
+	float:left;
+	width:9em;
+	height:9em;
+	}
+.center .top .text{
+	width:27.2em;
+	float:right;
+	margin-top:0.1em;
+	font-weight:bold;
+	}
+.center .top .text h2{
+	font-size:1.25em;
+	font-weight:normal;
+	color:#d6161a;
+	margin:0.2em 0em 0.5em 0em;
+	}
+.center .top p.subtitle{
+	font-weight:normal !important;
+	margin:0.7em 0em 0em 0em;
+	font-weight:bold;
+	}
+.center .top .text p{
+	font-size:0.875em;
+	color:#000000;
+	font-weight:normal;
+	margin:0em;
+	}
+.center .top .text p.organizers{
+	color:#3f3f3f;
+	font-size:0.812em;
+	margin-top:1.1em;
+	}
+.center .containeryourdata{
+	margin-top:1.75em;
+	color:#1e1e1e;
+	}
+strong.big{
+	font-size:1.05em;
+	color:#1e1e1e;
+	}
+.center p{
+	clear:both;
+	color:#545050;
+	font-size:0.7em;
+	margin:0em 2em 1em 0em;
+	}
+.center table{
+	clear:both;
+	color:#545050;
+	font-size:0.7em;
+	margin:0em 2em 1em 0em;
+	}
+.center ul{
+	margin-bottom:1em;
+	}
+.center ul li{
+	display:block;
+	font-size:.7em;
+	}
+.center .thanks ul li{
+	display:block;
+	font-size:1em;
+	}
+.center h1{
+	font-size:1.25em;
+	font-weight:normal;
+	color:#d6161a;
+	margin-bottom:0.35em;
+	margin:0.4em 0em 0em 0em;
+	padding:0.9em 0 0.3em 0em;
+	}
+.center h3{
+	border-top:1px solid #D0D0D0;
+	color:#000000;
+	font-size:1em;
+	margin:1em 0em 0.75em;
+	padding:1.1em 0em 0.3em 2.2em;
+	}
+.center h3.bus{
+	background:url(img/icon_bus.gif) left bottom no-repeat;
+	}
+.center h3.aplic{
+	background:url(img/icon_registration.gif) left bottom no-repeat;
+	}
+.center h4.bigRed{
+	font-size:0.75em;
+	color:#d72327;
+	margin-left:0.0em;
+	}
+.center .marginLeft{
+	margin-left:2.3em;
+	width:27em;
+	}
+.black{
+	color:#000000;
+	}
+input.mybutton{	
+        border:none;
+	background-color:#dd2c20;
+	float:right;
+	margin:0em 0em 1.1em 0em;
+	width:14.53em;
+	height:1.46em;
+        text-align:right;
+        font-size:0.8em;
+	color:#ffffff;
+        }
+input.mybutton:hover{
+        background-color:#c92211;
+        }
+.minHeight{
+        margin:0em 0em 0em 0.8em;
+	}

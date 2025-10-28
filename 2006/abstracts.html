@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>QIP 2006</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+<style>
+<!--
+a{text-decoration:none}
+dt {
+        font-weight: bold;
+        }
+
+//-->
+</style>
+</head>
+<body BGCOLOR="#FFFFFF" LINK="#2211EE" VLINK="#CC0066" ALINK="#FFAA22">
+<p align="center">
+<table cellpadding="2" cellspacing="2" border="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="logo.png" title=""
+ alt="" style="width: 175px; height: 133px;"> </td>
+      <td style="vertical-align: top;">
+      <h1><font face="Verdana, Arial, Helvetica, sans-serif"><span style="color: rgb(61, 61, 61);">The Ninth Workshop on </span><br
+ style="color: rgb(61, 61, 61);">
+      <span style="color: rgb(61, 61, 61);">Quantum Information
+Processing</span><br>
+      <span style="color: rgb(128, 39, 37);">Paris, January 16-20, 2006</span></font></h1>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<p align="center"> 
+<a href="index.html">General information</a> | 
+<a href="call.html">Call for communications</a> | 
+<a href="information.html">Practical information</a> 
+			<br>
+<a href="accepted_posters.html">List of posters</a>   | 
+<a href="accepted_talks.html">List of talks</a> | 
+<a href="abstracts.html">Abstracts</a> | 
+<a href="schedule.html">Schedule</a> | 
+<a href="photo.html">Group photo</a> |
+<a href="photos.html">Other photos</a> 
+</p>
+<hr style="height: 2px; width: 100%;" >
+
+<font face="Verdana, Arial, Helvetica, sans-serif" color="#8b0a02"
+ size="5">Abstracts of talks</font><br>
+<img src="rule2.gif" border="0"><br>
+<br>
+
+<h2>Invited talks</h2>
+<dl>
+<dt id=ambainis><a href="slides/ambainis.ppt">A new quantum lower bound method, with applications to strong direct product theorems</a>
+<dd>by  Andris Ambainis (University of Waterloo), joint work with  Robert Spalek,  Ronald de Wolf
+<p><font color=gray >
+Quantum query model can be used to analyze many quantum algorithms, including Grover's search, quantum counting and others. Many of those algorithms can be shown to be optimal, by proving matching quantum lower bounds. So far, most of quantum lower bounds have been proven by two methods: polynomials method and adversary method. Both strengths and limitations of these two methods have been quite well understood. 
+<p>
+We describe a new method for proving lower bounds on quantum algorithms in the query model. The new method builds on the adversary method, but avoids its limitations and can be used to prove bounds which are impossible to prove by the previous adversary method. 
+<p>
+We apply the new method to two problems. The first one is k-fold search problem, in which we have k instances of Grover's search problem. In each instance, we have to find one marked element among n elements. The task is to solve them all simultaneously. The second problem is simultaneously computing t-threshold function on k inputs, each of which consists of N bits. We show that: 
+<p>
+<ol>
+<li>
+any algorithm for the k-fold search problem that uses less than c ksqrt{N} queries can only succeed with an exponentially small probability;  
+<li>
+any algorithm for t-threshold functions that uses less than c k sqrt{N t} queries can only succeed on all k copies simultaneously with an exponentially small probability.
+</ol>
+<p>
+The first lower bound has been previously shown by Klauck, Spalek and de Wolf, using polynomials method. No lower bound using adversary method was known. The second bound is new. Both lower bounds have applications to proving time-space tradeoffs for quantum algorithms.
+</font><p>
+
+<dt id=haroche>Quantum information with Rydberg atoms and photons in  cavities: results and perspectives
+<dd>by Serge Haroche (Coll&egrave;ge de France and Ecole Normale Sup&eacute;rieure, Paris)
+
+<dt id=moore><a href="http://www.santafe.edu/~moore/qip-slides.pdf">Fourier sampling, representations, and the hunt for a quantum algorithm for Graph Isomorphism</a>
+<dd>by Cris Moore (University of New Mexico), joint work with Alex Russell, Leonard Schulman
+<p><font color=gray >
+I give an introduction to Fourier sampling and representation theory.  I then discuss recent results, both positive and negative, about the possibility of using Fourier sampling to solve Graph Isomorphism on a quantum computer.
+</font><p>
+
+<dt id=reichardt><a href="slides/reichardt.pdf">Rigorous fault-tolerance thresholds</a>
+<dd>by Ben Reichardt (University of California, Berkeley)
+<p><font color=gray >
+Efficient fault-tolerance schemes have narrowed the gap between estimated noise threshold lower bounds and known upper bounds. (The noise threshold is the highest tolerable error rate.) Efficient proof techniques are allowing rigorous proofs of higher threshold lower bounds than before, although there is still a substantial gap between the proven and the estimated threshold rates. The new proof techniques apply to concatenated distance-three codes, for which there had been no proven positive threshold at all.
+</font><p>
+
+<dt id=renner><a href="http://cam.qubit.org/users/renato/RennerQIP06.pdf">An exponential de Finetti theorem and its applications to quantum cryptography</a>
+<dd>by  Renato Renner (CQC, Cambridge)
+<p><font color=gray>
+The state of an n-partite product system is said to be symmetric if it is invariant under permutations of the n subsystems. We show that any symmetric state is exponentially (in n) close to a mixture of "almost product" states, i.e., states which have product form except on a small number of subsystems. Most of the relevant properties of such "almost product" states are virtually equal to those of perfect product states.
+<p>
+The result has applications in quantum information theory. It implies, for example, that in order to prove full security of a QKD protocol it suffices to consider so-called collective attacks, where the adversary is bound to apply identical and independent operations on each of the particles sent over the quantum channel.
+</font><p>
+
+<dt id=schaffner><a href="slides/schaffner.ppt">Cryptography in the Bounded Quantum-Storage Model</a>
+<dd>by Christian Schaffner (BRICS, University of Aarhus), joint work with  Ivan B. Damgaard,  Serge Fehr,  Louis Salvail
+<p><font color=gray>
+We initiate the study of two-party cryptographic primitives with unconditional security, assuming that the adversary's <em>quantum</em> memory is of bounded size. We show that oblivious transfer and bit commitment can be implemented in this model using protocols where honest parties need no quantum memory, whereas an adversarial player needs quantum memory of size at least n/2 in order to break the protocol, where n is the number of qubits transmitted. This is in sharp contrast to the classical bounded-memory model, where we can only tolerate adversaries with memory of size quadratic in honest players' memory size. Our protocols are efficient, non-interactive and can be implemented using today's technology. On the technical side, a new uncertainty relation is established.
+<p>
+This is joint work with Ivan B. Damgård, Serge Fehr and Louis Salvail
+</font><p>
+
+<dt id=sen><a href="slides/sen.pdf">Graph Isomorphism, the hidden subgroup problem and distinguishing quantum states</a>
+<dd>by Pranab Sen (NEC Labs America), joint work with Sean Hallgren, Martin Rotteler
+<p><font color=gray>
+It has been known for some time that graph isomorphism reduces to the hidden subgroup problem (HSP) in the symmetric group. The standard quantum approach for the HSP involves identifying the hidden subgroup from its coset state, namely, from the uniform mixture of uniform superpositions over cosets of the hidden subgroup. It was recently shown by Moore, Russell and Schulman that exponentially many measurements are required to determine whether two graphs are isomorphic or not if each measurement is limited to act on one or two coset states at a time. We show that any efficient quantum algorithm for graph isomorphism operating only on coset states needs to make measurements entangled across Omega(n log n) states, matching an old information theoretic upper bound of Ettinger, H&oslash;yer and Knill. This may be viewed as a negative result because highly entangled measurements seem hard to implement in general. Our main theorem is quite general and also rules out using joint measurements on few coset states for the HSP in some other groups.
+<p>
+Next, we show that for any two quantum states in n-dimensional space, with high probability a random POVM, for a suitable notion of randomness, gives total variation distance at least a universal constant times their Frobenius distance divided by log n. Applied to the HSP, this result shows that polynomially many iterations of random Fourier sampling on one coset state at a time suffice to information theoretically identify hidden subgroups that have polynomially bounded rank in every representation of the ambient group. In particular, this is the case for Gel'fand pairs, for example dihedral and Heisenberg groups, where the rank is zero or one for every representation. This result provides a positive counterpart to the above lower bound for HSP in the symmetric group, where the rank of the hidden subgroup in most representations is exponentially large.
+</font><p>
+
+<dt id=watrous><a href="slides/watrous.pdf">Zero-knowledge against quantum attacks</a>
+<dd>by John Watrous (University of Calgary)
+<p><font color=gray>
+It has been an unsolved problem in theoretical quantum cryptography for several years to formulate a general and cryptographically meaningful definition of quantum zero-knowledge and to apply the definition to non-trivial protocols. In this talk I will explain how this problem can be solved, at least to a significant extent, for what are arguably the strongest and most natural definitions of quantum zero-knowledge.
+</font><p>
+</dl>
+
+<h2>Long talks</h2>
+<dl>
+
+<dt id=benor>Verifiable Quantum Secret Sharing and  Secure Multi-Party Quantum
+Computation</a>
+<dd>by  Michael Ben-Or  (Hebrew University), joint work with  Claude Crépeau,  Daniel Gottesman,  Avinatan Hassidim,  Adam Smith
+<p><font color=gray>
+</font><p>
+
+<dt id=crepeau><a href="http://crypto.cs.mcgill.ca/~crepeau/QIP06-NB.pdf">Classical and quantum strategies for two-prover bit commitments</a>
+<dd>by  Claude Crépeau (McGill University), joint work with  Jean-Raymond Simard,  Alain Tapp
+
+<dt id=vanDam>From optimal measurement to efficient quantum algorithms for the hidden subgroup problem over semidirect product groups
+<dd>by  Wim van Dam (University of California, Santa Barbara), joint work with Andrew M. Childs, Dave Bacon
+<p><font color=gray>
+We approach the hidden subgroup problem by performing the so-called pretty good measurement on hidden subgroup states. For various groups that can be expressed as the semidirect product of an abelian group and a cyclic group, we show that the pretty good measurement is optimal and that its probability of success and unitary implementation are closely related to an average-case algebraic problem. By solving this problem, we find efficient quantum algorithms for a number of nonabelian hidden subgroup problems, including some for which no efficient algorithm was previously known: certain metacyclic groups as well as all groups of the form (Z_p)^r X| Z_p for fixed r (including the Heisenberg group, r=2). In particular, our results show that entangled measurements across multiple copies of hidden subgroup states can be useful for efficiently solving the nonabelian HSP.
+<br>
+Ref.: <a href="http://www.arxiv.org/abs/quant-ph/0504083">arXiv:quant-ph/0504083</a>
+</font><p>
+
+<dt id=gavinsky><a href="http://pages.cpsc.ucalgary.ca/~gavinsky//talks/qbeqs.pdf">Bounded-Error Quantum State Identification with Applications to Communication Complexity</a>
+<dd>by  Dmitry Gavinsky (University of Calgary), joint work with  Julia Kempe,  Oded Regev,  Ronald de Wolf
+<p><font color=gray>
+We consider the problem of bounded-error quantum state identification: given one of two known states, what is the optimal probability a with which we can identify the given state, subject to our guess being correct with high probability (but we are permitted to output &quot;don't know&quot; instead of a guess).
+We prove a direct product theorem for this problem. Our proof is based on semidefinite programming duality and may be of wider interest.
+<p>
+Using this result, we present two new exponential separations in the simultaneous message passing model of communication complexity. Both are shown in the strongest possible sense:
+ <ul>
+   <li>we describe a relation that can be computed with O(log n) classical bits of communication    in the presence of shared randomness, but needs n^(1/3) communication if the parties don't share randomness, even if communication is quantum;
+   <li>we describe a relation that can be computed with O(log n) classical bits of communication in the presence of shared entanglement, but needs (almost) n^(1/3)  communication if the parties share randomness but no entanglement, even if communication is quantum.
+</ul>
+</font><p>
+<dt id=grover>A different kind of quantum search
+<dd>by  Lov Grover (Bell Labs, Lucent)
+<p><font color=gray>
+Quantum searching normally consists of an alternate  sequence of
+selective inversion and diffusion operations. The algorithm has
+been extensively studied and is well understood. However, there
+was a surprising result that was discovered last year. 
+<p>
+
+This showed that if we replace the selective inversions by 
+Pi/3 phase shifts the algorithm behaves something like a
+classical algorithm that is easier to describe in terms of
+probabilities. Several new results follow from this. For
+example, we obtain an algorithm that converges monotonically
+towards the solution [1]. This is in contrast to the well-known
+search/amplitude amplification algorithms that have an oscillatory character.
+<p>
+
+If we consider a situation where the probability of
+getting a target state for a random item, is 1-epsilon (with
+epsilon unknown), then the probability of getting a target state
+after a single query in the new algorithm, can be increased to
+1-epsilon3, classically this can be increased
+to only 1-epsilon2. The performance of this  algorithm
+has recently been proved to be optimal. Another important
+application of this technique is in correction of systematic
+errors [2].
+<p>
+
+
+(1) L.K. Grover (2005), Fixed-point quantum search, Phys. Rev.
+Letters, Oct. 3, 2005.
+<br>
+
+(2) B.W. Reichardt and L.K. Grover, Quantum error correction of
+systematic errors using a quantum search framework, Phys. Rev. A,
+Oct. 25, 2005
+</font><p>
+
+<dt id=hayden><a href="slides/hayden.ppt">The classical and quantum private capacities of a secret shared Cartesian frame</a>
+<dd>by  Patrick Hayden (McGill University), joint work with  Stephen Bartlett,  Robert Spekkens
+<p><font color=gray>
+A private shared Cartesian frame is a novel form of private shared correlation that allows for both private classical and quantum communication. Cryptography using a private shared Cartesian frame has the remarkable property that asymptotically, if perfect privacy is demanded, the private classical capacity is three times the private quantum capacity. I'll explain how, if the requirement for perfect privacy is relaxed, it is possible to use the properties of random subspaces to nearly triple the private quantum capacity, almost closing the gap between the private classical and quantum capacities.
+</font><p>
+
+<dt id=iwama>Quantum Network Coding
+<dd>by  Kazuo Iwama (Kyoto University), joint work with  Masahito Hayashi,  Harumichi Nishimura,  Rudy Raymond,  Shigeru Yamashita
+<p><font color=gray>
+Since quantum information is continuous, its handling is sometimes 
+surprisingly harder than the classical counterpart. A typical example is 
+cloning; making a copy of digital information is straightforward but it is 
+not possible exactly for quantum information. The question in this talk is 
+whether or not &quot;quantum&quot; network coding is possible. Its classical 
+counterpart is another good example to show that digital information flow 
+can be done much more efficiently than conventional (say, liquid) flow.
+<p>
+Our answer to the question is similar to the case of cloning, namely, it is 
+shown that quantum network coding is possible if approximation is allowed, 
+by using a simple network model called Butterfly. In this network, there are 
+two flow paths, s_1 to t_1 and s_2 to t_2, which shares a single bottleneck 
+channel of capacity one. In the classical case, we can send two bits 
+simultaneously, one for each path, in spite of the bottleneck. Our results 
+for quantum network coding include: (i) We can send any quantum state 
+|psi_1&gt; from s_1 to t_1 and |psi_2&gt; from s_2 to t_2 simultaneously with a 
+fidelity strictly greater than 1/2. (ii) If one of |psi_1&gt; and |psi_2&gt; is 
+classical, then the fidelity can be improved to 2/3. (iii) Similar 
+improvement is also possible if |psi_1&gt; and |psi_2&gt; are restricted to only a 
+finite number of (previously known) states. This allows us to design an 
+interesting protocol which can send two classical bits from s_1 to t_1 
+(similarly from s_2 to t_2) but only one of them should be recovered.
+</font><p>
+<dt id=koenig><a href="http://qubit.damtp.cam.ac.uk/users/robert/qip06slideskoenig.pdf">A de Finetti theorem for finite quantum states - Locked correlations and secret keys</a>
+<dd>by  Robert Koenig (CQC, Cambridge), joint work with  Renato Renner
+<p><font color=gray>
+Consider a state on an n-fold product space which is invariant under permutations of the subsystems. We show that applying an informationally complete POVM to a number of subsystems gives a residual state which is close to having product form. We briefly point out some implications of the resulting so-called de Finetti representation.
+<p>
+In the second part of this talk, we show that security definitions in quantum key distribution based on the accessible information are generally insufficient to guarantee security in applications. This is due to the existence of locked classical correlations. We also discuss how to overcome this problem.
+</font><p>
+
+<dt id=oppenheim>A classical analog of negative information
+<dd>by  Jonathan Oppenheim (University of Cambridge), joint work with  Rob Spekkens,  Andreas Winter
+<p><font color=gray>
+<a 
+href="http://www.damtp.cam.ac.uk/user/jono/negative-information.html">'Quantum 
+partial information'</a> is the amount of communication needed for one 
+party to send her share of a state to a receiver who holds part of the 
+state.  Recently, it was shown that <a 
+href="http://arxiv.org/abs/quant-ph/0505062">it is given by the 
+conditional entropy</a>, which can be negative.  If, in addition one also 
+requires that the receiver send his state to the sender (<a 
+href="http://arxiv.org/abs/quant-ph/0511082">quantum state exchange</a>), 
+the amount of information which needs to be sent can paradoxically go 
+down. Here we find a classical analogue of these results, based on a long 
+known relationship between entanglement and shared private correlations: 
+namely, we consider a private distribution held between two parties, and 
+correlated to a reference system, and ask how much secret communication is 
+needed for one party to send her distribution to the other. We give 
+optimal protocols for this task, and find that private information can be 
+negative - the sender's distribution can be transferred and the potential 
+to send future distributions in secret is gained through the distillation 
+of a secret key.  Exchanging a distribution can also cost less than for 
+one party to send it. The results give new classical protocols, and also 
+clarify the various relationships between entanglement and privacy.
+</font><p>
+
+<dt id=raussendorf><a href="slides/raussendorf.pdf">A fault-tolerant one-way quantum computer</a>
+<dd>by  Robert Raussendorf (Caltech), joint work with  Jim Harrington,  Kovid Goyal
+<p><font color=gray>
+We describe a fault-tolerant one-way quantum computer on cluster states in three dimensions. The presented scheme uses methods of topological error correction resulting from a link between cluster states and surface codes. The error threshold is 1.4% for local depolarizing error and 0.11% for each source in an error model with preparation-, gate-, storage- and measurement errors.
+</font><p>
+
+<dt id=shi>Simulating quantum computation by contracting tensor networks
+<dd>by  Yaoyun Shi (University of Michigan, Ann Arbor), joint work with  Igor Markov
+<p><font color=gray>
+Are quantum computers truly more powerful than classical ones, or any quantum computation can be simulated efficiently classically? While most of us believe the former, the possibility for the latter is not yet ruled out in theory. In this talk, I will present a general classical algorithm for simulating quantum computation.
+<p>
+The treewidth of a graph is a useful combinatorial measure on how close the graph is to a tree. We prove that a quantum circuit with T gates whose underlying graph has treewidth d can be simulated classically in TO(1)*exp(O(d)) time, which, in particular, is polynomial in T if d = O(logT). To our knowledge, this work makes the first connection of treewidth and quantum computation, and some of our simulation results appear difficult to obtain using previous methods.
+</font><p>
+
+<dt id=smith><a href="slides/smith.pdf">Communicating over adversarial quantum channels</a>
+<dd>by  Graeme Smith (Caltech), joint work with  Aram Harrow,  Debbie Leung
+
+<dt id=synakRadtke><a href="slides/synakRadtke.pdf">Irreversibility for all bound entangled states</a>
+<dd>by  Barbara Synak-Radtke (University of Gdansk), joint work with  Dong Yang,  Michal Horodecki,  Ryszard Horodecki
+<p><font color=gray>
+We derive a new inequality for entanglement for a mixed four-partite state. Employing this inequality, we present a one-shot lower bound for entanglement cost and prove that entanglement cost is strictly larger than zero for any entangled state. We demonstrate that irreversibility occurs in the process of formation for all non-distillable entangled states. In this way we solve a long standing problem, of how "real" is entanglement of bound entangled states. Using the new inequality we also prove impossibility of local-cloning of a known entangled state. The result, that we obtain also implies that the mathematical definition of entangled states is equivalent to the physical definition in the sense of states preparation by LOCC.
+</font><p>
+
+<dt id=unger><a href="slides/unger.ps">New Limits on Fault-Tolerant Quantum Computation</a>
+<dd>by  Falk Unger (CWI), joint work with  Harry Buhrman,  Richard Cleve,  Monique Laurant,  Noah Linden,  Alexander Schrijver
+<p><font color=gray>
+We show that quantum circuits cannot be made fault-tolerant against a depolarizing noise level of theta =45%, thereby improving on a previous bound of 50% (due to Razborov). Our precise quantum circuit model enables perfect gates from the Clifford group and arbitrary additional one-qubit gates that are subject to depolarizing noise theta. We prove that this set of gates cannot be universal for arbitrary (even classical) computation, from which the upper bound on the noise threshold for fault-tolerant quantum computation follows.
+</font><p>
+
+<dt id=verstraete>On the complexity of simulating quantum systems
+<dd>by  Frank Verstraete (Caltech)
+
+<dt id=wolf>Extremality of Gaussian quantum states
+<dd>by  Michael Wolf (Max Planck Institut f&uuml;r Quantenoptik,  Garching), joint work with  Geza Giedke,  Ignacio Cirac
+<p><font color=gray>
+We investigate Gaussian quantum states in view of their exceptional role within the space of all continuous variables states. A general method for deriving extremality results is provided and applied to entanglement measures, secret key distillation and the classical capacity of Bosonic quantum channels. We prove that for every given covariance matrix the distillable secret key rate and the entanglement, if measured appropriately, are minimized by Gaussian states. This result leads to a clearer picture of the validity of frequently made Gaussian approximations. Moreover, it implies that Gaussian encodings are optimal for the transmission of classical information through Bosonic channels, if the capacity is additive.
+</font><p>
+
+</dl>
+
+<h2>Short talks</h2>
+<dl>
+
+<dt id=cerf><a href="slides/cerf.pdf">Quantum entanglement can be simulated without communication</a>
+<dd>by   Nicolas Cerf (Universit&eacute; Libre de Bruxelles), joint work with Nicolas Gisin, Serge Massar, Sandu Popescu
+
+<dt><a href="slides/degorre.pdf">Simulating quantum correlations as a distributed sampling problem</a>
+<dd id=degorre>by  Julien Degorre  (Université Paris-Sud, Orsay), joint work with Sophie Laplante, Jérémie Roland
+<p><font color=gray>
+It is known that quantum correlations exhibited by a maximally entangled qubit pair can be simulated with the help of shared randomness, supplemented with additional resources, such as communication, postselection or nonlocal boxes. For instance, in the case of projective measurements, it is possible to solve this problem with protocols using one bit of communication or making one use of a nonlocal box. We show that this problem reduces to a distributed sampling problem. We give a new method to obtain samples from a biased distribution, starting with shared random variables following a uniform distribution, and use it to build distributed sampling protocols. This approach allows us to derive, in a simpler and unified way, many existing protocols for projective measurements, and extend them to positive operator value measurements. Moreover, this approach naturally leads to a local hidden variable model for Werner states.
+</font><p>
+
+<dt id=devetak><a href="slides/devetak.ppt">Dualities in quantum information theory</a>
+<dd>by  Igor Devetak (University of Southern California)
+
+<dt id=doherty>Quantum computation as geometry
+<dd>by  Andrew Doherty (University of Queensland), joint work with Michael Nielsen, Mark Dowling, Mile Gu
+
+<dt id=gisin><a href="slides/gisin.pdf">From Bell's Theorem to Secure Quantum Key Distribution</a>
+<dd>by  Nicolas Gisin (Geneva University), joint work with Antonio Acin, LLuis Masanes
+
+<dt id=harrow><a href="http://www.cs.bris.ac.uk/~aram/talks/06qip-asym.ppt">Asymmetric unitary gate capacities</a>
+<dd>by  Aram Harrow (University of Bristol), joint work with Peter Shor
+
+<dt id=hassidim>Quantum Search in an Ordered List via Adaptive Learning
+<dd>by  Avinatan Hassidim (The Hebrew University), joint work with  Michael Ben-Or
+<p><font color=gray>
+We improve the results of Farhi et al. cite{FGGS99} and present a quantum search algorithm in an ordered list of complexity less than log2(n)/3. To do so, we study and analyze some classical noisy search problems which are of independent interest.
+<p>
+
+Farhi et al presented in cite{FGGS99} two quantum algorithms for searching an ordered list. They first presented a ``greedy'' algorithm with small error probability that clearly outperformed classical algorithms. The other algorithm was based on the fact that with just three quantum queries one can find the correct element in a sorted list of length 52. Iterating this as a subroutine gives an 0.5log2(n) quantum search algorithm. This was recently improved by Jacokes, Landahl and Brooks, using 4 queries on 434 long lists, giving a quantum search algorithm using 0.457log2(n) queries cite{JLB05}. While the asymptotic complexity of the greedy algorithm remains an intriguing open problem we use it, when applied to constant size arrays, to obtain a faster quantum search algorithm. Since the greedy algorithm has a non zero error probability we must develop highly efficient classical noisy search algorithm to obtain our result.
+</font><p>
+
+<dt id=horodecki>Unconditionally secure privacy using channels that cannot convey quantum information
+<dd>by  Karol Horodecki (University of Gdansk), joint work with  M. Horodecki, P. Horodecki, D. Leung, H-K. Lo, J. Oppenheim
+<p><font color=gray>
+Recently, it was shown that one can obtain perfectly secure corellations
+after one performs a measurement on a bound-entangled state.  One also
+can recast cryptography into a theory which looks similar to
+entanglement distillation with maximally entangled states replaced with
+"private states".  Here, we present the result, that one can extend this to a more traditional
+scenario where an adversary gives two parties such bound entangled
+states states and they have to verify privacy. This implies that, somewhat surprisingly, prefect
+and unconditional security can be obtain with channels that are unable to transmit feithfully
+any quantum information.
+</font><p>
+
+<dt id=kitagawa>Schumacher compression with minimum time-space product
+<dd>by  Masahiro Kitagawa (Osaka University / JST)
+<p><font color=gray>
+We have reduced the auxiliary workspace of Schumacher compression for n-qubit sequence to O(log n) and the time-space product to O((n log n)^2), which is the known minimum for efficient algorithms that asymptotically approach the von Neumann limit.
+</font><p>
+
+<dt id=leung><a href="slides/leung.pdf">Quantum communication by erasure channel assisted by back classical communication</a>
+<dd>by  Debbie Leung (University of Waterloo), joint work with Peter Shor
+
+<dt id=methot><a href="slides/methot.pdf">A limit on nonlocality in any world in which communication complexity is not trivial</a>
+<dd>by  André Méthot (Universit&eacute; de Montr&eacute;al), joint work with Gilles Brassard, Harry Buhrman, Noah Linden, Alain Tapp, Falk Unger
+<p><font color=gray>
+Bell proved that quantum entanglement enables two space-like separated parties to exhibit classically impossible correlations. Even though these correlations are stronger than anything classically achievable, they cannot be harnessed to make instantaneous (faster than light) communication possible. Yet, Popescu and Rohrlich have shown that even stronger correlations can be defined, under which instantaneous communication remains impossible. This raises the question: Why are the correlations achievable by quantum mechanics not maximal among those that preserve causality? We give a partial answer to this question by showing that slightly stronger correlations would result in a world in which communication complexity becomes trivial.
+</font><p>
+
+
+<dt id=ollivier><a href="http://www.iqc.ca/~hollivie/talks/2006-QIP/2006-QIP.pdf">Self-Testing of Quantum Circuits</a>
+<dd>by  Harold Ollivier (Perimeter Institute), joint work with Frédéric Magniez, Dominic Mayers, Michele Mosca
+<p><font color=gray>
+We prove that a quantum circuit together with measurement apparatuses and EPR sources can be fully verified without any reference to some other trusted set of quantum devices. Our main assumption is that the physical system we are working with consists of several identifiable sub-systems, on which we can apply some given gates locally. 
+To achieve our goal we define the notions of simulation and equivalence. The concept of simulation refers to producing the correct probabilities when measuring physical systems. To enable the efficient testing of the composition of quantum operations, we introduce the notion of equivalence. Unlike simulation, which refers to measured quantities (i.e., probabilities of outcomes), equivalence relates mathematical objects like states, subspaces or gates. 
+<p>
+Using these two concepts, we prove that if a system satisfies some simulation conditions, then it is equivalent to the one it is purposed to implement. In addition, with our formalism, we can show that these statements are robust, and the degree of robustness can be made explicit (unlike the robustness results of &#91;DMMS00]). In particular, we also prove the robustness of the EPR Test &#91;MY98]. Finally, we design a test for any quantum circuit whose complexity is linear in the number of gates and qubits, and polynomial in the required precision.
+</font><p>
+
+<dt id=osborne><a href="slides/osborne.pdf">The Dynamics of 1D Quantum Spin Systems Can Be Approximated Efficiently</a>
+<dd>by  Tobias Osborne (Royal Holloway, University of London)
+<p><font color=gray>
+In this talk I'll provide an improved short proof that an arbitrarily good approximation to the propagator e^{itH} for a 1D lattice of n quantum spins with hamiltonian H may be obtained with polynomial computational resources in n and the error epsilon, and exponential resources in |t|. There are two immediate consequences of this result. The first is that the Vidal's time-dependent density matrix renormalisation group requires only polynomial resources to simulate 1D quantum spin systems for logarithmic |t|. The second consequence is that continuous-time 1D quantum circuits with logarithmic |t| can be simulated efficiently on a classical computer, despite the fact that, after discretisation, such circuits are of polynomial depth. The new proof does not make use of the matrix product state/finitely correlated state formalism. Rather, the calculations are carried out in the Heisenberg picture. Extensions to higher dimensions and to simulating adiabatic quantum algorithms in 2D will be outlined.
+</font><p>
+
+<dt id=toner><a href="slides/toner.pdf">Monogamy of nonlocal quantum correlations</a>
+<dd>by  Benjamin Toner (Caltech)
+<p><font color=gray>
+We describe a new technique for obtaining Tsirelson bounds, or upper bounds on the quantum value of a Bell inequality. Since quantum correlations do not allow signaling, we obtain a Tsirelson bound by maximizing over all no-signaling probability distributions. This maximization can be cast as a linear program. In a setting where three parties, A, B, and C, share an entangled quantum state of arbitrary dimension, we: (i) bound the trade-off between AB's and AC's violation of the CHSH inequality, and (ii) demonstrate that forcing B and C to be classically correlated prevents A and B from violating certain Bell inequalities, relevant for interactive proof systems and cryptography.
+</font><p>
+
+<dt id=wehner><a href="http://www.cwi.nl/~wehner/talks/qipMIP2.pdf">Entanglement in Interactive Proof Systems with Binary Answers</a>
+<dd>by  Stephanie Wehner (CWI)
+<p><font color=gray>
+If two classical provers share an entangled state, the resulting interactive proof system is significantly weakened [quant-ph/0404076]. We show that for the case where the verifier computes the XOR of two binary answers, the resulting proof system is in fact no more powerful than a system based on a single quantum prover: +MIP*[2] is contained in QIP(2). This also implies that +MIP*[2] is contained in EXP which was previously shown using a different method [Presentation of Cleve et al. at CCC'04]. This contrasts with an interactive proof system where the two provers do not share entanglement. In that case, +MIP[2] = NEXP for certain soundness and completeness parameters [quant-ph/0404076].
+</font><p>
+
+<dt id=deWolf><a href="slides/deWolf.pdf">Lower Bounds on Matrix Rigidity via a Quantum Argument</a>
+<dd>by  Ronald de Wolf (CWI)
+<p><font color=gray>
+The rigidity of a matrix measures how many of its entries need to be changed in order to reduce its rank to some value. Good lower bounds on the rigidity of an explicit matrix would imply good lower bounds for arithmetic circuits as well as for communication complexity. Here we reprove the best known bounds on the rigidity of Hadamard matrices, due to Kashin and Razborov, using tools from quantum computing.Our proofs are somewhat simpler than earlier ones (at least for those familiar with quantum) and give slightly better constants. More importantly, they give a new approach to attack this longstanding open problem.
+</font><p>
+
+</dl>
+
+
+</body>
+</html>

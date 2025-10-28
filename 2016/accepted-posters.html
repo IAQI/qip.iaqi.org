@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta http-equiv="ImageToolbar" content="no" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="sharpiqis_1.ico" />
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="description" content="We recommend that the height and width of the posters do not exceed 110 cm or 43 inches. Poster sessions will be held in KC 201 / 203 / 205. You can attach your poster on any of the available poster boards." />
+<meta name="keywords" content="QIP, QIP2016 , QIP 2016, 19th Conference on Quantum Information Processing, Banff, Calgary, IQST, Canada, XIX, quantum information processing, quantum physics, quantum computing, quantum cryptography, quantum communication, quantum information" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="accepted-posters.2.html" />
+<link rel="shortlink" href="29.html" />
+  <title>QIP 2016 Accepted Posters | QIP 2016 | University of Calgary</title>
+  <link type="text/css" rel="stylesheet" href="css_XKHB-zDJ7S2xrraFiL20he-H5ddk3xWj8Y7_lZ1gVY4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css_cA9w82astkwmhU0Eaz9X1GmIb4WzikVmbgLnrEOqDi0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css_VhuCypWd2FzmPFC1ok3vT9ce8eCq8ZntH0uAd77tgTQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="level-f.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css_juTOiiGrIydxGxbyioicKpPmQQ-gptXx_lfMf0xaoMI.css" media="all" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://static.ucalgary.ca/current//global/styles/ie/ie6.css" media="all" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="http://static.ucalgary.ca/current//global/styles/ie/ie7.css" media="all" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="http://static.ucalgary.ca/current//global/styles/ie/ie8.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="css_rZf-cuEB8BlUUKbmaBaCJhmERAhRq2V3kU2w9qki1vY.css" media="all" />
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-173139-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <script type="text/javascript" src="jquery.min.js@v=1.7.1"></script>
+<script type="text/javascript" src="jquery.once.js@v=1.2"></script>
+<script type="text/javascript" src="drupal.js@ob2d0h"></script>
+<script type="text/javascript" src="modernizr.svg.touch.js@v=2.8.3"></script>
+<script type="text/javascript" src="svgpng.js@v=1.0.0"></script>
+<script type="text/javascript" src="extlink.js@ob2d0h"></script>
+<script type="text/javascript" src="banner_uofc_random.js@ob2d0h"></script>
+<script type="text/javascript" src="jquery.colorbox-min.js@ob2d0h"></script>
+<script type="text/javascript" src="colorbox.js@ob2d0h"></script>
+<script type="text/javascript" src="colorbox_default_style.js@ob2d0h"></script>
+<script type="text/javascript" src="files_uofc.js@ob2d0h"></script>
+<script type="text/javascript" src="mathjax.js@ob2d0h"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="system_uofc_counter.js@ob2d0h"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/qip2016\/","pathPrefix":"","ajaxPageState":{"theme":"ucalgary","theme_token":"SLrKym7lIP5Jscjol0NdLBSA1PVl3gWUIrgWV_J9-l0","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"http:\/\/static.ucalgary.ca\/current\/\/global\/libraries\/modernizr\/modernizr.svg.touch.js":1,"http:\/\/static.ucalgary.ca\/current\/\/global\/libraries\/svg-png-polyfill\/svgpng.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"http:\/\/static.ucalgary.ca\/current\/global\/scripts\/banner_uofc_random.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/ucalgary.ca.qip2016\/modules\/files_uofc\/resources\/js\/files_uofc.js":1,"sites\/ucalgary.ca.qip2016\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1,"sites\/all\/modules\/system_uofc\/js\/system_uofc_counter.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/banner_uofc\/banner_uofc.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/ucalgary.ca.qip2016\/modules\/date\/date_api\/date.css":1,"sites\/ucalgary.ca.qip2016\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/ucalgary.ca.qip2016\/modules\/files_uofc\/resources\/css\/files_uofc.css":1,"sites\/all\/modules\/links_uofc\/links_uofc.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels_layouts_uofc\/css\/panels_layouts_uofc.css":1,"sites\/all\/modules\/panels_uofc\/css\/panels_uofc.css":1,"http:\/\/static.ucalgary.ca\/current\/drupal\/styles\/level-f.css":1,"sites\/all\/themes\/ucalgary\/styles\/adminmenu.css":1,"sites\/all\/themes\/ucalgary\/styles\/mediabrowser.css":1,"http:\/\/static.ucalgary.ca\/current\/\/global\/styles\/ie\/ie6.css":1,"http:\/\/static.ucalgary.ca\/current\/\/global\/styles\/ie\/ie7.css":1,"http:\/\/static.ucalgary.ca\/current\/\/global\/styles\/ie\/ie8.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"(.*\\.pdf)|(iac01\\.*)|(homepages\\.*)|(www2\\.*)|(people\\.ucalgary\\.ca\\~*)|(webapps2\\.ucalgary\\.ca\\~*)|(webapps3\\.ucalgary\\.ca\\~*)|(webapp6\\.ucalgary\\.ca\\~*)|(csh\\.ucalgary\\.ca\\~*)|(d2l\\.ucalgary\\.ca\\~*)","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"system_uofc":{"url":"\/qip2016\/sites\/all\/modules\/system_uofc\/php\/system_uofc_counter.php","data":{"path":"node\/29","drupal":"\/wcm\/apps\/drupal7\/drupal-7.41-uofc-1"}}});
+//--><!]]>
+</script>
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-29 node-type-page" >
+    
+<div class="uc-page uc-980 uofc_f uc-level-2 uc-aside uc-aside-1">
+
+  
+
+  <div id="uc-splash" class="uc-section splash">
+  
+   
+  
+    <div class="banner">
+      <div class="region region-banner-image">
+    <div id="block-banner-uofc-banner-uofc" class="block block-banner-uofc">
+
+
+  <div class="content">
+    <div class="banners"><div class="banner" style="height: 178px;"><div class="headline"><div class="title">Banff Lake Louise Tourism / Paul Zizka Photography</div></div><img usemap="#banner-uofc-map" typeof="foaf:Image" src="new5_0.png@itok=QCbN_yIW&amp;419305979" alt="Banff Lake Louise Tourism / Paul Zizka Photography" title="Banff Lake Louise Tourism / Paul Zizka Photography" /></div></div></div>
+  
+</div>
+  </div>
+    <div class="headline">
+                </div>
+  </div>
+  </div>
+
+  
+<div id="uc-navigation" class="uc-section navigation">
+  <div class="access">Navigation</div>
+
+  <div class="primary">
+          </div>
+
+  <div class="secondary">
+    <div id="block-menu-block-menu-uofc-side" class="block block-menu-block">
+
+    <h2  class="title">HOME</h2>
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-menu_uofc-side menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="first leaf menu-mlid-900"><a href="home.html" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished">HOME</a></li>
+<li class="leaf menu-mlid-898"><a href="committees.1.html">COMMITTEES</a></li>
+<li class="leaf menu-mlid-899"><a href="call-submissions.1.html">CALL FOR SUBMISSIONS</a></li>
+<li class="collapsed menu-mlid-902"><a href="registration.1.html">REGISTRATION</a></li>
+<li class="leaf menu-mlid-1080"><a href="invited-speakers.1.html">INVITED SPEAKERS</a></li>
+<li class="leaf menu-mlid-1081"><a href="accepted-talks.1.html">ACCEPTED TALKS</a></li>
+<li class="leaf active-trail active menu-mlid-1083"><a href="accepted-posters.2.html" class="active-trail active">ACCEPTED POSTERS</a></li>
+<li class="leaf menu-mlid-1006"><a href="tutorial-lecturers.1.html">TUTORIAL LECTURERS</a></li>
+<li class="leaf menu-mlid-1001"><a href="tutorial-program.1.html">TUTORIAL PROGRAM</a></li>
+<li class="leaf menu-mlid-1000"><a href="scientific-program.1.html">SCIENTIFIC PROGRAM</a></li>
+<li class="leaf menu-mlid-1087"><a href="rumpsession.2.html">RUMP SESSION</a></li>
+<li class="leaf menu-mlid-1091"><a href="photo-gallery.1.html">PHOTO GALLERY</a></li>
+<li class="leaf menu-mlid-1094"><a href="participants.1.html">PARTICIPANTS</a></li>
+<li class="leaf menu-mlid-1093"><a href="qip-blogs.1.html">QIP BLOGS</a></li>
+<li class="leaf menu-mlid-903"><a href="conference-venues.1.html">CONFERENCE VENUES</a></li>
+<li class="collapsed menu-mlid-904"><a href="accommodation.1.html">ACCOMMODATION</a></li>
+<li class="leaf menu-mlid-905"><a href="travel-and-visa.1.html">TRAVEL AND VISA</a></li>
+<li class="leaf menu-mlid-1005"><a href="local-information.1.html">LOCAL INFORMATION</a></li>
+<li class="leaf menu-mlid-1088"><a href="departure-information.1.html">DEPARTURE INFORMATION</a></li>
+<li class="leaf menu-mlid-907"><a href="list-qip-conferences.1.html">LIST OF QIP CONFERENCES</a></li>
+<li class="leaf menu-mlid-909"><a href="qip-charter.1.html">QIP CHARTER</a></li>
+<li class="last leaf menu-mlid-908"><a href="contact-us.1.html">CONTACT US</a></li>
+</ul></div>
+</div>
+  
+</div>
+  
+    </div>
+</div>
+
+  <div id="uc-content" class="uc-section content">
+  <div class="secondary"><div class="wrapper">
+      </div></div>
+  <div class="primary"><div class="wrapper">
+    <div class="breadcrumbs"><a href="home.2.html" title="">HOME</a></div>
+    <h1>QIP 2016 Accepted Posters</h1>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  <div class="content">
+    
+
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h2 style="text-align: center;">We recommend that the height and width of the posters do not exceed 110 cm or 43 inches.</h2>
+<h2 style="text-align: center;">Poster sessions will be held in KC 201 / 203 / 205.</h2>
+<p style="text-align: center;"><strong>You can attach your poster on any of the available poster boards.</strong></p>
+<h3>Poster Session 1 - Monday 11<sup>th</sup> January 2016</h3>
+<h3 style="text-align: justify;">The posters assigned to this session can be put up on <em style="font-size: 1.083em;">Monday <strong>afternoon</strong> anytime before 4:30pm</em>. You can leave your poster afterwards until the next morning. Please make sure the posters are taken down by <em style="font-size: 1.083em;">Tuesday 10:30am</em>. </h3>
+<h3 style="text-align: justify;">N.B. The staff will take down all posters that are on the boards <em style="font-size: 1.083em;">between 10:30 am and noon.</em></h3>
+<ol><li>
+<p>Cosmo Lupo, Mark Wilde and Seth Lloyd. Quantum data hiding in the presence of noise</p>
+</li>
+<li>
+<p>Kaushik Seshadreesan, Saikat Guha, Masahiro Takeoka and Mark Wilde. Squashed entanglement bounds on entanglement distillation and secret key agreement capacities of quantum channels</p>
+</li>
+<li>
+<p>Lili Saghafi. NMR, Nuclear Magnetic Resonance Quantum Computing</p>
+</li>
+<li>
+<p>Valentin Zauner, Damian Draxler, Laurens Vanderstraeten, Jutho Haegeman and Frank Verstraete. Symmetry Breaking and the Geometry of Reduced Density Matrices</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1509.02562">Lucas Brady and Wim van Dam. Quantum Monte Carlo Simulations of Tunneling in Quantum Adiabatic Optimization</a></p>
+<p style="text-align: justify;">We explore to what extent path-integral quantum Monte Carlo methods can efficiently simulate the tunneling behavior of quantum adiabatic optimization algorithms. Specifically we look at symmetric cost functions defined over n bits with a single potential barrier that a successful optimization algorithm will have to tunnel through. The height and width of this barrier depend on n, and by tuning these dependencies, we can make the optimization algorithm succeed or fail in polynomial time. In this article we compare the strength of quantum adiabatic tunneling with that of path-integral quantum Monte Carlo methods. We find numerical evidence that quantum Monte Carlo algorithms will succeed in the same regimes where quantum adiabatic optimization succeeds.</p>
+</li>
+<li>
+<p>Debasis Mondal, Chandan Datta and Sk Sazim. Quantum Coherence Sets The Quantum Speed Limit For Mixed States</p>
+</li>
+<li>
+<p>Xueyuan Hu. Extracting coherence by quantum steering</p>
+<p style="text-align: justify;">We establish an operational connection between coherence and quantum correlation. When a bipartite state is shared between Alice and Bob, Alice's local selective measurement can induce coherence on Bob's site as long as they are initially quantum correlated, and the maximum coherence she can extract on average can not surpass the initially shared quantum correlation measured by B-side measurement-induced disturbance. Steering-induced coherence (SIC) is introduced to characterize Alice's ability to extract Bob's coherence. For maximally correlated states, the steering-induced coherence is proved to reach the B-side measurement-induced disturbance. When generalized to tripartite scenario, where Bob and Charlie initially share a product state and restricted to use incoherent operations, Alice's local selective measurement can induce the entanglement between Bob and Charlie, and the induced entanglement on average is also bounded from above by the quantum correlation between Alice and Bob. Our results are helful in the study of quantum information protocols such as secret sharing where coherence is a precious resource. Further, since the coherence of a single party is normally robust than bipartite correlations, our results provide a way to ``store'' the quantum correlation as coherence.</p>
+</li>
+<li>
+<p>Zhu Cao. Discrete-phase-randomized coherent state source and its application in quantum key distribution</p>
+</li>
+<li>
+<p>Stephanie Wehner, Mark Wilde and Mischa Woods. Work and reversibility in quantum thermodynamics</p>
+</li>
+<li>
+<p><a href=" http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.030501"> Hillary Dawkins and Mark Howard. Qutrit Magic State Distillation Tight in Some Directions</a></p>
+<p style="text-align: justify;">Magic state distillation is a crucial component in the leading approaches to implementing universal fault-tolerant quantum computation, with existing protocols for both qubit and higher dimensional systems. Early work focused on determining the region of distillable states for qubit protocols, yet comparatively little is known about which states can be distilled and with what distillable region for d&gt;2. Here we focus on d=3 and present new four-qutrit distillation schemes that improve upon the known distillable region, and achieve distillation tight to the boundary of undistillable states for some classes of state. As a consequence of recent results, this implies that there is a family of quantum states that enable universality if and only if they exhibit contextuality with respect to stabilizer measurements. We also identify a new routine whose fixed point is a magic state with maximal sum-negativity i.e., it is maximally non-stabilizer in a specific sense.</p>
+</li>
+<li>
+<p>Dawei Ding and Mark Wilde. Strong converse exponents for the feedback-assisted classical capacity of entanglement-breaking channels</p>
+</li>
+<li>
+<p><a href="http://userpages.irap.omp.eu/~ydeville/papers/ydad_LVA2015_QIP.pdf">Yannick Deville and Alain Deville. Blind quantum computation: blind quantum source separation and blind quantum process tomography</a></p>
+<p style="text-align: justify;">In this poster and [1], we propose two types of blind (i.e. unsupervised) processing methods for quantum states or processes. We first introduce a new class of blind quantum source separation (BQSS) methods, for restoring unknown quantum source states only from their coupled version provided by an unknown coupling process. This method performs quantum/classical data conversion by means of spin component measurements, followed by classical processing. It differs from our previous class of classical-processing BQSS methods by using extended types of measurements (three directions, possibly different for the two spins), which yield a more complete BQSS mixing model. This allows us (i) to develop a new disentanglement-based separation procedure, which requires a much lower number of source values for adaptation and (ii) to restore a larger set of sources. This also allowed us to introduce a new research field in [1], namely Blind Quantum Process Tomography (BQPT). BQPT is the blind extension of QPT, i.e. it identifies an unknown quantum process without knowing its input values.</p>
+<p style="text-align: justify;">[1] Y. Deville, A. Deville, "From blind quantum source separation to blind quantum process tomography", Proceedings of the 12th International Conference on Latent Variable Analysis and Signal Separation (LVA/ICA 2015), Springer International Publishing Switzerland, LNCS 9237, pp. 184-192, Liberec, Czech Republic, Aug. 25-28, 2015.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1411.4921">Mario Berta, Fernando Brandao, Aram Harrow, Jonathan Oppenheim, Sergii Strelchuk, David Sutter and Marco Tomamichel. Improvements on recoverability and quantum conditional mutual information</a></p>
+<p style="text-align: justify;">We give a strengthening as well as a generalization of an inequality for the quantum conditional mutual information of a tripartite quantum state recently proved by Fawzi and Renner, connecting it with the ability to reconstruct the state from its bipartite reductions. We provide three alternative and simplified proofs ranging from quantum state redistribution via duality of semidefinite programming to elementary properties of pinching maps and the operator logarithm.</p>
+</li>
+<li>
+<p>Cécilia Lancien. k-extendibility of high-dimensional bipartite quantum states</p>
+<p style="text-align: justify;">The idea of detecting the entanglement of a given bipartite state by searching for symmetric extensions of this state was first proposed by Doherty, Parrilo and Spedialeri. The complete family of separability tests it generates, often referred to as the hierarchy of k-extendibility tests, has already proved to be most promising. The goal of this paper is to try and quantify the efficiency of this separability criterion in typical scenarios. For that, we essentially take two approaches. First, we compute the average width of the set of k-extendible states, in order to see how it scales with the one of separable states. And second, we characterize when random-induced states are, depending on the ancilla dimension, with high probability violating or not the k-extendibility test, and compare the obtained result with the corresponding one for entanglement vs separability. The main results can be precisely phrased as follows: on C^d \otimes C^d, when d grows, the average width of the set of k-extendible states is equivalent to (2/\sqrt{k})/d, while random states obtained as partial traces over an environment C^s of uniformly distributed pure states are violating the k-extendibility test with probability going to 1 if s&lt;((k-1)^2/4k)d^2. Both statements converge to the conclusion that, if k is fixed, k-extendibility is asymptotically a weak approximation of separability, even though any of the other well-studied separability relaxations is outperformed by k-extendibility as soon as k is above a certain (dimension independent) value.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1501.04944"> Simon Forest, David Gosset, Vadym Kliuchnikov and David Mckinnon. Exact synthesis of single-qubit unitaries over Clifford-cyclotomic</a> gate sets</p>
+<p style="text-align: justify;">We generalize an efficient exact synthesis algorithm for single-qubit unitaries over the Clifford+T gate set which was presented by Kliuchnikov, Maslov and Mosca. Their algorithm takes as input an exactly synthesizable single-qubit unitary--one which can be expressed without error as a product of Clifford and T gates--and outputs a sequence of gates which implements it. The algorithm is optimal in the sense that the length of the sequence, measured by the number of T gates, is smallest possible. In this paper, for each positive even integer n we consider the ``Clifford-cyclotomic'' gate set consisting of the Clifford group plus a z-rotation by pi/n. We present an efficient exact synthesis algorithm which outputs a decomposition using the minimum number of pi/n z-rotations. For the Clifford+T case n=4 the group of exactly synthesizable unitaries was shown to be equal to the group of unitaries with entries over the ring Z[e^{i*pi/n},1/2]. We prove that this characterization holds for a handful of other small values of n but the fraction of positive even integers for which it fails to hold is 100\%.</p>
+</li>
+<li>
+<p>Bill Fefferman and Shelby Kimmel. Quantum vs Classical Proofs and Subset State Verification</p>
+</li>
+<li>
+<p>Jamie Sikora, Antonios Varvitsiotis and Zhaohui Wei. Quantum Correlations: Dimension Bounds and Conic Formulations</p>
+</li>
+<li>
+<p>Cécilia Lancien and Andreas Winter. Parallel repetition and concentration for (sub-)no-signalling games via a flexible constrained de Finetti reduction</p>
+</li>
+<li>
+<p>Marek Wajs, Su-Yong Lee, Pawel Kurzynski and Dagomir Kaszlikowski. Staterecycling method for testing quantum contextuality</p>
+</li>
+<li>
+<p>Yimin Ge and Jens Eisert. Area laws and efficient descriptions of quantum many-body states</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1509.07294">Li Gao, Marius Junge, Nicholas Laracurente and Carlos Palazuelos. Operator spaces and Renyi Capacities </a></p>
+<p style="text-align: justify;">The random unitary group channels are in general non-degradable. We give upper and lower bounds on their quantum capacity, which differ only up to a factor 2. Our method relies heavily on operator space tools, in particular complex interpolation.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1509.06591v2">Jianxin Chen, Zhengfeng Ji, Nengkun Yu and Bei Zeng. Detecting Consistency of Overlapping Quantum Marginals by Separability</a></p>
+<p style="text-align: justify;">The quantum marginal problem asks whether a set of given density matrices are consistent, i.e., whether they can be the reduced density matrices of a global quantum state. Not many non-trivial analytic necessary (or sufficient) conditions are known for the problem in general. We propose a method to detect consistency of overlapping quantum marginals by considering the separability of some derived states. Our method works well for the $k$-symmetric extension problem in general, and for the general overlapping marginal problems in some cases. Our work is, in some sense, the converse to the well-known $k$-symmetric extension criterion for separability.</p>
+</li>
+<li>
+<p>Patrick Coles, Eric Metodiev and Norbert Lutkenhaus. Unstructured quantum key distribution</p>
+</li>
+<li>
+<p>Marco Piani. Hierarchy of efficiently computable quantifiers of the general quantumness of correlations</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1510.01348">Francisco Delgado. Bell gems naturally split dynamics information from</a> $SU(2^{2d})$ to $U(1)^{2^{2d-1}-1} \times SU(2)^{2^{2d-1}}$</p>
+<p style="text-align: justify;">Quantum Computation and Quantum Information are continuously growing research areas which are based on nature and resources of quantum mechanics, as superposition and entanglement. In its gate array version, the use of convenient and appropriate gates is essential. But while those proposed gates adopt convenient forms for computational algorithms, in the practice, their design depends on specific quantum systems and stuff being used. Gates design is restricted to properties and limitations of interactions and physical elements being involved, where Quantum Control plays a deep role. Quantum complexity of multipartite systems and their interactions requires a tight control to manipulate their quantum states, either local or non-local ones, but still a reducibility procedure should be addressed. This work shows how a general 2d-partite two level spin system in SU(2d) could be decomposed in 2^(2d-1) subsystems on SU(2), letting establish control operations. In particular, it is shown that Bell gems basis is a set of natural states on which decomposition happen naturally under some interaction restrictions. Thus, alternating the direction of local interaction terms in the Hamiltonian, this procedure states a universal exchange semantics on those basis. The structure developed could be understood as a splitting of the 2d information channels into 2 pairs of 2 level information subsystems.</p>
+</li>
+<li>
+<p>Ching-Yi Lai, Yicong Zheng and Todd Brun. Quantum Calderbank-Shor-Steane Stabilizer State Preparation by Classical Error-Correcting Codes</p>
+</li>
+<li>
+<p>Eric Chitambar and Min-Hsiu Hsieh. Relating the Resource Theories of Entanglement and Quantum Coherence</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1506.07080">Laura Mancinska. Maximally entangled states in pseudo-telepathy games</a></p>
+<p style="text-align: justify;">A pseudo-telepathy game is a nonlocal game which can be won with probability one using some finite-dimensional quantum strategy but not using a classical one. Our central question is whether there exist two-party pseudo-telepathy games which cannot be won with probability one using any maximally entangled state. Towards answering this question, we develop conditions under which maximally entangled states suffice. In particular, we show that maximally entangled states suffice for weak projection games which we introduce as a relaxation of projection games. Our results also imply that any pseudo-telepathy weak projection game yields a device-independent certification of a maximally entangled state. In particular, by establishing connections to the setting of communication complexity, we exhibit a class of games $G_n$ for testing maximally entangled states of local dimension $\Omega(n)$. We leave the robustness of these self-tests as an open question.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1511.08682">Scott Aaronson, Andris Ambainis, Janis Iraids, Martinš Kokainis and Juris Smotrovs. Block multilinear polynomials, Grothendieck's inequality and a characterization of 1-query quantum algorithms</a></p>
+<p style="text-align: justify;">We show an equivalence between 1-query quantum algorithms and representations by degree-2 polynomials. Namely, a partial Boolean function $f$ is computable by a 1-query quantum algorithm with error bounded by $\epsilon\lt1/2$ iff $f$ can be approximated by a degree-2 polynomial with error bounded by $\epsilon'\lt1/2$. This result holds for two different notions of approximation by a polynomial: the standard definition of Nisan and Szegedy \cite{NS} and the approximation by block-multilinear polynomials recently introduced by Aaronson and Ambainis \cite{AA}.</p>
+<p style="text-align: justify;">We also show two results for polynomials of higher degree. First, there is a total Boolean function which requires $\tilde{\Omega}(n)$ quantum queries but can be represented by a block-multilinear polynomial of degree $\tilde{O}(\sqrt{n})$. Thus, in the general case (for an arbitrary number of queries), block-multilinear polynomials are not equivalent to quantum algorithms.</p>
+<p style="text-align: justify;">Second, for any constant degree $k$, the two notions of approximation by a polynomial (the standard and the block-multilinear) are equivalent. As a consequence, we solve an open problem from \cite{AA}, showing that one can estimate the value of any bounded degree-$k$ polynomial $p:\{0, 1\}^n \rightarrow [-1, 1]$ with $O(n^{1-\frac{1}{2k}})$ queries.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1509.04255">Tomas Jochym-O'Connor and Stephen D. Bartlett. Stacked codes: universal fault-tolerant quantum computation in a two-dimensional layout</a></p>
+<p style="text-align: justify;">We introduce a new class of 3D color codes, which we call stacked codes, together with a fault-tolerant transformation that will map logical qubits encoded in 2D color codes into stacked codes and back. The stacked code allows for the transversal implementation of a non-Clifford logical gate, which when combined with the logical Clifford gates that are transversal in the 2D color code give a gate set that is both fault-tolerant and universal without requiring non-stabilizer magic states. We show that the layers forming the stacked code can be unfolded and arranged in a 2D layout. As only Clifford gates can be implemented transversally for 2D topological stabilizer codes, a non-local operation must be incorporated in order to allow for this transversal application of a non-Clifford gate. Our code achieves this operation through the transformation from a 2D color code to the unfolded stacked code induced by measuring only geometrically local stabilizers and gauge operators within the bulk of 2D color codes together with a non-local operator that has support on a 1D boundary between such 2D codes. We believe that this proposed method to implement the non-local operation is a realistic one for 2D stabilizer layouts and would be beneficial in avoiding the large overheads caused by magic state distillation.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/pdf/1509.06361v2">Raghav Kulkarni and Supartha Podder. Quantum Query Complexity of Subgraph Isomorphism and Homomorphism</a></p>
+<p style="text-align: justify;">One of the most intriguing problem in computer science is the Graph Isomorphism Problem: determining whether two finite graphs are isomorphic. The Subgraph Isomorphism Problem is a generalization of the Graph Isomorphism Problem where one asks whether a graph H is isomorphic to a subgraph of another graph G. Formally, let $H$ be a (non-empty) graph on $n$ vertices, possibly containing isolated vertices.. Let $f_H(G) = 1$ iff the input graph $G$ on $n$ vertices contains $H$ as a (not necessarily induced) subgraph. Let $\alpha_H$ denote the cardinality of a maximum independent set of $H$. In this work we show: \[Q(f_H) = \Omega\left( \sqrt{\alpha_H \cdot n}\right),\] where $Q(f_H)$ denotes the quantum query complexity of $f_H$. As a consequence we obtain a lower bounds for $Q(f_H)$ in terms of several other parameters of $H$ such as the average degree, minimum vertex cover, chromatic number, and the critical probability. We also use the above bound to show that $Q(f_H) = \Omega(n^{3/4})$ for any $H$, improving on the previously best known bound of $\Omega(n^{2/3})$. Until very recently, it was believed that the quantum query complexity is at least square root of the randomized one. Our $\Omega(n^{3/4})$ bound for $Q(f_H)$ matches the square root of the current best known bound for the randomized query complexity of $f_H$, which is $\Omega(n^{3/2})$ due to Gr\"oger. Interestingly, the randomized bound of $\Omega(\alpha_H \cdot n)$ for $f_H$ still remains open. We also study the Subgraph Homomorphism Problem, denoted by $f_{[H]}$, and show that $Q(f_{[H]}) = \Omega(n)$. Finally we extend our results to the $3$-uniform hypergraphs. In particular, we show an $\Omega(n^{4/5})$ bound for quantum query complexity of the Subgraph Isomorphism, improving on the previously known $\Omega(n^{3/4})$ bound. For the Subgraph Homomorphism, we obtain an $\Omega(n^{3/2})$ bound for the same.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/pdf/1503.07525v2.pdf">Hakop Pashayan, Joel Wallman and Stephen Bartlett. Estimating outcome probabilities of quantum circuits using quasiprobabilities</a></p>
+<p style="text-align: justify;">We present a method for estimating the probabilities of outcomes of a quantum circuit using Monte Carlo sampling techniques applied to a quasiprobability representation. Our estimate converges to the true quantum probability at a rate determined by the total negativity in the circuit, using a measure of negativity based on the 1-norm of the quasiprobability. If the negativity grows at most polynomially in the size of the circuit, our estimator converges efficiently. These results highlight the role of negativity as a measure of non-classical resources in quantum computation.</p>
+</li>
+<li>
+<p>R. Gallego, J. Eisert and H. Wilming. Defining work from a resource-theoretic perspective</p>
+</li>
+<li>
+<p>Kai Chen, Nai-Le Liu, Yu-Lin Zheng, Yi-Zheng Zhen, Zeng-Bing Chen and Jian. Witnessing EPR nonlocality via arbitrary local measurements</p>
+</li>
+<li>
+<p>Nilanjana Datta, Min-Hsiu Hsieh and Jonathan Oppenheim. An upper bound on the second order asymptotic expansion for the quantum communication cost of state redistribution</p>
+</li>
+<li>
+<p><a href="    http://arxiv.org/abs/1504.00020">Alvaro Martin Alhambra, Chris Perry and Jonathan Oppenheim. What is the probability of a thermodynamical transition?</a></p>
+<p style="text-align: justify;">If the second law of thermodynamics forbids a transition from one state to another, then it is still possible to make the transition happen by using a sufficient amount of work. But if we do not have access to this amount of work, can the transition happen probabilistically? In the thermodynamic limit, this probability tends to zero, but here we find that for finite-sized systems, it can be finite. We compute the maximum probability of a transition or a thermodynamical fluctuation from any initial state to any final state, and show that this maximum can be achieved for any final state which is block-diagonal in the energy eigenbasis. As a bi-product, we introduce a finite set of thermodynamical monotones related to the thermo-majorization criteria which governs state transitions, and compute the work of transition in terms of them. We also find upper and lower bounds on this transition probability, in terms of the work of transition. These results, which allow one to not take the thermodynamic limit, are made possible by using and extending techniques from quantum information theory, developed in the context of understanding entanglement theory. As a consequence, our results find application in entanglement theory, and we find the amount of entanglement required (or gained) when transforming one pure entangled state into any other.</p>
+</li>
+<li>
+<p>Johannes Bausch, Toby Cubitt, Angelo Lucia, David Perez-Garcia and Michael Wolf. Extreme Finite Size Effects</p>
+</li>
+<li>
+<p>Jonathan Barrett, Ciaran Lee, Niel de Beaudrap and Matty Hoban. The computational landscape of generalised probabilistic theories</p>
+<p style="text-align: justify;">Understanding the relation between randomness and non-locality is a fundamental question in quantum physics. The non-local correlations observed when measuring entangled quantum particles certify the presence of randomness in the measurement outputs in a way that is independent on the underlying physical realization of these correlations.</p>
+<p style="text-align: justify;">Here, we consider the standard scenario in which an entangled state is subjected to local (destructive) general measurements. We provide an upper bound to the amount of certifiable local randomness, and provide strategies attaining the local bound in the case of qubits. This is possible only using general measurements, proving that POVM's provide an advantage over projective measurements for randomness generation. In addition to this, we consider a new scenario in which sequences of (non-destructive) measurements are applied to the entangled state. We show that the amount of randomness in this case is unbounded. This submission merges two independent works on randomness certification from entangled states: arXiv:1505.03837 and arXiv:1510.03394.</p>
+</li>
+<li>
+<p style="text-align: justify;"><a href="http://arxiv.org/abs/1509.04246">Gelo Noel Tabia. Recursive quantum algorithms for integrated optics</a></p>
+<p>We present recursive schemes for implementing quantum Fourier transforms and inversion about the mean in Grover's algorithm using integrated linear optics with path encoded states. Formally, translating a unitary operation into a linear optical network involves a matrix factorization of the unitary matrix into block-diagonal matrices with a maximum block size of 2. By recursive, we mean that a unitary transformation on 2d modes is realized by using a pair of copies of the same operation on d modes. To demonstrate that our recursive circuits are viable in practice, we ran simulations of proof-of-principle experiments using a fabrication model that accounts for realistic sources of errors in silicon-based photonic integrated devices. We found high-fidelity performance for our optical multiport circuits for 2-qubit and 3-qubit quantum Fourier transforms, and for quantum search on 4-item and 8-item databases.</p>
+</li>
+<li>
+<p>Thomas Wong. Quantum Walks through Potential Barriers</p>
+</li>
+<li>
+<p><a href="    http://arxiv.org/abs/1506.04014">Stephen Piddock and Ashley Montanaro. The complexity of antiferromagnetic interactions and 2D lattices</a></p>
+<p style="text-align: justify;">Estimation of the minimum eigenvalue of a quantum Hamiltonian can be formalised as the Local Hamiltonian problem. We study the natural special case of the Local Hamiltonian problem where the same 2-local interaction, with differing weights, is applied across each pair of qubits. First we consider antiferromagnetic/ferromagnetic interactions, where the weights of the terms in the Hamiltonian are restricted to all be of the same sign. We show that for symmetric 2-local interactions with no 1-local part, the problem is either QMA-complete or in StoqMA. In particular the antiferromagnetic Heisenberg and antiferromagnetic XY interactions are shown to be QMA-complete. We also prove StoqMA-completeness of the antiferromagnetic transverse field Ising model. Second, we study the Local Hamiltonian problem under the restriction that the interaction terms can only be chosen to lie on a particular graph. We prove that nearly all of the QMA-complete 2-local interactions remain QMA-complete when restricted to a 2D square lattice. Finally we consider both restrictions at the same time and discover that, with the exception of the antiferromagnetic Heisenberg interaction, all of the interactions which are QMA-complete with positive coefficients remain QMA-complete when restricted to a 2D triangular lattice.</p>
+</li>
+<li>
+<p>Niel De Beaudrap. Exact gap complexity as quasi-quantum computation</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1506.08810">Siddharth Barman, Mario Berta, Omar Fawzi and Volkher Scholz. Quantum Bilinear Optimization applied to Noisy Channel Coding</a></p>
+</li>
+<li>
+<p>Ravishankar Ramanathan, Jan Tuziemski, Michal Horodecki and Pawel Horodecki. No quantum realization of extremal no-signaling boxes</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1410.3031">Anurag Anshu, Rahul Jain and Vamsi Krishna Devabathini. Near optimal bounds on quantum communication complexity of single-shot quantum state redistribution</a></p>
+<p style="text-align: justify;">We show new bounds on the quantum communication cost of single-shot entanglementassisted one-way quantum communication protocols for the quantum state redistribution task and for the sub-tasks quantum state splitting and quantum state merging. Our bounds are tighter than previously known best bounds for the latter two sub-tasks. A key technical tool that we use is a convex-split lemma which may be of independent interest. This differs from other achievability bounds for quantum state redistribution and quantum state merging , which use decoupling by application of random unitary. Convex-split lemma is based on the fact that in a one-way quantum communication protocol, measurement by Alice leads to an ensemble of states on registers owned by Bob and Referee, convex combination of which is the original mixed state shared between Bob and Referee. Through convex-split lemma, we design one such ensemble of states and use it to construct a protocol for the task of quantum state redistribution.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1502.07514">Yoshifumi Nakata, Christoph Hirche, Ciara Morgan and Andreas Winter. Unitary 2- designs and Decoupling with Random Diagonal-Unitary Matrices </a></p>
+<p style="text-align: justify;">We study unitary 2-designs and decoupling with random diagonal-unitaries. We first show that the alternate application of random diagonal-unitaries in the Pauli-Z and -X bases constitutes a unitary 2-design after a number of repetitions, implying that the process achieves decoupling. We then go on to show that even fewer repetitions are sufficient for achieving decoupling at the same rate as that with Haar random unitaries. These results imply that precise unitary 2-designs are not necessary for achieving the Haar decoupling rate, indicating the possibility to achieve the rate by random unitaries less uniform than 2-designs. We also provide a simple quantum circuit that implements a unitary 2-design and achieves decoupling, which is partitioned into a constant number of commuting parts.</p>
+</li>
+<li>
+<p>Vlad Gheorghiu, Marcos de Oliveira and Barry Sanders. Nonzero classical discord</p>
+</li>
+<li>
+<p>André Chailloux, Kaushik Chakraborty and Anthony Leverrier. Relativistic string commitment secure against quantum adversaries</p>
+</li>
+<li>Aharon Brodutch and Eliahu Cohen. Non Local Measurements via Quantum Erasure</li>
+<li>
+<p>Ryo Wakabari, Sayaka Katakura and Masaki Nakanishi. A Genetic Algorithm for Scheduling Quantum Gates toward Fast Simulation of Quantum Circuits</p>
+</li>
+<li>
+<p>Philipp Kammerlander and Renato Renner. A mathematical framework for classical thermodynamics</p>
+</li>
+<li>
+<p>Pantita Palittapongarnpim, Ehsan Zahedinejad and Barry Sanders. Classical Heuristic-Based Machine Learning for Quantum Control Problems</p>
+</li>
+<li>
+<p>Viv Kendon and Timothy Proctor. Minimal ancilla-mediated quantum gates</p>
+</li>
+<li>
+<p>Yuval Sanders, Joel Wallman and Barry Sanders. Bounding quantum gate error rate based on reported average fidelity</p>
+</li>
+<li><a href="http://arxiv.org/abs/1506.02635">Felix Leditzky, Mark M. Wilde and Nilanjana Datta. Strong converse theorems using Rényi entropies</a></li>
+</ol><h3><a name="day2" id="day2"></a>Poster Session 2- Tuesday 12<sup>th</sup> January 2016 </h3>
+<h3 style="text-align: justify;">The posters assigned to this session can be put up on <em>Tuesday afternoon anytime before 4:30pm</em>. You can leave your poster afterwards until the next morning. Please make sure the posters are taken down by <em>Wednesday 10:30am</em>.</h3>
+<h3 style="text-align: justify;"> <span>N.B. </span><span>The staff will take down all posters that are on the boards </span><em style="font-size: 1.083em;">between 10:30 am and noon.</em><span><br /></span></h3>
+<ol><li>
+<p>Eric Chitambar, Ben Fortescue and Min-Hsiu Hsieh. From secrecy-reversible distributions to entanglement-reversible quantum states</p>
+</li>
+<li>
+<p>Juan Bermejo-Vega and Kevin C. Zatloukal. Abelian Hypergroups and Quantum Computation</p>
+</li>
+<li>
+<p>Anne Broadbent. How to Verify a Quantum Computation</p>
+</li>
+<li>
+<p>Shantanav Chakraborty, Leonardo Novo, Andris Ambainis and Yasser Omar. Spatial search by quantum walk is optimal for almost all graphs</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1510.03045"> Ashutosh Rai, Andris Ambainis and Dmitry Kravchenko. Optimal Classical Random Access Codes Using Single d-level Alphabets</a></p>
+<p style="text-align: justify;">In a recent work [Phys. Rev. Lett. 114, 170502 (2015)], Tavakoli et al. derived interesting results by studying classical and quantum random access codes (RACs) in which the parties communicate higher-dimensional systems. They construct quantum RACs with a greater advantage over classical RACs compared to previously considered RACs with binary alphabets. However, these results crucially hinge upon an unproven assertion that the classical strategy "majority-encoding-identity-decoding" leads to the maximum average success probability achievable for classical RACs; in this work we provide a proof of this intuition. We characterize all optimal classical RACs and show that indeed ``majority-encoding-identity-decoding" is one among the several optimal strategies. Along with strengthening the results in Tavakoli et al., our result provides a firm basis for future research on this topic.</p>
+</li>
+<li>
+<p><a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.92.060302">Arnaud Carignan-Dugas, Joseph Emerson and Joel Wallman. Characterizing Universal Gate Sets via Dihedral Benchmarking</a></p>
+<p style="text-align: justify;">A promising technological advancement meant to enlarge our computational means is the quantum computer. Such a device would harvest the natural complexity of the physical world on the quantum scale in order to unfold concrete mathematical problems more efficiently. This is for instance demonstrated by the exponential advantage of Shor's factoring algorithm over the best know previous factoring method. However, while this natural complexity forms the backbone of quantum computing, it also rises important issues. Indeed, the inevitable errors emerging from the implementation of quantum operations are likewise quantum, and hence share a similar level of intricacy.</p>
+<p style="text-align: justify;">This annoying feature quickly comes into play when attempting to characterize noisy operations. Process tomography, maybe the most straightforward benchmarking approach, essentially consists in measuring every aspect of operational noise by comparing various input states with their respective outputs. Such procedure suffers from two major drawbacks. First, it is not scalable: the information needed to describe a noise channel grows exponentially in the size of the system. Secondly, data retrieved from process tomography is affected by state preparation and measurement errors (SPAM), which should ideally be distinguished from operational noise.</p>
+<p style="text-align: justify;">Standard randomized benchmarking protocol has been introduced to solve both these issues. It deals with the scalability concern by focusing on a single quantity, a figure of merit called the average fidelity. Furthermore, the scheme employs composition of noise channels to infer SPAM-free information. Although it tackles two important obstacles, randomized benchmarking is not exempted from flaws. A significant limitation is that it exclusively characterizes 2-design gate sets. This signifies that only a restricted collection of operations can be portrayed via randomized benchmarking. In particular, small phase shifts like the so-called pi/8-gate, which cannot possibly be part of any 2-design structure, are excluded. This disadvantage especially undermines the protocol since leading proposals for fault-tolerant quantum computing lay on the implemetation of small phase shifts via magic state distillation and gate injection in order to achieve universal quantum computing. Besides being crutial for universality, these gates are likely to be subject to different error rates, since they are conceived via distinct mechanisms.</p>
+<p style="text-align: justify;">In our present work, we propose an extension to randomized benchmarking which enables the characterization of gate sets containing any singular qubit operation with finite order. In particular, we propose a protocol which provides an estimate of the average fidelity of the pi/8-gate. This, together with an estimate of the average fidelity of the Clifford generators (which can be done via interleaved randomized benchmarking) provides a SPAM-independent characterization of a universal gate set.</p>
+</li>
+<li>
+<p>Mischa Woods, Nelly Ng and Stephanie Wehner. The maximum efficiency of nano heat engines depends on more than temperature</p>
+</li>
+<li>
+<p>Farid Ablayev and Marat Ablayev. The Concept of Cryptographic Quantum Hashing and Quantum Hashing Constructions</p>
+</li>
+<li>
+<p>Nai-Hui Chia and Sean Hallgren. How hard is deciding trivial versus nontrivial in the dihedral coset problem?</p>
+</li>
+<li>
+<p>Tsuyoshi Ito, Stacey Jeffery and Shelby Kimmel. Approximate Span Programs, Effective Resistance, and NAND Trees</p>
+<p style="text-align: justify;">We develop a method for quantum process tomography that combines the efficiency of compressed sensing with the robustness of randomized benchmarking. Our method is robust to state preparation and measurement errors, and it achieves a quadratic speedup over conventional tomography when the unknown process is a generic unitary evolution.</p>
+<p style="text-align: justify;">Our method is based on PhaseLift, a convex programming technique for phase retrieval. We show that this method achieves approximate recovery of almost all signals, using measurements sampled from spherical or unitary 2-designs. This is the first positive result on PhaseLift using 2-designs. We also show that exact recovery of all signals is possible using unitary 4-designs. Previous positive results for PhaseLift required spherical 4-designs, while PhaseLift was known to fail in certain cases when using spherical 2-designs.</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1509.09271">Andrew Childs, Wim van Dam, Shih-Han Hung and Igor Shparlinski. Optimal quantum algorithm for polynomial interpolation</a></p>
+<p style="text-align: justify;">We consider the number of quantum queries required to determine the coefficients of a degree-d polynomial over GF(q). A lower bound shown independently by Kane and Kutin and by Meyer and Pommersheim shows that d/2+1/2 quantum queries are needed to solve this problem with bounded error, whereas an algorithm of Boneh and Zhandry shows that d quantum queries are sufficient. We show that the lower bound is achievable: d/2+1/2 quantum queries suffice to determine the polynomial with bounded error. Furthermore, we show that d/2+1 queries suffice to achieve probability approaching 1 for large q. These upper bounds improve results of Boneh and Zhandry on the insecurity of cryptographic protocols against quantum attacks. We also show that our algorithm's success probability as a function of the number of queries is precisely optimal. Furthermore, the algorithm can be implemented with gate complexity poly(log q) with negligible decrease in the success probability.</p>
+</li>
+<li>
+<p>Adrian Hutter, James Wootton and Daniel Loss. Parafermions in a Kagome lattice of qubits for topological quantum computation</p>
+</li>
+<li>
+<p>Jean-François Biasse and Fang Song. On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in Q(zeta_{p^n})</p>
+</li>
+<li>
+<p>Nathaniel Johnston, Rajat Mittal, Vincent Russo and John Watrous. Extended nonlocal games and monogamy-of-entanglement games</p>
+</li>
+<li>
+<p>Adrian Hutter and James Wootton. Threshold Theorems for Topological Quantum Computing</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1511.01513">Martin Kliesch, Richard Kueng, Jens Eisert and David Gross. Improving compressed sensing with the diamond norm</a></p>
+<p style="text-align: justify;">In low-rank matrix recovery, one aims to reconstruct a low-rank matrix from a minimal number of linear measurements. Within the paradigm of compressed sensing, this is made computationally efficient by minimizing the nuclear norm as a convex surrogate for rank. In this work, we identify an improved regularizer based on the so-called diamond norm, a concept imported from quantum information theory. We show that -for a class of matrices saturating a certain norm inequality- the descent cone of the diamond norm is contained in that of the nuclear norm. This suggests superior reconstruction properties for these matrices. We explicitly characterize this set of matrices, which also contains quantum channels. Moreover, we demonstrate numerically that the diamond norm indeed outperforms the nuclear norm in a number of relevant applications: These include not only the task of quantum process tomography but also signal analysis tasks such as blind matrix deconvolution or the retrieval of certain unitary basis changes. The diamond norm is defined for matrices that can be interpreted as order-4 tensors and it turns out that the above condition depends crucially on that tensorial structure. In this sense, this work touches on an aspect of the notoriously difficult tensor completion problem.</p>
+</li>
+<li>
+<p>Ning Bao, Adam Bouland and Stephen Jordan. Grover search and the no-signaling principle</p>
+</li>
+<li>
+<p>Zi-Wen Liu, Christopher Perry, Yechao Zhu, Dax Enshan Koh and Scott Aaronson. Doubly infinite separation of quantum information and communication</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1601.02544">Grant Salton, Patrick Hayden, Sepehr Nezami and Barry Sanders. Spacetime replication of continuous variable quantum information</a></p>
+<div style="text-align: justify;">The theory of relativity requires that no information travel faster than light, whereas the unitarity of quantum mechanics ensures that quantum information cannot be cloned. These conditions provide the basic constraints that appear in information replication tasks, which formalize aspects of the behavior of information in relativistic quantum mechanics. In this article, we provide continuous variable (CV) strategies for spacetime quantum information replication that are directly amenable to optical or mechanical implementation. We use a new class of homologically-constructed CV quantum error correcting codes to provide efficient solutions for the general case of information replication. As compared to schemes encoding qubits, our CV solution requires half as many shares per encoded system. We also provide an optimized five-mode strategy for replicating quantum information in a particular configuration of four spacetime regions designed not to be reducible to previously performed experiments. For this optimized strategy, we provide detailed encoding and decoding procedures using standard optical apparatus and calculate the recovery fidelity when finite squeezing is used. As such we provide a scheme for experimentally realizing quantum information replication using quantum optics.</div>
+</li>
+<li>
+<p>Gorjan Alagic and Bill Fefferman. Quantum obfuscation</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1508.02695"> Jacob Miller and Akimasa Miyake. Quantum computation on domain walls of a two-dimensional symmetry-protected topological order </a></p>
+<p style="text-align: justify;">We extend the connection between degenerate entanglement spectra present in symmetry-protected topological orders (SPTO's) of 1D spin chains and their use in measurement-based quantum computation (MQC) to the setting of 2D systems. We find surprisingly that the 2D cluster state, an archetypal resource state for MQC, is in a trivial 2D SPTO phase, and show, by a more fine-grained classification, that it does have nontrivial SPTO, but of the same nature as 1D spin chains. In contrast, we introduce a new ground state which possesses nontrivial SPTO entirely of a 2D nature, and show that it is universal for MQC. By utilizing genuine higher-dimensional SPTO, our results open up a research avenue to directly harness its greater quantum-gate complexity within the so-called Clifford hierarchy for the first time in MQC.</p>
+</li>
+<li>
+<p>Hao-Chung Cheng, Min-Hsiu Hsieh and Marco Tomamichel. Uncertainty and Dynamical Evolution of Markov Semigroups on Quantum Ensembles</p>
+<p style="text-align: justify;">In the study of Markovian processes, one of the principal achievements is the equivalence between the Phi-Sobolev inequalities and an exponential decrease of the Phi-entropies. In this work, we develop a framework of Markov semigroups on matrix-valued functions and generalize the above equivalence to the exponential decay of matrix Phi-entropies. This result also specializes to spectral gap inequalities and modified logarithmic Sobolev inequalities in the random matrix setting. To establish the main result, we define a non-commutative generalization of the carre du champ operator, and prove a de Bruijn's identity for matrix-valued functions. The proposed Markov semigroups acting on matrix-valued functions have immediate applications in the characterization of the dynamical evolution of quantum ensembles. We consider two special cases of quantum unital channels, namely, the depolarizing channel and the phase-damping channel. In the former, since there exists a unique equilibrium state, we show that the matrix Phi-entropy of the resulting quantum ensemble decays exponentially as time goes on. Consequently, we obtain a stronger notion of monotonicity of the Holevo quantity - the Holevo quantity of the quantum ensemble decays exponentially in time and the convergence rate is determined by the modified log-Sobolev inequalities. However, in the latter, the matrix Phi-entropy of the quantum ensemble that undergoes the phase-damping Markovian evolution generally will not decay exponentially. This is because there are multiple equilibrium states for such a channel. Finally, we also consider examples of statistical mixing of Markov semigroups on matrix-valued functions. We can explicitly calculate the convergence rate of a Markovian jump process defined on Boolean hypercubes, and provide upper bounds of the mixing time on these types of examples.</p>
+</li>
+<li>
+<p>Adrian Chapman and Akimasa Miyake. How can an autonomous quantum Maxwell demon harness correlated information?</p>
+</li>
+<li>
+<p>Joonwoo Bae and Dariusz Chruscinski. Operational Characterization to Divisibility of Dynamical Maps: Strict Hierarchy</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1511.01363">Anne Broadbent, Sevag Gharibian and Hong-Sheng Zhou. Quantum One-Time Memories from Stateless Hardware-</a></p>
+<p style="text-align: justify;">A central tenet of theoretical cryptography is the study of the minimal assumptions required to implement a given cryptographic primitive. One such primitive is the one-time memory (OTM), introduced by Goldwasser, Kalai, and Rothblum [CRYPTO 2008], which is a classical functionality modeled after a non-interactive 1-out-of-2 oblivious transfer, and which is complete for one-time classical and quantum programs. It is known that secure OTMs do not exist in the plain model in both the classical and quantum settings. Here, we show how to use quantum information, together with the assumption of reusable (stateless) hardware tokens, to build statistically secure OTMs. This is in sharp contrast with the classical case, where reusable hardware tokens alone cannot yield OTMs. Our scheme is technologically simple and can be made noise-tolerant. We prove security in the quantum universal composability (UC) framework, employing semi definite programming results of Molina, Vidick and Watrous [TQC 2013] and combinatorial techniques of Pastawski et al. [Proc. Natl. Acad. Sci. 2012].</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1505.01917">Kohtaro Kato, Fabian Furrer and Mio Murao. Information-theoretical analysis of topological entanglement entropy and multipartite correlations</a></p>
+<p style="text-align: justify;">A special feature of the ground state of a topologically ordered phase is large-scale correlations depending on the topology of the regions. These correlations can be detected by the topological entanglement entropy, or by a measure called the irreducible correlation. In this work, we show that the two measures coincide for states obeying an area law and having zero-correlation length. Moreover, we provide an operational meaning for these measures by proving its equivalence to the optimal rate of a particular class of secret sharing protocols.</p>
+<p style="text-align: justify;">This establishes an information-theoretical approach to multipartite correlations in topologically ordered systems.</p>
+</li>
+<li>
+<p>Mehmet Burak Sahinoglu, Michael Walter and Dominic J. Williamson. A Tensor Network Framework for Topological Order in Higher Dimensions</p>
+</li>
+<li>
+<p>K. R. Parthasarathy and Ritabrata Sengupta. Exchangeable Stationary and Entangled Chains of Gaussian States</p>
+</li>
+<li>
+<p>Elizabeth Crosson and Aram Harrow. Rapidly mixing Monte Carlo for 1D stoquastic systems and simulated quantum annealing</p>
+</li>
+<li>
+<p>Antonio Acin, Remigiusz Augusiak, Florian Curchod, Matty Hoban, Markus Johansson, Stefano Pironio, Tamas Vertesi and Peter Wittek. Certifying maximal randomness from a pair of entangled qubits</p>
+</li>
+<li>
+<p>Nike Dattani, Richard Tanburn and Emile Okada. What is needed for a fully working adiabatic quantum computer to factor RSA-220 or to find a new Ramsey number?</p>
+</li>
+<li>
+<p>Joseph M. Renes. Relative submajorization and its use in quantum resource theories</p>
+</li>
+<li>
+<p>Felipe G. Lacerda, Joseph M. Renes and Volkher Scholz. Quantum polar coding for bosonic channels</p>
+</li>
+<li>
+<p>Lídia Del Rio, Lea Kraemer and Renato Renner. Resource theories of knowledge</p>
+</li>
+<li>
+<p>Emilio Onorati, Winton Brown, Oliver Buerschaper, Martin Kliesch, Albert Werner and Jens Eisert.  Mixing properties of stochastic local Hamiltonians. </p>
+<p style="text-align: justify;">Random quantum processes play a central role both in the study of fundamental mixing processes in quantum mechanics related to equilibration, thermalisation and black hole scrambling, as well as in process design. In this work, we present a theory for continuous-time unitary evolutions originating from local Hamiltonians having time-fluctuating terms, reflecting a Brownian motion on the unitary group. By tying the mathematical description closely with the more established one of random quantum circuits, we present a unified picture for analyzing local random quantum processes. Much of the progress reported is of technical nature: in particular, by relying on representation theory, we analytically derive an expression for a local k-th moment operator that is entirely independent of k, giving rise to approximate unitary k-designs and quantum tensor product expanders. We also introduce tools for proving bounds on the rate of decoupling from an environment with random quantum processes.</p>
+</li>
+<li>
+<p>Alex Parent, Martin Roetteler and Krysta Svore. Reversible circuit compilation with space constraints</p>
+</li>
+<li>
+<p>Anand Natarajan, Aram Harrow and Xiaodi Wu. Limitations of monogamy, Tsirelsontype bounds, and other semidefinite programs in quantum information</p>
+</li>
+<li>
+<p>Eugene Dumitrescu and Travis Humble. Direct Characterization of Quantum Dynamics with Noisy Ancilla</p>
+</li>
+<li>
+<p>Chao-Hua Yu, Fei Gao, Qing-Le Wang and Qiao-Yan Wen. Quantum algorithm for association rules mining</p>
+</li>
+<li>
+<p>Weiwei Zhang, Barry Sanders and David Feder. Topological signatures in two-dimensional continuous-time quantum walks</p>
+</li>
+<li>
+<p>Cai Zhang and Haozhen Situ. Simultaneous dense coding with two-photon four-qubit cluster states</p>
+</li>
+<li>
+<p>Haozhen Situ, Cai Zhang and Fang Yu. Quantum advice enhances social optimality in three-party conflicting interest games</p>
+</li>
+<li>
+<p>Jinshi Xu, Kai Sun, Yongjian Han, Chuanfeng Li, Jiannis K. Pachos and Guangcan Guo. Simulation of non-Abelian characteristics of Majorana zero modes using a photonic quantum simulator</p>
+</li>
+<li>
+<p>Sam Roberts and Stephen Bartlett. Symmetry protected topological order in the 3D cluster model</p>
+</li>
+<li>
+<p>Peter Turner and Damian Markham. Derandomizing quantum circuits with measurement based unitary designs</p>
+</li>
+<li>
+<p>Kosuke Fukui, Akihisa Tomita and Atsushi Okamoto. Proposal for quantum error correction with continuous variables</p>
+</li>
+<li>Debbie Leung and John Watrous. On the complementary quantum capacity of the depolarizing channel</li>
+<li>Parisa Zarkeshian, Sandeep K. Goyal, Khabat Heshami, Neil Sinclair, Wolfgang Tittel and Christoph Simon. Witnessing the quantum coherence in an atomic frequency comb system</li>
+<li>Alireza Poostindouz, Gilad Gour and Varun Narasimhachar. Uncertainty, joint uncertainty, and the quantum uncertainty principle</li>
+<li>Ish Dhand, Abdullah Khalid, He Lu, Hubert de Guise and Barry Sanders. Characterization and simulation of linear optics</li>
+<li>Marcus Appleby, Ingemar Bengtsson and Hoan Dang. Galois unitary symmetry of mutually unbiased bases and MUB-balanced states</li>
+<li>Runyao Duan and Xin Wang. Activated zero-error classical capacity of quantum channels in the presence of quantum no-signalling correlations</li>
+<li>Xin Wang and Runyao Duan. On the quantum no-signalling assisted zero-error classical simulation cost of non-commutative bipartite graphs</li>
+<li><a href="http://iopscience.iop.org/article/10.1088/1367-2630/17/12/123010/meta">Arunachalam Srinivasan, Vlad Gheorghiu, Tomas Jochym-O'Connor, Michele Mosca and Priyaa Varshinee Srinivasan. On the Robustness of Bucket Brigade Quantum RAM </a><br /><p style="text-align: justify;">We study the robustness of the bucket brigade quantum random access memory model introduced by Giovannetti et al (2008 Phys. Rev. Lett.100 160501). Due to a result of Regev and Schiff (ICALP '08 733), we show that for a class of error models the error rate per gate in the bucket brigade quantum memory has to be of order $o({2}^{-n/2})$ (where $N={2}^{n}$ is the size of the memory) whenever the memory is used as an oracle for the quantum searching problem. We conjecture that this is the case for any realistic error model that will be encountered in practice, and that for algorithms with super-polynomially many oracle queries the error rate must be super-polynomially small, which further motivates the need for quantum error correction. By contrast, for algorithms such as matrix inversion Harrow et al (2009 Phys. Rev. Lett.103 150502) or quantum machine learning Rebentrost et al (2014 Phys. Rev. Lett.113 130503) that only require a polynomial number of queries, the error rate only needs to be polynomially small and quantum error correction may not be required. We introduce a circuit model for the quantum bucket brigade architecture and argue that quantum error correction for the circuit causes the quantum bucket brigade architecture to lose its primary advantage of a small number of 'active' gates, since all components have to be actively error corrected.</p>
+</li>
+<li>Syed Affan Aslam, Talha Lateef and Jibran Rashid. Distillability of GHZ Correlations</li>
+</ol><h3><a name="day3" id="day3"></a>Poster Session 3 - Thursday 14<sup>th</sup> January 2016 </h3>
+<h3 style="text-align: justify;">The posters assigned to this session can be put up on <em>Thursday afternoon anytime before 4:30pm</em>. Please make sure the posters are taken down <em>by Thursday 8:00pm</em>. </h3>
+<h3>N.B. T<span>he staff will take down all posters that are on the boards </span><em style="font-size: 1.083em;">after 8:00pm </em><span> and bring them to the registration desk.</span></h3>
+<ol><li>
+<p>Daniel Brod. Classical simulation of extended matchgate circuits</p>
+</li>
+<li>
+<p>Nadish de Silva. Strengths of Nonlocality and Contextuality: A Unified Approach</p>
+</li>
+<li>
+<p>Debbie Leung and Nengkun Yu. Maximum privacy without coherence, zero-error</p>
+</li>
+<li>
+<p>Robert Raussendorf, Nicolas Delfosse, Cihan Okay, Juan Bermejo-Vega and Dan E. Browne. Wigner function negativity and contextuality in quantum computation on qubits</p>
+</li>
+<li>
+<p>Sebastian Grillo and Franklin De Lima Marquezino. A reformulation of the Quantum Query Model with a linear condition for exact algorithms</p>
+</li>
+<li>
+<p>Go Kato, Kiyoshi Tamaki, Koji Azuma and Masaki Owari. Security of CV-QKD with transmitted local oscillator</p>
+</li>
+<li>
+<p>Rafael Alexander and Nicolas Menicucci. Quantum computing with the quad-rail lattice</p>
+</li>
+<li>
+<p>Yongsoo Hwang, Il Kwon Sohn and Jun Heo. Graph for a quantum graph code</p>
+</li>
+<li>
+<p>Il Kwon Sohn, Yongsoo Hwang, Jeonghwan Shin and Jun Heo. Construction Scheme for Entanglement Assisted Quantum Codes using Graph</p>
+</li>
+<li>
+<p>Libor Caha and Daniel Nagaj. Very entangled spin chains</p>
+</li>
+<li>
+<p>Christoph Hirche and David Reeb. A Mrs. Gerber's Lemma with quantum side information</p>
+</li>
+<li>
+<p>Christoph Hirche, Emili Bagan and John Calsamiglia. Asymptotic rates for minimum error discrimination with fixed measurements</p>
+</li>
+<li>
+<p>Vincenzo Auletta, Diodato Ferraioli, Ashutosh Rai, Giannicola Scarpa and Andreas Winter. Belief Invariance: Nonsignalling Equilibria in Games with Conflicting Interest</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1508.04095">Mario Berta, Omar Fawzi and Marco Tomamichel. On Variational Expressions for Quantum Relative Entropy</a></p>
+</li>
+<li>
+<p>Kohtaro Tadaki. A Refinement of Quantum Mechanics by Algorithmic Randomness</p>
+</li>
+<li>
+<p>Shrobona Bagchi and Arun Kumar Pati. Uncertainty relations for general unitary operators</p>
+</li>
+<li>
+<p>Adam Bookatz, Martin Roetteler and Pawel Wocjan. Improved bounded-strength decoupling schemes for local Hamiltonians</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1412.5746">Albert H. Werner, Daniel Jaschke, Pietro Silvi, Martin Kliesch, Tommaso Calarco, Jens Eisert and Simone Montangero. A positive tensor network approach for simulating open quantum many-body systems </a></p>
+<p style="text-align: justify;">Open many-body quantum systems play an important role in quantum optics and condensed-matter physics, and capture phenomena like transport, interplay between Hamiltonian and incoherent dynamics, and topological order generated by dissipation. We introduce a versatile and practical method to numerically simulate one-dimensional open quantum many-body dynamics using tensor networks. It is based on representing mixed quantum states in a locally purified form, which guarantees that positivity is preserved at all times. Moreover, the approximation error is controlled with respect to the trace norm. Hence, this scheme overcomes various obstacles of the known numerical open-system evolution schemes. To exemplify the functioning of the approach, we study both stationary states and transient dissipative behaviour, for various open quantum systems ranging from few to many bodies.</p>
+</li>
+<li>
+<p>Michael Frey. Faster state evolution with entanglement, measured by the Lee-Chau quantum speed limits</p>
+</li>
+<li>
+<p>Tom Cooney, Jonathan Olson and Mark Wilde. On the complexity of the quantum recoverability problem</p>
+</li>
+<li>
+<p>Joshua Lockhart and Simone Severini. Density matrices of grid-labeled graphs</p>
+</li>
+<li>
+<p>Shun Kawakami, Toshihiko Sasaki and Masato Koashi. BB84 protocol with sequential phase encoding</p>
+</li>
+<li>
+<p>Lucas Brady and Wim van Dam. Spectral Gap Analysis for Efficient Tunneling in Quantum Adiabatic Optimization</p>
+</li>
+<li>
+<p>Yasuhito Kawano and Hiroshi Sekigawa. Quantum Algorithm for Lattice Problems</p>
+</li>
+<li>
+<p>Nikolay Nahimov and Alexander Rivosh. Quantum walks on two-dimensional grids with multiple marked locations</p>
+</li>
+<li>
+<p>Daniel Suess, Richard Kueng and David Gross. Certifying linear optical circuits via phaseless estimation techniques</p>
+</li>
+<li>
+<p>Rafael Alexander, Pei Wang, Niranjan Sridhar, Moran Chen, Olivier Pfister and Nicolas Menicucci. One-way quantum computing with arbitrarily large time-frequency continuous-variable cluster states from a single optical parametric oscillator</p>
+</li>
+<li>
+<p>Rafael Alexander, Natasha Gabay, Peter Rohde and Nicolas Menicucci. Modelling continuous-variable cluster states as variable interferometers with photon loss</p>
+</li>
+<li>
+<p>Fumiaki Matsuoka and Akihisa Tomita. Entanglement Generation by Communication using Phase-Squeezed Light with Photon Loss</p>
+</li>
+<li>
+<p>Marco Piani. Entanglement robustness provides the advantage in subchannel discrimination</p>
+</li>
+<li>
+<p>Richard Tanburn, Oliver Lunt and Nike Dattani Dattani. Reducing runtimes in adiabatic quantum computation with Energy Landscape Manipulation (ELM)</p>
+</li>
+<li>
+<p><a href="http://arxiv.org/abs/1504.05155">Scott Aaronson, Daniel Grier and Luke Schaeffer. The Classification of Reversible Bit and Stabilizer Operations</a></p>
+<p style="text-align: justify;">We present a complete classification of all possible sets of classical reversible gates acting on bits, in terms of which reversible transformations they generate, assuming swaps and ancilla bits are available for free. Our classification can be seen as the reversible-computing analogue of Post’s lattice, a central result in mathematical logic from the 1940s. It is a step toward the ambitious goal of classifying all possible quantum gate sets acting on qubits. In fact, in the quantum setting, the affine classical gates appear as stabilizer gates, and we extend our classification of affine classical gates to give a complete classification of the stabilizer gates. Our theorem implies a linear-time algorithm, that takes as input the truth tables of reversible gates G and H and decides whether G generates H. Previously, this problem was not even known to be decidable. The theorem also implies that any n-bit reversible circuit can be “compressed” to an equivalent circuit, over the same gates, that uses at most 2^n poly(n) gates and O(1) ancilla bits; these are the first upper bounds on these quantities known, and are close to optimal. Finally, the theorem implies that every non-degenerate reversible gate can implement either every reversible transformation, or every affine transformation, when restricted to an “encoded subspace.” Briefly, the theorem says that every set of reversible gates generates either all reversible transformations on n-bit strings; no transformations; all transformations that preserve Hamming weight; all transformations that preserve Hamming weight mod k for some k; all affine transformations; all affine transformations that preserve Hamming weight mod 2 or mod 4, inner products mod 2, or a combination thereof; or a previous class augmented by a NOT or NOTNOT gate. Prior to this work, it was not even known that every class was finitely generated.</p>
+</li>
+<li>
+<p>Shelby Kimmel and Yi-Kai Liu. Quantum Compressed Sensing Using 2-Designs</p>
+<p style="text-align: justify;">We develop a method for quantum process tomography that combines the efficiency of compressed sensing with the robustness of randomized benchmarking. Our method is robust to state preparation and measurement errors, and it achieves a quadratic speedup over conventional tomography when the unknown process is a generic unitary evolution. Our method is based on PhaseLift, a convex programming technique for phase retrieval. We show that this method achieves approximate recovery of almost all signals, using measurements sampled from spherical or unitary 2-designs. This is the first positive result on PhaseLift using 2-designs. We also show that exact recovery of all signals is possible using unitary 4-designs. Previous positive results for PhaseLift required spherical 4-designs, while PhaseLift was known to fail in certain cases when using spherical 2-designs.</p>
+</li>
+<li>
+<p>Mark Girard and Gilad Gour. Entanglement conversion witness</p>
+</li>
+</ol></div></div></div></div>
+  
+</div>
+  </div>
+    
+        
+        
+    
+    
+      </div></div>
+
+  <div class="secondary"><div class="wrapper">
+      </div></div>
+</div>
+
+
+
+  
+</div>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2f1f7a5441","applicationID":"8199721","transactionName":"ZFQHZhNQDEoDUUdZDF0eMEAIHhNQEgADAVUcWAtWBElMSQpC","queueTime":0,"applicationTime":7,"atts":"SBMEEFtKH0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+

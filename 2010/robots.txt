@@ -1,0 +1,5 @@
+Crawl-Delay: 20
+
+User-agent: *
+Disallow: /aaa_template
+Disallow: /contact/

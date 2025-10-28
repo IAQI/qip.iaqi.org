@@ -1,0 +1,703 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="./index_files/analytics.js"></script>
+<link type="text/css" rel="stylesheet" href="./index_files/banner-styles.css">
+
+
+
+
+
+
+
+<!--<BODY BGCOLOR="#ffffff" TEXT="#000000">-->
+
+<style type="text/css">/**
+ * Style sheet used by new LibX tooltip code
+ */
+
+/* We insert a <div> with libx-tooltip style under the body.
+ * This will inherit body's style - we can't afford to inherit undesirable 
+ * styles and we must redefine what we need.  OTOH, some things, e.g.
+ * font-size, might be ok to be inherited to stay within the page's tone.
+ */
+.libx-tooltip {
+    display: none;
+    overflow: visible;
+    padding: 5px;
+    z-index: 100;
+    background-color: #eee;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    border: 2px solid #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.libx-tooltip p {
+    /* override default 1em margin to keep paragraphs inside a tooltip closer together. */
+    margin: .2em;
+}
+</style><style type="text/css">/**
+ * Style sheet used by LibX autolinking code
+ */
+.libx-autolink {
+}
+
+</style><style type="text/css">div.jGrowl {
+	padding: 			10px;
+	z-index: 			9999;
+}
+
+/** Special IE6 Style Positioning **/
+div.ie6 {
+	position: 			absolute;
+}
+
+div.ie6.top-right {
+	right: 				auto;
+	bottom: 			auto;
+	left: 				expression( ( 0 - jGrowl.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  	top: 				expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+
+div.ie6.top-left {
+	left: 				expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: 				expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+
+div.ie6.bottom-right {
+	left: 				expression( ( 0 - jGrowl.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: 				expression( ( 0 - jGrowl.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+
+div.ie6.bottom-left {
+	left: 				expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: 				expression( ( 0 - jGrowl.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+
+div.ie6.center {
+	left: 				expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: 				expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+	width: 				100%;
+}
+
+/** Normal Style Positions **/
+body > div.jGrowl {
+	position:			fixed;
+}
+
+body > div.jGrowl.top-left {
+	left: 				0px;
+	top: 				0px;
+}
+
+body > div.jGrowl.top-right {
+	right: 				0px;
+	top: 				0px;
+}
+
+body > div.jGrowl.bottom-left {
+	left: 				0px;
+	bottom:				0px;
+}
+
+body > div.jGrowl.bottom-right {
+	right: 				0px;
+	bottom: 			0px;
+}
+
+body > div.jGrowl.center {
+	top: 				0px;
+	width: 				50%;
+	left: 				25%;
+}
+
+/** Cross Browser Styling **/
+div.center div.jGrowl-notification, div.center div.jGrowl-closer {
+	margin-left: 		auto;
+	margin-right: 		auto;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+	background-color: 		#ccc;
+	color: 					#000;
+	opacity: 				.95;
+	filter: 				alpha(opacity = 95);
+	zoom: 					1;
+	/* width: 					235px; */
+	padding: 				10px;
+	margin-top: 			5px;
+	margin-bottom: 			5px;
+	font-family: 			Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 				12px;
+	text-align: 			left;
+	display: 				none;
+	-moz-border-radius: 	5px;
+	-webkit-border-radius:	5px;
+}
+
+div.jGrowl div.jGrowl-notification {
+	min-height: 			40px;
+}
+
+div.jGrowl div.jGrowl-notification div.header {
+	font-weight: 			bold;
+	font-size:				10px;
+}
+
+div.jGrowl div.jGrowl-notification div.close {
+	float: 					right;
+	font-weight: 			bold;
+	font-size: 				12px;
+	cursor:					pointer;
+}
+
+div.jGrowl div.jGrowl-closer {
+	height: 				15px;
+	padding-top: 			4px;
+	padding-bottom: 		4px;
+	cursor: 				pointer;
+	font-size:				11px;
+	font-weight: 			bold;
+	text-align: 			center;
+}
+</style></head><body background="./index_files/bklb1605.gif" bgcolor="#FFFFFF" text="#000000" link="#0000EE" vlink="#6B238E" alink="#00FFFF">
+
+
+<center>
+<a href="http://www.brics.dk/">
+ <img src="./index_files/flogo30mm.GIF" width="468" height="99" ismap=""> 
+ <!-- <IMG SRC="./index_files/flogo30mm.GIF" WIDTH="468" HEIGHT="99" ISMAP>  -->
+</a><br>
+<spacer type="vertical" size="20">
+<img src="./index_files/ar_t02.gif" width="17" height="42">
+<img src="./index_files/ar_h02.gif" width="24" height="42">
+<img src="./index_files/ar_e02.gif" width="25" height="42">
+<img src="./index_files/ar_m02.gif" width="36" height="42">
+<img src="./index_files/ar_e02.gif" width="25" height="42">
+<spacer type="horizontal" size="20">
+<img src="./index_files/ar_o02.gif" width="26" height="42">
+<img src="./index_files/ar_n02.gif" width="23" height="42">
+</spacer></spacer></center>
+<spacer type="vertical" size="20">
+
+<center>
+
+<img src="./index_files/ju_a02.gif" width="37" height="47">
+<img src="./index_files/ju_l02.gif" width="25" height="47">
+<img src="./index_files/ju_g02.gif" width="32" height="47">
+<img src="./index_files/ju_o02.gif" width="36" height="47">
+<img src="./index_files/ju_r02.gif" width="32" height="47">
+<img src="./index_files/ju_i02.gif" width="15" height="47">
+<img src="./index_files/ju_t02.gif" width="30" height="47">
+<img src="./index_files/ju_h02.gif" width="35" height="47">
+<img src="./index_files/ju_m02.gif" width="44" height="47">
+<img src="./index_files/ju_s02.gif" width="20" height="47">
+<br>
+<img src="./index_files/ju_i02.gif" width="15" height="47">
+<img src="./index_files/ju_n02.gif" width="34" height="47">
+<br>
+<img src="./index_files/ju_q02.gif" width="37" height="47">
+<img src="./index_files/ju_u02.gif" width="34" height="47">
+<img src="./index_files/ju_a02.gif" width="37" height="47">
+<img src="./index_files/ju_n02.gif" width="34" height="47">
+<img src="./index_files/ju_t02.gif" width="30" height="47">
+<img src="./index_files/ju_u02.gif" width="34" height="47">
+<img src="./index_files/ju_m02.gif" width="44" height="47">
+
+<spacer type="horizontal" size="10">
+<img src="./index_files/ju_i02.gif" width="15" height="47">
+<img src="./index_files/ju_n02.gif" width="34" height="47">
+<img src="./index_files/ju_f02.gif" width="28" height="47">
+<img src="./index_files/ju_o02.gif" width="36" height="47">
+<img src="./index_files/ju_r02.gif" width="32" height="47">
+<img src="./index_files/ju_m02.gif" width="44" height="47">
+<img src="./index_files/ju_a02.gif" width="37" height="47">
+<img src="./index_files/ju_t02.gif" width="30" height="47">
+<img src="./index_files/ju_i02.gif" width="15" height="47">
+<img src="./index_files/ju_o02.gif" width="36" height="47">
+<img src="./index_files/ju_n02.gif" width="34" height="47">
+<br>
+<img src="./index_files/ju_p02.gif" width="30" height="47">
+<img src="./index_files/ju_r02.gif" width="32" height="47">
+<img src="./index_files/ju_o02.gif" width="36" height="47">
+<img src="./index_files/ju_c02.gif" width="36" height="47">
+<img src="./index_files/ju_e02.gif" width="27" height="47">
+<img src="./index_files/ju_s02.gif" width="20" height="47">
+<img src="./index_files/ju_s02.gif" width="20" height="47">
+<img src="./index_files/ju_i02.gif" width="15" height="47">
+<img src="./index_files/ju_n02.gif" width="34" height="47">
+<img src="./index_files/ju_g02.gif" width="32" height="47">
+<img src="./index_files/ju_qt1.gif" width="17" height="47">
+<img src="./index_files/ju_9.gif" width="38" height="47">
+<img src="./index_files/ju_8.gif" width="35" height="47">
+<br>
+</spacer></center>
+
+<br><br>
+<font size="5" color="#000000">
+This year's <a href="http://www.brics.dk/">BRICS</a> theme is Algorithms in Quantum
+Information Processing.  Events have taken place at the university of Aarhus
+in January 98. This webpage gives general information about the event,
+the participants, the location, the registration  and more. 
+</font>
+<br><br><br>
+<center>
+
+<hr>
+</center>
+
+
+
+
+<center>
+<h2>
+<img src="./index_files/atomspin.gif" align="texttop" width="35" height="35" ismap="">
+<br>
+The Theme</h2>
+</center>
+<ul>
+<li><a href="#backgr">Background</a>
+</li><li><a href="#form">Format</a>
+</li><li><a href="#cont">Contents</a>
+</li><li><a href="#progcom">Program Committee</a>
+</li><li><a href="#theme">Workshop - January 12-16, 1998</a>
+</li></ul>
+
+<hr>
+
+<center>
+<h2>
+<img src="./index_files/menu.gif" width="33" height="29"><br>
+  Program</h2>
+</center>
+<ul>
+<li><a href="#invspeak">List of invited speakers</a><img src="./index_files/updated.gif">
+</li><li><a href="#abstract">Program</a> which also contains information about:
+<ul>
+    <li>the <a href="#abstract">abstracts</a> for the talks to be given and 
+     </li><li>information about how to <a href="#abstract">upload</a> your abstract.
+</li></ul>
+
+</li></ul>
+
+
+<hr>
+
+<center>
+<h2>
+<img src="./index_files/info.gif" width="45" height="45"><br>
+General Information</h2>
+</center>
+<ul>
+
+<li><a href="#regiinfo">Registration Information</a>
+</li><li><a href="#practic">Practical Information</a>
+<ul>
+<li><a href="#travelinfo">Travel Information</a>
+</li><li><a href="#hotelinfo">Hotel Information</a>
+</li><li><a href="#localinfo">Local Information</a>
+</li><li><a href="#continfo">Address</a>
+</li><li><a href="#orgcom">Organizing Committee</a>
+</li></ul>
+</li></ul>
+<br><br><br>
+
+<center>
+<img src="./index_files/bar227.gif" width="590" height="14">
+</center>
+<br><br>
+<center>
+<font size="7" color="#23238E">
+<a name="theme">BRICS Theme on <em>Algorithms in Quantum Information Processing</em></a>
+</font>
+</center>
+
+<h3><a name="backgr">Background</a></h3>
+
+The last few years, we have seen a rapidly growing interest in quantum
+computing, quantum cryptography and quantum information theory. A large
+number of conferences and workshops are devoted to these subjects.
+Typically, these events are somewhat specialized and include to a
+significant extent quantum physics and contributions from quantum
+physicists.<p>
+
+While such events are clearly important, e.g. in order to disseminate the
+necessary physics background in the computer science community, we feel
+that there is also a need for an event that is devoted entirely to the
+computer science side of the field. We also feel that it is natural to
+cover the entire field of quantum information processing, that is, to
+include quantum computing, quantum cryptography and quantum information
+theory.</p><p>
+
+One specific reason for organizing such an event at the BRICS research
+center is that BRICS has recently started research activities in the area
+in cooperation with the Physics Institute at the university of Aarhus, covering
+both the theoretical and experimental side.</p><p>
+
+</p><h3><a name="form">Format</a></h3>
+
+A number of researchers in the area are invited to visit BRICS for as
+much of January 98 as they wish. Week 3, i.e. January 12-16 will be
+the focal point of the event. During that week, a program with various
+talks will be scheduled.  We expect that the opportunity to interact
+informally and do joint work is one important reason for
+participating, and we will leave ample time in the program for
+this. <p>
+
+</p><h3><a name="cont">Contents</a></h3>
+
+We will attempt to cover the entire field of quantum information
+processing, including quantum computing, quantum cryptography, quantum
+information theory, and related subjects from computer science. The
+fact that we will try to take a computer science point of view does
+(of course) not exclude subjects that relate to physics, but it does
+exclude subjects such as specific physical realizations of quantum
+cryptography and quantum computers.<p>
+
+</p><h3><a name="progcom">Program Committee</a></h3>
+
+        Charles Bennett         (T.J. Watson)<br>
+        André Berthiaume        (Depaul University)<br>
+        Richard Cleve           (University of Calgary)<br>
+        Ivan Damgård (chair)    (BRICS)<br>
+        Lov Grover              (Lucent Tech.)<br>
+        Peter Høyer             (Odense University)<br>
+        Louis Salvail           (BRICS)<br>
+        Umesh Vazirani          (Berkeley)<br>
+<br>
+<ul>
+<li>If you want to contact the program committee press 
+<a href="mailto:ivan@brics.dk">here</a>.
+</li></ul>
+<br>
+<p>
+</p><center>
+<img src="./index_files/bar227.gif" width="590" height="14">
+</center>
+<br><br>
+<center>
+<font size="7" color="#23238E">
+<a name="theme">Program</a>
+</font>
+</center>
+<br>
+
+Between January 12 and 16, 1998,
+talks will be  given by the invited speakers. The
+<a href="#abstract">abstracts</a>
+are also available from this page. The general organisation
+for the workshop is as follow:
+<ul>
+<li> First talk from 9:00am  to 9:45am
+</li><li> Second talk from 9:45am to 10:30am
+</li><li> Coffee break
+</li><li> Third talk from 11:00am to 11:45am
+</li><li> Fourth talk from 11:45am to 12:30pm
+</li><li> Lunch from 12:30pm to 14:00pm
+</li><li> Fifth talk from 14:00pm to 14:45pm
+</li><li> Sixth talk from 14:45pm to 15:30pm. 
+</li></ul>
+<br>
+<img src="./index_files/greenbal.gif" width="14" height="14">
+For more information about the  schedule for activities and talks go 
+<a href="prog.html">here</a>.
+<br><hr>
+<center>
+<h3><a name="invspeak">List of invited speakers</a></h3>
+</center>
+<br>
+
+Dorit Ahoronov (Hebrew University)
+  <br>
+Robert Beals (University of Arizona)
+    <br>
+Paul Benioff (Argonne National Laboratory)
+    <br>
+Charles Bennett (T.J. Watson Laboratories)
+   <br>
+André Berthiaume (Depaul University)
+  <br>
+Gilles Brassard (University of Montréal)
+ <br>
+Harry Buhrman (CWI)
+    <br>
+Christian Cachin  (MIT)
+  <br>
+Richard Cleve (University of Calgary)
+   <br>
+Claude Crépeau (University of Montréal)
+   <br>
+J. Mark Ettinger (Los Alamos National Laboratory)
+    <br>
+Lance Fortnow (University of Chicago)
+   <br>
+Markus Grassl (University of Karlsruhe)
+   <br>
+Lov Grover (Lucent)
+   <br>
+Peter Høyer (Odense University)
+  <br>
+Richard Jozsa (University of Plymouth)
+   <br>
+Dominic Mayers (Princeton)
+<br>
+Tal Mor (University of Montréal)
+  <br>
+Michele Mosca (University of Oxford)
+    <br>
+John Rogers (Depaul University)
+     <br>
+Louis Salvail (BRICS)
+   <br>
+John Smolin (T.J. Watson Laboratory)
+    <br>
+Alain Tapp (University of Montréal)
+   <br>
+Amnon Ta-Shma (ICSI)
+   <br>
+Barbara Terhal (CWI)
+   <br>
+Wim van Dam (University of Oxford/CWI)
+   <br>
+Umesh Vazirani (Berkely)
+   <br>
+John Watrous (University of Wisconsin)
+   <br>
+<br>
+The list of people (not from the list above) having registered so far
+can be seen here. 
+<br>
+<a href="picture.html">Here</a> you can find
+the picture of participants.<img src="./index_files/new01.gif">
+
+
+<hr>
+<br>
+<center>
+<h2><a name="abstract">Abstracts and Program</a></h2>
+</center>
+<img src="./index_files/orangeba.gif" width="14" height="14">
+<a href="prog.html">here</a> you can find
+the schedule for all talks and activities. <br><br>
+<img src="./index_files/greenbal.gif" width="14" height="14">
+<a href="program.html">here</a> is the list of received
+abstract titles and authors. From there you can jump to a selected abstract.
+Don't forget to press the <em>reload</em> button of your browser in order
+to get the updated version.<br><br>
+
+<img src="./index_files/orangeba.gif" width="14" height="14">
+<a href="abstlist.html">here</a> is the list of already 
+received abstracts. If a paper exists for an abstract you can also download it. Don't
+forget to press the <em>reload</em> button frequently in order to get the updated version.<br><br>
+
+<img src="./index_files/greenbal.gif" width="14" height="14">
+Invited speakers can upload their abstract 
+<a href="abstract.html">here</a>. In order
+to access this page you need the password though. We would like 
+to have all abstracts
+before December 1. Don't forget to specify a link to a full version of your
+paper if it applies. If for some reasons you cannot use the uploading mechanism then
+send us an
+<a href="mailto:salvail@brics.dk">e-mail</a>  with the information appearing in the form.
+If you want to make a modification to an already uploaded abstract, you should resubmit
+a new one and send us an <a href="mailto:salvail@brics.dk">e-mail</a>
+describing which abstract you want to remove.
+
+<br><br><br>
+
+<center>
+<img src="./index_files/bar227.gif" width="590" height="14">
+</center>
+<br><br>
+
+<center>
+<font size="7" color="#23238E">
+<a name="practic">Practical Information</a>
+</font>
+</center>
+<br><br>
+<strong>Generality:</strong>
+<p>
+Aarhus is the second largest town in Denmark with a population of more
+than 250,000 souls including suburbs (209,404 in the town itself). 
+The city is located 
+in the County of Aarhus.  The university campus is located within 10-15 minutes
+walk from downtown. Today the University of Aarhus has about 18,000 students 
+and 3,000 employees. 
+
+</p><p>
+BRICS offers an international PhD School in computer science at the University of Aarhus. 
+The school provides a PhD program in computer science,
+and admits 10-12 students annually. The school is funded by the Danish
+National Research Foundation, and institutionally the school is a part of the 
+Department of Computer Science at University of Aarhus, i.e., it operates
+within the university regulations, and all PhD candidates get their degree from 
+the University of Aarhus. 
+
+</p><p>
+
+The purpose of the PhD School is: to create a truly international graduate school 
+in Denmark, offering a program of courses and project work of high
+scientific quality, and to recruit Danish as well as foreign PhD students
+ of the highest international standards. It provides an excellent research
+environment and scientific training facilities, and aims at making its
+PhD graduates attractive for a wide spectrum of employers - in private and public
+research and development institutions, both in Denmark and abroad. 
+
+
+</p><p>
+This introduction and more information about BRICS can be found 
+<a href="http://www.brics.dk/">here</a>.
+<br><br>
+
+</p><hr>
+
+<center>
+<h3><a name="regiinfo">Registration Information</a></h3>
+</center>
+
+In this section, you can register to the workshop. Registration
+fees include lunches, special events and proceedings but
+do not include hotel. We have a limited number of hotel rooms
+available (see the registration form) that we can reserve for you. 
+The price is 535 DKK per night. If no more room is available then
+you should make your own accommodation booking.
+Registration must be returned before January 2,1998.
+We have also a limited number of stipends covering local expenses for PhD students.
+More information about stipends appears in the 
+<a href="registration.html">
+registration form page</a>.
+Applications for a stipend must be sent to us not later than December 15, 1997.   
+Please fill the registration 
+<a href="registration.html"> 
+form </a> or send us an 
+<a href="mailto:aqip@brics.dk">e-mail</a>
+ containing the information appearing in the form.<br><br>
+
+<hr>
+
+<center>
+<h3><a name="travelinfo">Travel Information</a></h3>
+</center>
+
+<img src="./index_files/airport.gif" align="left" width="64" height="64">
+<spacer type="vertical" size="12">
+Aarhus Airport "Tirstrup" is approx. 40 kms north of the
+town.  The airport is open 24 hours a day and has regular flights to
+Copenhagen, Oslo, London and Stockholm. Copenhagen-Aarhus is about 25
+minutes flight. A bus shuttle is serving Aarhus for about 50.00DKK.
+
+<br><br><br><br><br>
+
+
+<img src="./index_files/trains.gif" align="left" width="64" height="64">
+<spacer type="vertical" size="12">
+By train: Aarhus is connected by hourly trains to
+Copenhagen. The traveling time is approx 3 hours. There are
+several daily connections to Hamburg with a traveling time of less
+than 5 hours.<p>
+<br><br><br>
+
+<img src="./index_files/bus.gif" align="left" width="64" height="64">
+<spacer type="vertical" size="12">
+By car: Aarhus has direct connections to the great European
+network of highways, making it easily reachable from most European
+cities. Hamburg is within four hours.</spacer></p><p>
+
+
+<br><br>
+
+</p><hr>
+
+<br><br><br>
+
+<strong>How to get to the University and the Computer Science Department:</strong><p>
+
+</p><center>
+<h3><a name="continfo">Address</a></h3>
+Algorithms in Quantum Information Processing '98<br>
+BRICS, Department of Computer Science<br>
+University of Aarhus<br>
+Building 540, Ny Munkegade<br>
+DK-8000 Aarhus C, Denmark<br>
+</center>
+<br>
+<img src="./index_files/dine.gif" align="left" width="64" height="64">
+<spacer type="vertical" size="12">
+Lunches will be served in one of the campus cafeteria. They are included in the registration
+fee. On Thursday evening a dinner will be organized. The dinner is also included in the
+registration fee. 
+<br><br><br><br>
+
+</spacer></p><hr><br><br>
+<center>
+<h3><a name="hotelinfo">
+ <img src="./index_files/sleep.gif" width="64" height="64">
+ <br>
+ Hotel Information</a></h3>
+</center>
+<br><br>
+As indicated above, it is possible to get one of the hotel rooms from our
+pre-booking. The rooms will be assigned to the first demands.
+The cost is 535DKK per night. The address of the hotel is:  
+<br><br>
+<center>
+<strong>Address</strong><br><br>
+<a href="http://www.plaza-hotel-aarhus.dk/">Plaza Hotel Aarhus</a><br>
+Banegårdspladsen 14 <br>
+DK-8100 Aarhus C . <br>
+Tlf. +45 87 32 01 00 <br>
+Fax. +45 87 32 01 99. <br>
+</center>
+<br>
+Because the number of rooms is limited,
+it might be the case that you will have
+to make your own reservation. In that case, you can look at this
+<a href="http://www.dkhotellist.dk/abc3.html#Å">list
+of hotels</a>.
+<br>
+<br><br><hr><br>
+<center>
+<strong><a name="localinfo">Local Information</a></strong>
+</center>
+<br><br>
+More local information can be found at the following
+links:<br><br>
+<img src="./index_files/orangeba.gif" width="14" height="14">
+More information
+ <a href="http://www.aau.dk/uk/aarhus.htm">about Aarhus</a>.<br><br>
+<img src="./index_files/greenbal.gif" width="14" height="14">
+Cool places, cafes, restaurants, museums  in
+ <a href="http://www.daimi.aau.dk/~olavb/AarhusGuide.html">
+ the DAIMI Guide to Aarhus</a>.<br><br>
+
+<br><br><br>
+
+<hr>
+<center>
+<h3><a name="orgcom">Organizing Committee</a></h3>
+</center>
+Joan Boyar (Odense University)<br>
+Janne Kroun Christensen (BRICS)<br>
+Ivan Damgård (BRICS)<br>
+Gudmund Frandsen (BRICS)<br>
+Karen Kjær Møller (BRICS)<br>
+Erik M. Schmidt (BRICS)<br>
+<p>
+<img src="./index_files/greenbal.gif" width="14" height="14">
+You can write to us by <a href="mailto:aqip@brics.dk">e-mail</a> if you have
+questions about the organization.
+
+<br><br>
+</p><center>
+<img src="./index_files/bar227.gif" width="590" height="14">
+</center>
+<br><br><br>
+<em>Last modified: December 24, 1997 by Louis Salvail.<br>
+You can write to me if you experience problems with this WEB page and/or the
+uploading mechanism
+</em>(<a href="mailto:salvail@brics.dk">e-mail</a>). 
