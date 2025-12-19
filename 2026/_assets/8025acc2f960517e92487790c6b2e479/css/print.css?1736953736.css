@@ -1,0 +1,314 @@
+@media print {
+    body,
+    html,
+    .genericText,
+    .genericText__teaser
+    table,
+    textarea,
+    input,
+    a,
+    div,
+    ul {
+        font-family: Helvetica !important;
+        line-height: 2em !important;
+        font-size: 1.05em !important;
+    }
+
+    .h1 {
+        font-family: Helvetica !important;
+        font-size: 2em !important;
+    }
+
+    .h2 {
+        font-family: Helvetica !important;
+        font-size: 1.3em !important;
+    }
+
+    .breadcrumbs,
+    .h3 {
+        font-family: Helvetica !important;
+        font-size: 1.2em !important;
+    }
+
+    .h4 {
+        font-family: Helvetica !important;
+        font-size: 1.1em !important;
+    }
+
+    .menuRibbon__logo img {
+        content: url("EXT:lusitepackage/Resources/Public/img/logo_blue.svg");
+    }
+
+    .pageHeader {
+        background-image: none !important;
+        background-color: #fff;
+        color: #000;
+        padding-top: 0;
+    }
+
+    .pageHeader__content {
+        padding: 120px 20px 30px 20px;
+    }
+
+    .pageLayout__grid {
+        grid-template-areas: "h h h h h h h h h h h h" "c c c c c c c c c c c c" "s s s s s s s s s s s s";
+        margin-top: -50px;
+    }
+
+    .breadcrumbs a,
+    .breadcrumbs span,
+    .breadcrumbs li {
+        color: #000;
+    }
+
+    .breadcrumbs li:first-child {
+        padding-left: 0;
+    }
+
+    .breadcrumbs li:not([class^="breadcrumbs__separator"]),
+    .breadcrumbs__hidden {
+        display: flex !important;
+    }
+
+    .smallDescription,
+    .topRibbon,
+    .menuRibbon__controls,
+    .breadcrumbs li:first-child::before,
+    .breadcrumbs__separator,
+    .gallery-thumbnails,
+    .news-backlink-wrap,
+    .newsImage,
+    .newsTagLine,
+    .ce-gallery,
+    .newsCard__image,
+    .shareBar,
+    .newsImage figcaption::before,
+    .newsCard__date::before,
+    #cconsent-bar,
+    #cconsent-modal,
+    .studiesCard__list a::after,
+    .pageLayout__actionContainer,
+    .edit-cookie__button,
+    .footer__grid,
+    .footer__copyright:last-child,
+    .footer__up {
+        display: none !important;
+    }
+
+    .newsCard__date {
+        margin-bottom: 0;
+    }
+
+    .newsResources,
+    .newsCard__url,
+    .footer__after {
+        display: block !important;
+    }
+
+    .threeColumnGrid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .newsFilter {
+        flex-direction: column;
+    }
+
+    .newsFilter__list a {
+        padding: 0;
+    }
+
+    .newsFilter__list {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer__copyright {
+        color: #000;
+    }
+
+    .footer {
+        background-color: #fff;
+    }
+
+    body, h1, h2, h3, ol, ul, div {
+        width: auto !important;
+        float: none;
+        position: static;
+        overflow: visible;
+    }
+
+    /* Event detail view */
+    .pageHeader__eventDetails {
+        color: #000;
+        margin-top: 0 !important;
+    }
+
+    .pageHeader__eventDetailsLine {
+        flex-direction: column;
+    }
+
+    .pageHeader__eventDetailsLine:not(:first-child) {
+        margin-top: 0;
+    }
+
+    .pageHeader__eventDetailsItem:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .icalendarButton {
+        display: none;
+    }
+
+    /* Calendar month */
+    @media (max-width: 991.98px) {
+        .calendarMonth,
+        .calendarMonth * {
+            all: unset;
+            line-height: .7777rem !important;
+            font-size: .7777rem !important;
+        }
+
+        .calendarMonth__monthName,
+        .calendarMonth__monthAndYearName,
+        .calendarMonthEvent__description,
+        .calendarMonthEvent__hover,
+        .calendarMonthOpenDay,
+        .calendarMonth__dayEventList::before {
+            display: none;
+        }
+
+        .calendarMonth__tableRow {
+            display: table-row;
+        }
+
+        .calendarMonth__tableCell {
+            display: table-cell;
+            position: relative;
+            background: rgba(228, 234, 241, 0.45);
+            border: solid #bbcbdc;
+            border-width: 0 0 1px 1px;
+            padding: 10px 10px 13px 9px;
+            width: 14.2857% !important;
+        }
+
+        .calendarMonth__tableCell.otherMonth .calendarMonth__dayNumber {
+            display: block;
+            color: #bbcbdc;
+        }
+
+        .calendarMonth__tableCell.today:not(.otherMonth) {
+            background: #1B5089;
+            border-color: #1B5089;
+        }
+
+        .calendarMonth__dayNumber {
+            font-weight: bold;
+            color: #1B5089;
+        }
+
+        .calendarMonthEvent {
+            position: relative;
+            padding-top: 10px;
+        }
+
+        .calendarMonthEvent__short {
+            display: -ms-flexbox;
+            display: flex;
+            color: #1b1b1b;
+            font-size: 0.7777rem;
+            line-height: 0.7777rem;
+        }
+
+        .calendarMonthEvent__shortLeft {
+            width: 35% !important;
+            border-right: 1px solid #1b1b1b;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .calendarMonthEvent__timeTo {
+            display: none;
+            font-size: 0.6666rem;
+            line-height: 0.6666rem;
+            margin: 8px 0;
+            text-transform: uppercase;
+        }
+
+        .calendarMonthEvent__timeEnd {
+            display: none;
+            margin: 0 -5px;
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+
+        .calendarMonthEvent__shortRight {
+            padding-left: 8px;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+        }
+
+        .calendarMonthEvent__text {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            word-break: break-word;
+            line-height: 1rem;
+        }
+
+        .calendarMonth__dayEventList .calendarMonthEvent {
+            display: block;
+            line-height: 1.3333rem !important;
+            font-size: 1.3333rem !important;
+        }
+
+        .calendarTop__weekDayLine,
+        .calendarTop__weekDays,
+        .calendarTop__weekDay {
+            width: 100% !important;
+        }
+
+        .calendarTop__weekDayLine {
+            padding-top: 0;
+        }
+    }
+
+    .calendarTop__movable {
+        padding-bottom: 40px;
+    }
+
+    .eventDay__description:before {
+        top: 50%;
+    }
+
+    /* Search results */
+    .searchResults__resultImage,
+    .searchResults__resultItem .fittingImage,
+    .searchFilters__topCategoryFooter {
+        display: none;
+    }
+
+    .searchResults__resultItem {
+        display: block;
+    }
+
+    /* Open accordions */
+    .infoCollapsible__icon.icon-lu-bulta-30 {
+        transform: rotate(90deg);
+    }
+
+    .infoCollapsible__content.collapse:not(.show) {
+        display: block;
+    }
+
+    /* LU Study catalogue */
+    .navigation_inner .linksMenu,
+    .lu-study-catalogue-main .newsFilter__list {
+        display: none;
+    }
+
+    .linksMenu li {
+        font-size: unset !important;
+    }
+}

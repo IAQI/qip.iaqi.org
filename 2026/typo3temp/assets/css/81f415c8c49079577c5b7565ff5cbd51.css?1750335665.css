@@ -1,0 +1,43 @@
+      .topRibbon {
+        display: none;
+      }
+      .footer__rankedBadge, .menuRibbon__upperControls{ 
+        visibility: hidden;
+    }
+    .footer {
+        background-color: #000000;
+    }
+    .mainMenu:before {
+        background-color: #000000;
+        }
+    .mainMenu__link {
+      color: #000000;
+    }
+    .menuRibbon__logo img {
+        height: 120px;
+    }
+    .mobileMenu {
+      background-color: #000000;
+    }
+    .mobileMenu__bottomLevelLinkLine, 
+    .mobileMenu__bottomLevelAsideMenu, 
+    .mobileMenu__bottomLevelSeparator {
+      display: none;
+    }
+    .burgerButton__line {
+      background-color: #000000;
+    }
+    @media (max-width: 1365.98px) {
+      .mainMenu__wrapper {
+          margin-bottom: 30px;
+      }
+    }
+    @media (max-width: 575.98px) {
+      .menuRibbon__logo img {
+        width: 100px;
+        height: auto;
+      }
+      .mainMenu__wrapper {
+        margin-bottom: auto !important;
+      }
+    }
