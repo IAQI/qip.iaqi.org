@@ -1,0 +1,196 @@
+<html><head>
+<title>Abstract Uploading Mechanism</title>
+</head>
+<body background="http://www.brics.dk/~salvail/GIF/bklb1605.gif" bgcolor="#3A61B6" text="#000000" link="#0000EE" vlink="#6B238E" alink="#00FFFF">
+<center>
+<h1><strong>Uploading Page</strong></h1>
+</center>
+<br><br>
+<font size="5" color="#000000">
+
+This page can be used by the invited speakers to upload their abstract.
+Just fill the following fields, if you can provide a full paper 
+then fill the appropriate section. Otherwise just leave it empty.
+If you want to modify an existing entry you should fill all fields again
+(from scratch)
+and send <a href="mailto:salvail@brics.dk">me</a>
+an e-mail describing which entry you would like us to remove.
+If you experienced problems with this web page  
+send me an <a href="mailto:salvail@brics.dk">e-mail</a>. 
+<br><br>
+Once you have uploaded your abstract, you can verify if it has been included
+correctly in the database by following the link (to your entry) appearing in the
+information page. However, do not forget to press the reload button of your
+browser in order to get the updated page.  
+<br><br>
+If there is less than four authors fill the author fields from the first to 
+the last one. Do not start filling in the middle. 
+If there is more than four authors then fill the four athor fields below and
+send us an <a href="mailto:salvail@brics.dk">e-mail</a> with the name
+of the missing authors. 
+<br><br>
+You can put HTML tags in the abstract description. Tags are then interpreted
+normally and will be normally interpreted in the abstract list page.
+
+
+</font>
+<br><br>
+<center>
+<img src="../GIF/bar227.gif" width="590" height="14">
+</center>
+<form method="POST" enctype="multipart/form-data" action="../../cgi-salvail/tata.pl">
+<img src="../GIF/greenbal.gif" width="14" height="14">
+In order to upload your abstract you must know the password. If you did not receive it write to
+us and we will send it to you.<br><br>
+<center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr> 
+<td>Type the PassWord:</td>
+<td colspan="3"><input type="text" name="passwd" size="30" maxlength="30"></td>
+</tr>
+</tbody></table>
+</center>
+<br><br><hr><br><br>
+
+<center><strong>Author #1</strong></center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<td>Surname:</td>
+<td><input type="text" name="surname1" size="45"></td>
+<td>First name:</td>
+<td><input type="text" name="firstname1" size="45"></td>
+</tr>
+<tr>
+<td>Affiliation:</td>
+<td colspan="1"><input type="text" name="affiliation1" size="45"></td>
+<td>E-mail:</td>
+<td colspan="1"><input type="text" name="email1" value="" size="45"></td>
+</tr>
+</tbody></table>
+<br><br>
+<hr>
+<br><br>
+
+<center><strong>Author #2</strong></center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<td>Surname:</td>
+<td><input type="text" name="surname2" size="45"></td>
+<td>First name:</td>
+<td><input type="text" name="firstname2" size="45"></td>
+</tr>
+<tr>
+<td>Affiliation:</td>
+<td colspan="1"><input type="text" name="affiliation2" size="45"></td>
+<td>E-mail:</td>
+<td colspan="1"><input type="text" name="email2" value="" size="45"></td>
+</tr>
+</tbody></table>
+<br><br>
+<hr>
+<br><br>
+
+<center><strong>Author #3</strong></center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<td>Surname:</td>
+<td><input type="text" name="surname3" size="45"></td>
+<td>First name:</td>
+<td><input type="text" name="firstname3" size="45"></td>
+</tr>
+<tr>
+<td>Affiliation:</td>
+<td colspan="1"><input type="text" name="affiliation3" size="45"></td>
+<td>E-mail:</td>
+<td colspan="1"><input type="text" name="email3" value="" size="45"></td>
+</tr>
+</tbody></table>
+<br><br>
+<hr>
+<br><br>
+<center><strong>Author #4</strong></center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<td>Surname:</td>
+<td><input type="text" name="surname4" size="45"></td>
+<td>First name:</td>
+<td><input type="text" name="firstname4" size="45"></td>
+</tr>
+<tr>
+<td>Affiliation:</td>
+<td colspan="1"><input type="text" name="affiliation4" size="45"></td>
+<td>E-mail:</td>
+<td colspan="1"><input type="text" name="email4" value="" size="45"></td>
+</tr>
+</tbody></table>
+<br><br>
+<hr>
+<br><br>
+<center><h1>About the Paper</h1></center>
+<center>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr> 
+<td>Title:</td>
+<td colspan="3"><input type="text" name="title" size="105" maxlength="200"></td>
+</tr>
+</tbody></table>
+</center>
+<br><br><br>
+<center><strong>Abstract</strong>
+<textarea name="abstract" cols="113" rows="20"></textarea>
+</center>
+<br><br>
+
+<hr>
+
+If you have a paper related to your talk, please fill
+the following fields. Your paper will then be uploaded
+to our server allowing everybody to look at it. If you
+don't have a paper just skip this section and submit
+your abstract as it is.<br><br>
+
+
+
+ <p><strong>Choose one file type for your paper</strong> (otherwise no paper will be uploaded):<br>
+<em>N.B. If you have no file actually but you think that later you'll have one, select no file
+ and send us the file separately once you have it. We will then add it manually.</em>
+ </p><ol>
+   <li> <input type="radio" name="filetype" value="none" checked=""> no file.
+   </li><li> <input type="radio" name="filetype" value="dvi"> DVI file.
+   </li><li> <input type="radio" name="filetype" value="ps"> POSTCRIPT file.
+   </li><li> <input type="radio" name="filetype" value="html"> HTML file
+ </li></ol>
+
+
+<strong>Please browse and choose a file to</strong> "<font color="#ff0000">
+upload</font>":
+<input type="file" size="40" name="upfile"><p>
+</p><hr>
+<br>
+<img src="../GIF/greenbal.gif" width="14" height="14">
+Now verify all information are correct before submitting the abstract.
+Remember that once the submission is launched you cannot stop it! If you made
+a mistake but you realized it after the submission has been sent, 
+<a href="mailto:salvail@brics.dk">write</a> to us
+and ask for the  removal of the new record from our database. 
+<center>
+To submit your abstract, press this button:
+<input type="submit" value="submit abstract"><br>
+To reset the form, press this button
+<input type="reset" value="reset"><br><br>
+</center>
+
+</form>
+<br><br>
+<center>
+<img src="../GIF/bar227.gif" width="590" height="14">
+</center>
+<br><br>
+<em>Last modified: November 11, 1997 by Louis Salvail.<br>
+You can write to me if you experience problems.
+</em>(<a href="mailto:salvail@brics.dk">e-mail</a>). 
+
+
+
+
+</body></html>
