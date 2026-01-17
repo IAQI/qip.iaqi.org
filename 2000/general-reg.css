@@ -1,0 +1,80 @@
+BODY		{
+		background:	#FFFFFF none;
+		color:		#000000;
+		}
+P.header	{
+		font:		bold large sans-serif;
+		background:	#000066 none;
+		color:		#CCCCCC;
+		border:		none;
+		padding:	0.30em;
+		margin:		0em;
+		text-align:	center;
+		}
+H1		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	large;
+		background:	white none;
+		color:		#000066;
+		border:		ridge 0.40em #666699;
+		padding:	0.10em;
+		margin-top:	0.50em;
+		margin-bottom:	0.50em;
+		text-align:	center;
+		}
+H2		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		background:	white none;
+		color:		#000066;
+		border:		none;
+		text-align:	center;
+		}
+H3		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	14pt;
+		color:		black;
+		background:	white none;
+		}
+H4		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	12pt;
+		color:		black;
+		background:	white none;
+		}
+H5		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	10pt;
+		color:		black;
+		background:	white none;
+		}
+H6		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	8pt;
+		color:		black;
+		background:	white none;
+		}
+A.lang		{
+		text-decoration:none;
+		}
+P.lang		{
+		font:		bold small sans-serif;
+		color:		black;
+		background:	#CCCCFF none;
+		border:		none;
+		padding:	0.5em;
+		margin-top:	0em;
+		margin-bottom:	0em;
+		text-align:	right;
+		}
+A.special	{
+		font:		bold medium sans-serif;
+		color:		black;
+		background:	#CCCCFF none;
+		border:		none;
+		padding:	0.30em;
+		margin:		0em;
+		text-decoration:none;
+		}
+CODE		{
+		font-family:	Courier, monospace;
+		}
