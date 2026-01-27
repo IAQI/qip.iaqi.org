@@ -1,0 +1,32 @@
+﻿.login-box {
+    
+    display:flex;
+    justify-content: center;
+}
+.login-box__toggle-btn {
+    z-index:100;
+    position: relative;
+    margin-left:-3px;
+    margin-right:-3px;
+    color: #999;
+}
+
+
+.login-box__content {
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+    margin-top: -15px;
+    
+}
+@media (min-width: 768px) {
+    .login-box__content {
+       flex-basis: 50%;
+    }
+}
+.input-group-addon:first-child {
+    min-width: 40px;
+}
+.login-box__input-group {
+    margin-bottom: 10px;
+}
+
