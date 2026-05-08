@@ -1,0 +1,1 @@
+function c(){return{format:(e,o,r=!1)=>r?`${o} ${e}`.trim():`${e} ${o}`.trim()}}function f(){const n=(r,t=2)=>Number(r).toFixed(t);return{formatNumber:n,formatWithCurrency:(r,t,m=!1,u=2)=>{const a=n(r,u),{format:i}=c();return i(a,t,m)},formatWithLocale:(r,t=2,m="en-US")=>new Intl.NumberFormat(m,{minimumFractionDigits:t,maximumFractionDigits:t}).format(r)}}export{c as a,f as u};

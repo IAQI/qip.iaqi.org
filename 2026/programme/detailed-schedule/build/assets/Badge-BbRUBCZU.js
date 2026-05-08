@@ -1,0 +1,1 @@
+const s="error",A="warning",E="info",G="success",D="primary",B="secondary",_="gray";const c="xs",n="sm",o="md";const a=["2xs","xs","sm","md","lg"],t=[s,A,E,G,D,B,_];export{E as B,A as a,s as b,G as c,n as d,_ as e,c as f,B as g,o as h,D as i,a as j,t as k};
