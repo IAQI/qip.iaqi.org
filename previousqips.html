@@ -45,7 +45,56 @@
     <!--   var resetTitle='TPL_BEEZ2QIP_REVERT_STYLES_TO_DEFAULT'; -->
     <!--   var smallerTitle='TPL_BEEZ2QIP_DECREASE_SIZE'; -->
     <!-- </script> -->
-    
+
+  <style type="text/css">
+    /* Past-conferences table — scoped to .qip-past so it inherits the QIP
+       blue identity without touching the rest of the template. */
+    .qip-intro {
+      color:#555; font-size:14px; line-height:1.5; margin:0 0 18px; max-width:48em;
+    }
+    .qip-past-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+    table.qip-past {
+      border-collapse:collapse; width:100%; margin:0; font-size:14.5px; line-height:1.4;
+    }
+    table.qip-past caption {
+      position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap;
+    }
+    table.qip-past thead th {
+      background:#0d4c89; color:#fff; text-align:left;
+      font-family:'Titillium Maps', Arial, sans-serif; font-weight:600;
+      font-size:12px; letter-spacing:.06em; text-transform:uppercase;
+      padding:9px 12px; border:0; white-space:nowrap;
+    }
+    table.qip-past tbody th,
+    table.qip-past tbody td {
+      padding:8px 12px; border-bottom:1px solid #e2e6ec; vertical-align:top; text-align:left;
+    }
+    table.qip-past tbody tr:nth-child(even) { background:#f6f8fb; }
+    table.qip-past tbody tr:hover { background:#eef3fb; }
+    .qp-ed { white-space:nowrap; font-weight:400; }
+    .qp-flag { font-size:18px; margin-right:7px; vertical-align:-1px; }
+    .qp-name { font-weight:700; color:#222; }
+    .qp-loc { color:#444; }
+    .qip-past a {
+      color:#095197; font-weight:600; text-decoration:none;
+      border-bottom:1px solid rgba(9,81,151,.28);
+    }
+    .qip-past a:hover, .qip-past a:focus { border-bottom-color:#095197; }
+    .qp-tag {
+      display:inline-block; margin-left:6px; font-size:10px; font-weight:700;
+      text-transform:uppercase; letter-spacing:.04em; color:#6B8FB2;
+      border:1px solid #cdd8e6; border-radius:3px; padding:1px 5px; vertical-align:1px;
+    }
+    .qp-copy { white-space:nowrap; }
+    .qp-none { color:#b3b3b3; }
+    @media (max-width:560px){
+      table.qip-past { font-size:13px; }
+      table.qip-past thead th,
+      table.qip-past tbody th,
+      table.qip-past tbody td { padding:7px 8px; }
+      .qp-flag { font-size:15px; margin-right:5px; }
+    }
+  </style>
   </head>
   
   <body>
@@ -108,40 +157,227 @@
 
 <h2>Past Editions of QIP</h2>
 
-<ul style="text-align:left">
+<p class="qip-intro">Every QIP and AQIP edition since 1998. Each links to the organisers&rsquo; original website &mdash; or a Web&nbsp;Archive snapshot when that site has gone offline &mdash; alongside the static copy mirrored here on IAQI.</p>
 
-
-<li><a href="/2026/" target="_blank">QIP 2026: &#127473;&#127483; Riga, Latvia (University of Latvia) </a></li>
-<li><a href="/2025/" target="_blank">QIP 2025: &#127482;&#127480; Raleigh, NC, USA (Duke, NC State)</a>  </li>
-<li><a href="/2024/" target="_blank">QIP 2024: &#127481;&#127484; Taipei, Taiwan (NTU/CYCU/NCKU/NSYSU/NYCU/NTHU)  </a></li>
-<li><a href="/2023/" target="_blank">QIP 2023: &#127463;&#127466; Ghent, Belgium (UGhent) </a></li> 
-<li>QIP 2022: &#127482;&#127480; Pasadena, CA, USA (Caltech) </li>
-<li><a href="/2021/qip2021/" target="_blank">QIP 2021: &#127465;&#127466; Munich, Germany (TU Munich) [Online]</a></li>
-<li><a href="/2020/" target="_blank">QIP 2020: &#127464;&#127475; Shenzhen, China (SUSTech and Peng Cheng Laboratory)</a></li>
-<li><a href="/2019/" target="_blank">QIP 2019: &#127482;&#127480; Boulder, CO, USA (CU Boulder)</a></li>
-<li><a href="/2018/" target="_blank">QIP 2018: &#127475;&#127473; TU Delft (Delft, Netherlands)</a></li>
-<li><a href="https://web.archive.org/web/20190823121247/https://www.microsoft.com/en-us/research/event/qip-2017/" target="_blank"> QIP 2017: &#127482;&#127480; Seattle, WA, USA (MSR)</a></li>
-<li><a href="/2016/" target="_blank">QIP 2016: &#127464;&#127462; Banff, BC, Canada (UCalgary)</a></li>
-<li><a href="/2015/" target="_blank">QIP 2015: &#127462;&#127482; Sydney, Australia (UTS)</a></li>
-<li><a href="/2014/" target="_blank">QIP 2014: &#127466;&#127480; Barcelona, Spain (UB/UAB/ICFO)</a></li>
-<li><a href="/2013/" target="_blank">QIP 2013: &#127464;&#127475; Beijing, China (Tsinghua University) </a></li>
-<li><a href="/2012/" target="_blank">QIP 2012: &#127464;&#127462; Montreal, QC, Canada (UdeM) </a></li>
-<li><a href="/2011/" target="_blank">QIP 2011: &#127480;&#127468; Singapore, Singapore (NUS)</a></li>
-<li><a href="/2010/" target="_blank">QIP 2010: &#127464;&#127469; Zurich, Switzerland (ETHZ) </a></li>
-<li><a href="/2009/" target="_blank">QIP 2009: &#127482;&#127480; Santa Fe, NM, USA (UNM/SFI/LANL)</a></li>
-<li><a href="/2008/" target="_blank">QIP 2008: &#127470;&#127475; New Delhi, India (IIT/TIFR)</a></li>
-<li><a href="/2007/" target="_blank">QIP 2007: &#127462;&#127482; Brisbane, Australia (UQ)</a></li>
-<li><a href="/2006/" target="_blank">QIP 2006: &#127467;&#127479; Paris, France (University Paris-Sud)</a></li>
-<li><a href="/2005/" target="_blank">QIP 2005: &#127482;&#127480; Cambridge, MA, USA (MIT)</a></li>
-<li><a href="/2004/" target="_blank">QIP 2004: &#127464;&#127462; Waterloo, ON, Canada (PI/IQC)</a></li>
-<li><a href="https://www.slmath.org/workshops/204" target="_blank">QIP 2003: &#127482;&#127480;  Berkeley, CA, USA (MSRI)</a></li>
-<li><a href="/2002/" target="_blank">QIP 2002: &#127482;&#127480; Yorktown Heights, NY, USA (IBM)</a></li>
-<li><a href="/2001/" target="_blank">QIP 2001: &#127475;&#127473; Amsterdam, Netherlands (CWI)</a></li>
-<li><a href="/2000/" target="_blank">QIP 2000: &#127464;&#127462; Montreal, QC, Canada (CRM)</a></li>
-<li><a href="/1999/" target="_blank">AQIP 1999: &#127482;&#127480; Chicago, IL, USA (DePaul University)</a></li>
-<li><a href="/1998/" target="_blank">AQIP 1998: &#127465;&#127472; Aarhus, Denmark (AU)</a></li>
-
-</ul>
+<div class="qip-past-wrap">
+<table class="qip-past">
+  <caption>Past editions of the QIP conference, with links to the original conference website and to the local IAQI static copy.</caption>
+  <thead>
+    <tr>
+      <th scope="col">Edition</th>
+      <th scope="col">Location</th>
+      <th scope="col">Host</th>
+      <th scope="col">Original website</th>
+      <th scope="col">IAQI copy</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2026</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127473;&#127483;</span>Riga, Latvia</td>
+        <td class="qp-host">University of Latvia</td>
+        <td class="qp-orig"><a href="https://qip2026.lu.lv" target="_blank" rel="noopener">qip2026.lu.lv</a></td>
+        <td class="qp-copy"><a href="/2026/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2025</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Raleigh, NC, USA</td>
+        <td class="qp-host">Duke / NC State</td>
+        <td class="qp-orig"><a href="https://qip2025.duke.edu" target="_blank" rel="noopener">qip2025.duke.edu</a></td>
+        <td class="qp-copy"><a href="/2025/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2024</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127481;&#127484;</span>Taipei, Taiwan</td>
+        <td class="qp-host">NTU et al.</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20231204140056/https://qip2024.tw/site/mypage.aspx?lang=en&amp;pid=259&amp;sid=1522" target="_blank" rel="noopener">qip2024.tw</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2024/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2023</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127463;&#127466;</span>Ghent, Belgium</td>
+        <td class="qp-host">Ghent University</td>
+        <td class="qp-orig"><a href="https://indico.cern.ch/event/1175020/" target="_blank" rel="noopener">indico.cern.ch</a></td>
+        <td class="qp-copy"><a href="/2023/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2022</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Pasadena, CA, USA</td>
+        <td class="qp-host">Caltech</td>
+        <td class="qp-orig"><a href="https://cvent.me/QrzQvQ" target="_blank" rel="noopener">Cvent event</a></td>
+        <td class="qp-copy qp-none" title="No static copy available">—</td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2021</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127465;&#127466;</span>Munich, Germany</td>
+        <td class="qp-host">TU Munich [Online]</td>
+        <td class="qp-orig"><a href="https://www.mcqst.de/qip2021/" target="_blank" rel="noopener">mcqst.de</a></td>
+        <td class="qp-copy"><a href="/2021/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2020</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127475;</span>Shenzhen, China</td>
+        <td class="qp-host">SUSTech / Peng Cheng Lab</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20200630014352/http://www.szpclab.com/qip2020" target="_blank" rel="noopener">szpclab.com</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2020/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2019</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Boulder, CO, USA</td>
+        <td class="qp-host">CU Boulder</td>
+        <td class="qp-orig"><a href="https://jila.colorado.edu/qip2019/" target="_blank" rel="noopener">jila.colorado.edu</a></td>
+        <td class="qp-copy"><a href="/2019/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2018</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127475;&#127473;</span>Delft, Netherlands</td>
+        <td class="qp-host">TU Delft</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20180819102116/https://qutech.nl/qip2018/" target="_blank" rel="noopener">qutech.nl</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2018/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2017</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Seattle, WA, USA</td>
+        <td class="qp-host">Microsoft Research</td>
+        <td class="qp-orig"><a href="https://www.microsoft.com/en-us/research/event/qip-2017/" target="_blank" rel="noopener">microsoft.com</a></td>
+        <td class="qp-copy"><a href="/2017/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2016</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127462;</span>Banff, BC, Canada</td>
+        <td class="qp-host">U Calgary</td>
+        <td class="qp-orig"><a href="https://www.ucalgary.ca/qip2016/" target="_blank" rel="noopener">ucalgary.ca</a></td>
+        <td class="qp-copy"><a href="/2016/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2015</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127462;&#127482;</span>Sydney, Australia</td>
+        <td class="qp-host">UTS</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20150223074611/http://quantum-lab.org/qip2015/index.php" target="_blank" rel="noopener">quantum-lab.org</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2015/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2014</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127466;&#127480;</span>Barcelona, Spain</td>
+        <td class="qp-host">UB / UAB / ICFO</td>
+        <td class="qp-orig"><a href="https://benasque.org/2014QIP/" target="_blank" rel="noopener">benasque.org</a></td>
+        <td class="qp-copy"><a href="/2014/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2013</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127475;</span>Beijing, China</td>
+        <td class="qp-host">Tsinghua University</td>
+        <td class="qp-orig"><a href="https://conference.iiis.tsinghua.edu.cn/QIP2013/" target="_blank" rel="noopener">tsinghua.edu.cn</a></td>
+        <td class="qp-copy"><a href="/2013/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2012</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127462;</span>Montreal, QC, Canada</td>
+        <td class="qp-host">U de Montréal</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20160325192759/http://www.crm.umontreal.ca/QIP2012/index_e.php" target="_blank" rel="noopener">crm.umontreal.ca</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2012/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2011</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127480;&#127468;</span>Singapore</td>
+        <td class="qp-host">NUS / CQT</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20110727192819/http://qip2011.quantumlah.org/" target="_blank" rel="noopener">quantumlah.org</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2011/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2010</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127469;</span>Zurich, Switzerland</td>
+        <td class="qp-host">ETH Zurich</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20091213172202/http://www.qip2010.ethz.ch/" target="_blank" rel="noopener">qip2010.ethz.ch</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2010/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2009</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Santa Fe, NM, USA</td>
+        <td class="qp-host">UNM / SFI / LANL</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20100415000851/http://info.phys.unm.edu/qip2009/" target="_blank" rel="noopener">phys.unm.edu</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2009/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2008</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127470;&#127475;</span>New Delhi, India</td>
+        <td class="qp-host">IIT / TIFR</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20080812061449/http://www.iarcs.org.in/events/fsttcs07-qip08.php" target="_blank" rel="noopener">iarcs.org.in</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2008/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2007</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127462;&#127482;</span>Brisbane, Australia</td>
+        <td class="qp-host">U Queensland</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20060820193320/http://www.qinfo.org/qip/" target="_blank" rel="noopener">qinfo.org</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2007/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2006</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127467;&#127479;</span>Paris, France</td>
+        <td class="qp-host">Université Paris-Sud</td>
+        <td class="qp-orig"><a href="http://web.archive.org/web/20051016054631/http://www.lri.fr/qip06/" target="_blank" rel="noopener">lri.fr</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2006/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2005</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Cambridge, MA, USA</td>
+        <td class="qp-host">MIT</td>
+        <td class="qp-orig"><a href="http://web.mit.edu/qip2005" target="_blank" rel="noopener">web.mit.edu</a></td>
+        <td class="qp-copy"><a href="/2005/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2004</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127462;</span>Waterloo, ON, Canada</td>
+        <td class="qp-host">PI / IQC</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20130513201229/http://www.iqc.ca:80/conferences/qip/details.html" target="_blank" rel="noopener">iqc.ca</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2004/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2003</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Berkeley, CA, USA</td>
+        <td class="qp-host">MSRI (SLMath)</td>
+        <td class="qp-orig"><a href="https://www.slmath.org/workshops/204" target="_blank" rel="noopener">slmath.org</a></td>
+        <td class="qp-copy"><a href="/2003/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2002</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Yorktown Heights, NY, USA</td>
+        <td class="qp-host">IBM</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20110604210434/http://www.research.ibm.com/quantuminfo/qip2002/" target="_blank" rel="noopener">research.ibm.com</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2002/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2001</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127475;&#127473;</span>Amsterdam, Netherlands</td>
+        <td class="qp-host">CWI</td>
+        <td class="qp-orig"><a href="https://homepages.cwi.nl/~qip/" target="_blank" rel="noopener">cwi.nl</a></td>
+        <td class="qp-copy"><a href="/2001/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">QIP 2000</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127464;&#127462;</span>Montreal, QC, Canada</td>
+        <td class="qp-host">CRM</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/19990829195534/http://www.crm.umontreal.ca:80/act/theme/1999/at_1999_12_05_an.html" target="_blank" rel="noopener">crm.umontreal.ca</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/2000/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">AQIP 1999</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127482;&#127480;</span>Chicago, IL, USA</td>
+        <td class="qp-host">DePaul University</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20000412153350/http://aqip.cs.depaul.edu:80/AQIP/Default.htm" target="_blank" rel="noopener">cs.depaul.edu</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/1999/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+      <tr>
+        <th scope="row" class="qp-ed"><span class="qp-name">AQIP 1998</span></th>
+        <td class="qp-loc"><span class="qp-flag">&#127465;&#127472;</span>Aarhus, Denmark</td>
+        <td class="qp-host">Aarhus University</td>
+        <td class="qp-orig"><a href="https://web.archive.org/web/20100422225206/http://www.brics.dk:80/Activities/98/aqip/" target="_blank" rel="noopener">brics.dk</a> <span class="qp-tag" title="Original site offline — Web Archive snapshot">archived</span></td>
+        <td class="qp-copy"><a href="/1998/" target="_blank" rel="noopener">static copy</a></td>
+      </tr>
+  </tbody>
+</table>
+</div>
 
 
 
