@@ -1,0 +1,1 @@
+var TJPzoomwidth=160;var TJPzoomheight=120;var TJPzoomwindowlock=0;var TJPzoomoffset='smart';var TJPzoomamount=4;var TJPzoomamountmax=12;var TJPzoomamountmin=1;var TJPborderthick=2;var TJPbordercolor='#cccccc';var TJPshadowthick=8;var TJPshadow='dropshadow/';

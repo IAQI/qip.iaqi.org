@@ -1,0 +1,908 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>QIP2015 - Accepted Posters</title>
+
+<meta name="author" content="QCIS">
+<meta name="description" content="The official website of QIP 2015. QIP 2015 is an international workshop on quantum information processing to be held in Sydney, Australia in January 2015.">
+<meta name="keywords" content="QIP, QIP2015, QIP 2015, 18th Workshop on Quantum Information Processing, Workshop on Quantum Information Processing, Quantum Physics, Quantum Information, Workshop">
+<script type="text/javascript" async="" src="QIP2015/ga.js"></script><script async="" src="QIP2015/cloudflare.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="QIP2015/file.css">
+
+<style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style>
+
+<style>a{text-decoration:none}</style>
+</head>
+<body>
+<table align="center" class="maintable">
+<tbody>
+<tr>
+<td id="logo"><img src="QIP2015/logo3.jpg" border="0" usemap="#logoMap" id="logo"></td></tr>
+<tr>
+
+<td id="content">
+<table width="980px" align="center">
+<tbody><tr><td width="230" rowspan="2" id="menu_tbl">
+<a href="index.php.html" id="menu_tbl">HOME</a><br>
+<a href="Committees.php.html" id="menu_tbl">COMMITTEES</a><br>
+<a href="Speakers.php.html" id="menu_tbl">PLENARY SPEAKERS</a><br>
+<a href="Tutorial.php.html" id="menu_tbl">TUTORIAL LECTURERS</a><br>
+<a href="Submission.php.html" id="menu_tbl">CALL FOR SUBMISSIONS</a><br>
+<a href="AcceptedTalks.php.html" id="menu_tbl">ACCEPTED TALKS</a><br> 
+<a href="AcceptedPosters.php.html" id="menu_tbl">ACCEPTED POSTERS</a><br> 
+<a href="Program.php.html" id="menu_tbl">SCIENTIFIC PROGRAM</a><br>
+
+
+<a href="Rump.php.html" id="menu_tbl">RUMP SESSION</a><br>
+<a href="Photos.php.html" id="menu_tbl">PHOTO GALLERY</a><br> 
+
+<a href="Registration.php.html" id="menu_tbl">REGISTRATION</a><br>
+<a href="Participants.php.html" id="menu_tbl">PARTICIPANTS</a><br>
+<a href="Venues.php.html" id="menu_tbl">CONFERENCE VENUES</a><br>
+<a href="Accommodation.php.html" id="menu_tbl">ACCOMMODATION</a><br>
+<a href="Visa.php.html" id="menu_tbl">TRAVEL AND VISA</a><br>
+<a href="LocalInformation.php.html" id="menu_tbl">LOCAL INFORMATION</a><br>
+<a href="TravelSupport.php.html" id="menu_tbl">TRAVEL SUPPORT</a><br>
+<a href="listQIPs.php.html" id="menu_tbl">LIST OF QIP CONFERENCES</a><br>
+
+<!--<a href="http://www.quantum-lab.org/qip2015/Conferences.php" id="menu_tbl">RELATED CONFERENCES</a><br>-->
+<a href="Charter.php.html" id="menu_tbl">QIP CHARTER</a><br>
+<a href="Contactus.php.html" id="menu_tbl">CONTACT US</a><br>
+<a href="https://www.surveymonkey.com/s/SurveyQIP" id="menu_tbl"><font color="#0000FF">QIP SURVEY</font></a><br>
+
+</td>
+<td width="720" id="content_tbl">
+ 
+<h3 id="content"><strong>List of Accepted Posters </strong> </h3>
+
+<font color="#FF0000">
+1. Reminders from Local organisers: Your poster information will appear in the following list only if you have sent a final version to qip2015-abstract@quantum-lab.org. If you have an accepted poster and you plan to present it at QIP2015, please do send relevant information to us as soon as possible. Otherwise we cannot guarantee a poster stand for you. <br/>
+<br/>
+
+2. The size of poster screens will be 1800mm(Height)x1200mm(Width). Posters with numbers between 1 and 80 will be presented at the Poster Session 1 on 12 January 2015. All other posters with numbers strictly larger than 80 will be presented at the Poster Session 2 on 13 January 2015.
+</font>
+<br/>
+<br/>
+1. Rafael Alexander and Nicolas Menicucci.  <em>Quantum computing with the quad-rail lattice</em> (EasyChair Submission ID: 56) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/56-Alexander.pdf">abstract</a>
+<br/>
+
+2. Wataru Kumagai and Masahito Hayashi. <em>LOCC Conversion via Entanglement Storage</em> (EasyChair Submission ID: 57)
+<br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/57-Kumagai.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1401.3781">arxiv:1401.3781</a>
+<br/>
+
+3. Rotem Arnon-Friedman, Renato Renner and Thomas Vidick. <em>Non-signalling parallel repetition using de Finetti reductions</em>
+(EasyChair ID: 80) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/80-Friedman.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1411.1582">arxiv:1411.1582</a>
+<br/>
+
+4. Todd A. Brun, Yi-Cong Zheng, Kung-Chuan Hsu, Joshua Job and Ching-Yi Lai. <em>Fault-tolerant Quantum Computation in Multi-qubit Large Block Codes</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/Brun.pdf">abstract</a>
+<br/>
+
+5. Sevag Gharibian and Jamie Sikora. <em>Ground State Connectivity of Local Hamiltonians</em>(EasyChair Submission ID:18)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/18-Gharibian.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.3182">arxiv:1409.3182</a>
+<br/>
+
+6. Xiaobin Zhao and Giulio Chiribella. <em>Optimal purification of displaced thermal states</em>(EasyChair Submission ID: 36) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/36-Zhao.pdf">abstract</a>
+<br/>
+
+7. Alex B. Grilo, Iordanis Kerenidis and Jamie Sikora. <em>QMA with subset state witnesses</em>(EasyChair Submission ID:107)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/107-Grilo.pdf">abstract</a>
+<br/>
+
+
+8. Ching-Yi Lai and Runyao Duan. <em>On the one-shot zero-error classical capacity of classical-quantum channels assisted by quantum non-signalling correlations</em>(EasyChair Submission ID:102) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/102-Lai.pdf">abstract</a>
+<br/>
+
+9. Xiaoyu Li and Yun Shang. <em>Quantum public-key cryptosystem without quantum channels between any two users</em>(EasyChair Submission ID:51) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/51-Li.pdf">abstract</a>
+<br/>
+
+
+10. Yuxiang Yang, Giulio Chiribella and Gerardo Adesso. Certifying quantumness: Benchmarks for the optimal processing of generalized
+coherent states (EasyChair ID:10)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/10-Yang.pdf">abstract</a>
+<br/>
+
+11. Francois Le Gall, Harumichi Nishimura, and Seiichiro Tani. <em>Quantum Algorithms for Finding Constant-sized Sub-hypergraphs</em>(EasyChair Submission ID:31) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/31-Francois.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1310.4127">arxiv:1310.4127</a>
+<br/>
+
+12. Weien Chen, Yongzhi Cao, Hanpin Wang, Yuan Feng. <em>Minimum guesswork discrimination between quantum states</em>(EasyChair Submission ID: 5) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/5-Chen.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.5180">arxiv:1410.5180</a>
+<br/>
+
+13. Kenneth Rudinger, Erik Nielsen, John K. Gamble and Robin Blume-Kohout. <em>Hyperaccuracy and Error Scaling in Gate Set Tomography</em> (EasyChair Submission ID:19)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/19-Rudinger.pdf">abstract</a>
+<br/>
+
+
+14. Fei Gao, Bin Liu, Wei Huang, and Qiao-Yan Wen. <em>Post-processing of the oblivious key in quantum private query</em> (EasyChair Submission ID:10) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/posters/14-Gao.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1406.0589">arxiv:1406.0589</a>
+<br/>
+
+
+15. Neris Ilano, Ronald Banzon and Cristine Villagonzalo. <em>Achieving high fidelity in a simulation of Grovers algorithm in an Ising spin system</em> (EasyChair Submission ID:59)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/posters/15-Ilano.pdf">abstract</a>
+<br/>
+
+16. Zhi-Chao Zhang, Ke-Qin Feng, Fei Gao and Qiao-Yan Wen. <em>Distinguishing maximally entangled states by one-way local operations and classical communication</em> (EasyChair Submission ID:20)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/20-Zhang.pdf">abstract</a>
+<br/>
+
+17. Michal Studzinski, Adam Rutkowski, Piotr Cwiklinski and Michal Horodecki. <em>Construction and properties of a novel class of private states in arbitrary dimensions</em> (EasyChair Submission ID:35) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/35-Studzinski.pdf">abstract</a>
+<br/>
+
+
+18. Kamil Korzekwa, Matteo Lostaglio, David Jennings and Terry Rudolph. <em>Quantum coherence, time-translation symmetry and thermodynamics</em>(EasyChair Submission ID:12)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/12-Korzekwa.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.4572">arxiv:1410.4572</a>
+<br/>
+
+19. Gabriela Mogos. <em>QKD Simulation</em> (EasyChair Submission ID: 3) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/3-Mogos.pdf">abstract</a>
+<br/>
+
+20. Liming Zhao, Carlos A. Perez-Delgado, and Joseph F.Fitzsimons. <em>Graph state data structures</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Zhao.pdf">abstract</a>
+<br/>
+
+
+21. Fuyuhiko Tanaka. <em>Quantum Minimax Theorem</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Tanaka.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.3639">arxiv:1410.3639</a>
+<br/>
+
+22. Aurel Gabris, Hynek Lavicka, Janos K. Asboth and Igor Jex<em>Simulation of non-localized to localized transition in
+discrete time quantum walks</em>(EasyChair Submission ID: 112) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/112-Gabris.pdf">abstract</a>
+<br/>
+
+23. Michael E. Beverland, Robert K&#246;nig, Fernando Pastawski, John Preskill and Sumit Sijher. <em>Protected gates for topological quantum field theories</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Beverland.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.3898">arxiv:1409.3898</a>
+<br/>
+
+24. Le Phuc Thinh, Gonzalo de la Torre, Jean-Daniel Bancal, Nicolas Brunner, and Valerio Scarani. <em>Randomness of post-selected data</em>(EasyChair Submission ID: 9) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/9-Thinh.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+
+25. Aleksander Kubica, Michael E. Beverland. <em>Universal transversal gates with color codes:a simplified approach</em>(EasyChair Submission ID:192) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/192-Kubica.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.0069">arxiv:1410.0069</a>
+<br/>
+
+26. Giulio Chiribella and Carlo Maria Scandolo. <em>Entanglement and mixedness in general probabilistic theories</em>(EasyChair Submission ID: 46) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/46-Chiribella.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+
+27. Rajarshi Pal and Sibasish Ghosh. <em>A closed-form necessary and sufficient condition for any two-qubit state to show hidden nonlocality w.r.t the Bell-CHSH inequality</em>(EasyChair Submission ID:76) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/76-Pal.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.7574">arxiv:1410.7574</a>
+<br/>
+
+28. Andrew M. Childs, David Gosset, Daniel Nagaj, Mouktik Raha, and Zak Webb. <em>Momentum switches</em>(EasyChair Submission ID: 51) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/51-Childs.pdf">abstract</a>
+<br/>
+
+29. Andrew M. Childs, David Gosset, and Zak Webb. <em>Complexity of the Bose-Hubbard Model on simple graphs</em>(EasyChair Submission ID: 55)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/55-Childs.pdf">abstract</a>
+<br/>
+
+30. Shelby Kimmel, Cedric Lin, Han-Hsuan Lin. <em>Oracles with Costs</em>(EasyChair Submission ID:72) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/72-Kimmel.pdf">abstract</a>
+<br/>
+
+31. Elizabeth Crosson, Edward Farhi, Cedric Yen-Yu Lin, Han-Hsuan Lin and Peter Shor. <em>Different Strategies for Optimization Using the Quantum Adiabatic Algorithm</em>(EasyChair Submission ID:100) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/100-Crosson.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1401.7320">arxiv:1401.7320</a>
+<br/>
+
+
+32. Jonas T. Anderson and Tomas Jochym-O'Connor. <em>Classification of transversal gates in qubit stabilizer codes</em>(EasyChair Submission ID:185)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/186-Anderson.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.8320">arxiv:1409.8320</a>
+<br/>
+
+33. Juan Bermejo-Vega, Cedric Yen-Yu Lin and Maarten Van den Nest. <em>The computational power of normalizer circuits over infinite and black-box groups</em>(EasyChair Submission ID:73) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/73-Vega.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.4800">arxiv:1409.4800</a>
+<br/>
+
+34. Andris Ambainis and Martinis Kokainis. <em>Analysis of the extended hitting time and its properties</em>(EasyChair Submission ID:2) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/2-Ambainis.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+35. Marina Denisenko and Arkady Satanin. <em>Dynamics of nonlinear Landau-Zener tunneling and time fluctuations of a flux qubit population in a biharmonic driving field</em>(EasyChair Submission ID:32) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/32-Denisenko.pdf">abstract</a>
+<br/>
+
+36. Marek Zukowski, Arijit Dutta and Zhi Yin. <em>Geometric Bell-like inequalities for steering</em>(EasyChair Submission ID:39)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/39-Zukowski.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1411.5986">arxiv:1411.5986</a>
+<br/>
+
+37. Dmitry Kravchenko, Nikolajs Nahimovs, Alexander Rivosh. <em>Grover's search with faults on some marked elements</em>(EasyChair Submission ID:165) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/posters/165-Kravchenko.pdf">abstract</a>
+<br/>
+
+38. Romain Alleaume. <em>An hybrid security model for quantum cryptography for practical and efficient information-theoretically secure communication</em>(EasyChair Submission ID:77) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/77-Alleaume.pdf">abstract</a>
+<br/>
+
+
+39. Leonardo Novo, Shantanav Chakraborty, Masoud Mohseni and Yasser Omar. <em>Robustness of spatial quantum search</em>(EasyChair Submission ID: 161) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/161-Novo.pdf">abstract</a>
+<br/>
+
+
+40. Dorit Aharonov and Yosi Atia. <em>Shor's Algorithm as a Violation of the Time-Energy</em>(EasyChair Submission ID:27) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/27-Aharonov.pdf">abstract</a>
+<br/>
+
+41. Mathieu Brandeho and Jeremie Roland. <em>An optimal adiabatic quantum query algorithm</em>(EasyChair Submission ID:117) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/117-Brandeho.pdf">abstract</a>
+<br/>
+
+42. Vishakh Hegde and Prabha Mandayam. <em>Unextendible mutually unbiased bases in prime-squared dimensions</em>(EasyChair Submission ID:71)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/71-Hegde.pdf">abstract</a>
+<br/>
+ 
+43. Jacob C Bridgeman, Eric Huang, Steven T Flammia and David Poulin. <em>Ribbon operators in topologically ordered 2D spin systems</em>(EasyChair Submission ID:64)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/64-Bridgeman.pdf">abstract</a>
+<br/>
+
+
+44. Mateus de Oliveira Oliveira. <em>On the Satisfiability of Quantum Circuits of Small Treewidth</em>(EasyChair Submission ID:91)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/91-Oliveira.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1404.5565">arxiv:1404.5565</a>
+<br/>
+
+45. Masahito Hayashi and Toyohiro Tsurumaru. <em>More Efficient Privacy Amplification with Less Random Seeds via Dual Universal Hash Function</em>(Easychair ID:19)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/19-Hayashi.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1311.5322">arxiv:1311.5322</a>
+<br/>
+
+
+46. Kosuke Ito, Wataru Kumagai and Masahito Hayashi. <em>Asymptotic Entanglement Preservability of LOCC Conversions</em>(EasyChair Submission ID:88) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/88-Ito.pdf">abstract</a>
+<br/>
+
+
+47. Masahito Hayashi and Masaki Owari. <em>Tight asymptotic bounds on local hypothesis testing between a pure bipartite state and the white noise state</em>(EasyChair Submission ID:79) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/79-Hayashi.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.3897">arxiv:1409.3897</a>
+<br/>
+
+48. Masahito Hayashi and Marco Tomamichel. <em>Correlation Detection and an Operational Interpretation of the Renyi Mutual Information</em>(EasyChair Submission ID:21)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/21-Hayashi.pdf">abstract</a>
+<br/>
+
+
+49. Taewan Kim, Jeong Woon Choi, Nam-Su Jho, and Soojoon Lee. <em>Forgeable quantum messages in arbitrated quantum signature schemes</em>(EasyChair Submission ID:) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Kim.pdf">abstract</a>
+<br/>
+
+
+50. Jedrzej Kaniewski, Marco Tomamichel and Stephanie Wehner. <em>Device-independent uncertainty for binary observables</em>(EasyChair Submission ID:37)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/37-Kaniewski.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1402.5722">arxiv:1402.5722</a>
+<br/>
+
+51. Marcin Pawlowski and Mikolaj Czechlewski. <em>Asymmetric Bell Experiment with Inefficient Detectors</em>(EasyChair Submission ID:14) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/14-Pawlowski.pdf">abstract</a>
+<br/>
+
+52. Ikuto Takaya, Ishizaka Satoshi. <em>Entanglement and swap of quantum states</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Takaya.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1406.1601">arxiv:1406.1601</a>
+<br/>
+ 
+
+53. Tongyang Li and Giulio Chiribella. <em>Optimal State Exclusion for Symmetric Sets of States</em>(EasyChair Submission ID:32)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/32-Li.pdf">abstract</a>
+<br/>
+
+
+54. Nicholas Funai, Steven Flammia and Nicolas Menicucci. <em>Modelling Quantum Fields with Detector interactions using Continuous Matrix Product States</em>(EasyChair Submission ID:61) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/61-Funai.pdf">abstract</a>
+<br/>
+
+
+55. Lukas Knips, Wies law Laskowski, Tomasz Paterek, Anna de Rosier, Christian Schwemmer,Minh Cong Tran, and Harald Weinfurter. <em>Experimental multipartite entanglement without multipartite correlations</em>(EasyChair Submission ID: 16)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/16-Knips.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.2367">arxiv:1410.2367</a>
+<br/>
+ 
+
+56. Timothy J Proctor and Viv Kendon. <em>The minimal form of ancilla mediated quantum computation</em>(EasyChair Submission ID: 124) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/124-Proctor.pdf">abstract</a>
+<br/>
+
+
+57. Clare Horsman, Viv Kendon, Susan Stepney. <em>When does a physical system quantum compute?</em>(EasyChair Submission ID: 158)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/158-Horsman.pdf">abstract</a>
+<br/>
+
+
+58. Kaushik P. Seshadreesan and Mark M. Wilde. <em>Fidelity of recovery and geometric squashed entanglement</em>(EasyChair Submission ID: 69) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/69-Seshadreesan.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.1441">arxiv:1410.1441</a>
+<br/>
+
+59. Ravishankar Ramanathan, Alastair Kay, Glaucia Murta, Remigiusz Augusiak. Michal Horodecki, Pawel Horodecki. <em>XOR games with no advantage and Shannon zero-error capacity</em>(EasyChair Submission ID: 166)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/166-Ramanathan.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1406.0995">arxiv:1406.0995</a>
+<br/>
+
+60. Iordanis Kerenidis, Mathieu Lauriere, Francois Le Gall and Mathys Rennela. <em>Privacy in Quantum Communication Complexity</em>(EasyChair Submission ID: 97)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/97-Kerenidis.pdf">abstract</a>
+<br/>
+
+61. H Buhrman, L Czekaj, A Grudka, M & P Horodecki, M Markiewicz, F Speelman and S Strelchuk. <em>Quantum communication complexity advantage implies violation of a Bell inequality</em>(EasyChair Submission ID: 177)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/177-Buhrman.pdf">abstract</a>
+<br/>
+
+62. F. Buscemi, N. Datta, S. Strelchuk. <em>Game-theoretic characterization of antidegradable channels</em>(EasyChair Submission ID: 109) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/109-Buscemi.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1404.0277">arxiv:1404.0277</a>
+<br/>
+
+63. Milan Mosonyi and Tomohiro Ogawa. <em>Strong converse exponent for classical-quantum channel coding</em>(EasyChair Submission ID: 157) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/157-Mosonyi.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.3562">arxiv:1409.3562</a>
+<br/>
+
+64. Richard Kueng, Ulrich Terstiege, Holger Rauhut, David Gross. <em>Low rank quantum state tomography from rank-one measurements</em>(EasyChair Submission ID: 50)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/posters/50-Kueng.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.6913">arxiv:1410.6913</a>
+<br/>
+
+65. Ludovico Lami and Vittorio Giovannetti. <em>Entanglement-Breaking Indices</em>(EasyChair Submission ID: 38) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/38-Lami.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+
+
+66. Rafael Chaves, Richard Kueng, Jonatan Bohr Brask, David Gross. <em>A unifying framework for relaxations of the causal assumptions in Bell's theorem</em>(EasyChair Submission ID: 49) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.quantum-lab.org/qip2015/posters/49-Chaves.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1411.4648">arxiv:1411.4648</a>
+<br/>
+
+
+67. Martin Kliesch, David Gross, Jens Eisert. <em>Matrix product operators and states: NP-hardness and undecidability</em>(EasyChair Submission ID: 48) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/48-Kliesch.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1404.4466">arxiv:1404.4466</a>
+<br/>
+
+68. Li Yu, and Carlos A. Perez-Delgado. <em>On quantum homomorphic encryption with passive third party</em>(EasyChair Submission ID: 104) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/104-Yu.pdf">abstract</a>
+<br/>
+
+
+69. L. Czekaj, M. Horodecki, P. Horodecki, R. Horodecki. <em>Information Content of Elementary Systems as a Physical Principle</em>(EasyChair Submission ID: 38) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/38-Czekaj.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1403.4643">arxiv:1403.4643</a>
+<br/>
+
+
+70. L. Czekaj, A. Przysiezna, M. Horodecki, P. Horodecki. <em>Quantum metrology: Heisenberg limit with bound entanglement</em>(EasyChair Submission ID: 37) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/37-Czekaj.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1403.5867">arxiv:1403.5867</a>
+<br/>
+
+
+71. Joseph M. Renes, David Sutter, Frederic Dupuis, and Renato Renner. <em>Efficient Quantum Communication over Noisy Quantum Channels</em>(EasyChair Submission ID: 94)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/94-Renes.pdf">abstract</a>
+<br/>
+
+
+72. David Sutter, Tobias Sutter, Peyman Mohajerin Esfahani, and Renato Renner. <em>Efficient Approximation of Quantum Channel Capacities</em>(EasyChair Submission ID: 96) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/96-Sutter.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/">arxiv:</a>
+<br/>
+
+
+73. Aram W. Harrow, Anand Natarajan, and Xiaodi Wu. <em>An improved semidefinite programming hierarchy for testing entanglement</em>(EasyChair Submission ID: 187) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/187-Harrow.pdf">abstract</a><br/>
+
+
+74. Abhishodh Prakash and Tzu-Chieh Wei. <em>Single-qubit gate protection in a symmetry-protected topological phase</em>(EasyChair Submission ID: 168) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/168-Prakash.pdf">abstract</a>
+<br/>
+
+
+75. Robert N. C. Pfeifer, Jutho Haegeman, and Frank Verstraete. <em>Faster identification of optimal contraction sequences for arbitrary tensor networks</em> (EasyChair Submission ID: 44) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/44-Pfeifer.pdf">abstract</a>
+<br/>
+
+
+76. Laura Mancinska, David E. Roberson, Dan Stahlke, Antonios Varvitsiotis. <em>Nonlocal games with restricted strategies</em>(EasyChair Submission ID: 195)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/195-Mancinska.pdf">abstract</a>
+<br/>
+
+
+77. Nelly Huei Ying Ng, Laura Mancinska, Cristina Cirstoiu, Jens Eisert, and Stephanie Wehner. <em>Limits of catalysis in quantum thermodynamics</em>(EasyChair Submission ID: 144)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/144-Ng.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1405.3039">arxiv:1405.3039</a>
+<br/>
+
+78. Dominic Williamson and Stephen Bartlett. <em>Symmetry-protected adiabatic quantum transistors</em>(EasyChair Submission ID: 91) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/91-Williamson.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1408.3415">arxiv:1408.3415</a>
+<br/>
+
+79. Srijita Kundu and Prabha Mandayam. <em>Quantifying incompatibility beyond entropic uncertainty</em>(EasyChair Submission ID:138) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/138-Kundu.pdf">abstract</a>
+<br/>
+
+80. Hao-Chung Cheng, Min-Hsiu Hsieh, and Ping-Cheng Yeh. <em>The Learnability of Unknown Quantum Measurements</em>(EasyChair Submission ID: 163) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/163-Cheng.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1501.00559">arxiv:1501.00559</a>
+<br/>
+
+
+81. Adam Bookatz, Edward Farhi, Leo Zhou. <em>Error suppression in Hamiltonian based quantum computation using energy penalties</em>(EasyChair Submission ID: 67)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/67-Bookatz.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1407.1485">arxiv:1407.1485</a>
+<br/>
+
+
+82. Masaki Owari, Koji Maruyama and Go Kato. <em>Probing an untouchable environment as a resource for quantum computing</em>(EasyChair Submission ID: 21) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/21-Owari.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1301.2152">arxiv:1301.2152</a>
+<br/>
+
+
+83. Eric Chitambar, Benjamin Fortescue and Min-Hsiu Hsieh. <em>Reversible Secrecy in Classical and Quantum States</em>(EasyChair Submission ID: 196)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/196-Chitambar.pdf">abstract</a>
+<br/>
+
+
+84. Seiseki Akibue, Masaki Owari, Go Kato and Mio Murao. <em>Globalness of separable maps characterized by classical correlations without globally causal structure</em>(EasyChair Submission ID: 121) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/121-Akibue.pdf">abstract</a>
+<br/>
+
+85. Seiseki Akibue and Mio Murao. <em>Network coding for distributed quantum computation over the butterfly and cluster networks</em>(EasyChair Submission ID: 162) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/162-Akibue.pdf">abstract</a>
+<br/>
+
+
+86. Sandra Rankovic, Yeong-Cherng Liang, Renato Renner. <em>Local and global clocks in quantum mechanics - limitations to building global ordering scales out of two local quantum clocks</em>(EasyChair Submission ID: 62) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/62-Rankovic.pdf">abstract</a>
+<br/>
+
+
+87. Alex Bocharov, Martin Roetteler and Krysta Svore. <em>Efficient synthesis of universal probabilistic quantum circuits</em>(EasyChair Submission ID: 173) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/173-Bocharov.pdf">abstract</a>
+<br/>
+
+
+88. Nathan Wiebe, Christopher Granade and David Cory. <em>Quantum Bootstrapping via Compressed Hamiltonian Learning</em>(EasyChair Submission ID: 50) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/50-Wiebe.pdf">abstract</a>
+<br/>
+
+
+89. Sania Jevtic, Hussain Anwar, and Shashank Virmani. <em>Multiparty pure entangled states and local measurement with LHV models and efficient classical sampling via the PEPS formalism</em>(EasyChair Submission ID: 57) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/57-Jevtic.pdf">abstract</a>
+<br/>
+
+
+90. Tom Cooney, Milan Mosonyi and Mark M. Wilde. <em>Strong converse exponents for a quantum channel discrimination problem and quantum-feedback-assisted communication</em>(EasyChair Submission ID: 13) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/13-Cooney.pdf">abstract</a>
+<br/>
+
+
+91. Guillaume Aubrun and Cecilia Lancien. <em>Locally restricted measurements on a multipartite quantum system:data-hiding is generic</em>(EasyChair Submission ID: 22) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/22-Aubrun.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1406.1959">arxiv:1406.1959</a>
+<br/>
+
+
+92. Bill Fefferman and Chris Umans. <em>On The Power of Quantum Fourier Sampling</em>(EasyChair Submission ID: 148) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/148-Fefferman.pdf">abstract</a>
+<br/>
+
+
+93. Vern I. Paulsen, Simone Severini, Daniel Stahlke, Ivan G. Todorov, and Andreas Winter. <em>Problems of Tsirelson and Connes, and a hierarchy of combinatorial parameters</em>(EasyChair Submission ID: 182) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/182-Paulsen.pdf">abstract</a>
+<br/>
+
+
+94. Piotr Cwiklinski, Janet Anders, Michal Horodecki, jonathan Oppenheim. <em>Towards experimentally-friendly descritpion of single shot thermodynamic operations</em>(EasyChair Submission ID: 80) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/80-Cwiklinski.pdf">abstract</a>
+<br/>
+
+95. Mateus Araujo, Fabio Costa, and Caslav Brukner. <em>Computational advantage from quantum-controlled ordering of gates</em>(EasyChair Submission ID: 48)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/48-Araujo.pdf">abstract</a>
+<br/>
+ 
+
+96. Stefan Baeuml, Dagmar Bruss, Marcus Huber, Herrmann Kampermann, and Andreas Winter. <em>Witnessing entanglement by proxy</em>(EasyChair Submission ID: 146) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/146-Baeuml.pdf">abstract</a>
+<br/>
+
+
+97. F. Brandao, A. Grudka, M. Horodecki, K. Horodecki, P. Horodecki, M. Pawlowski, R. Ravishankar, and H. Wojewodka. <em>Randomness amplification without Markov condition</em> (EasyChair Submission ID: 54) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/54-Brandao.pdf">abstract</a>
+<br/>
+
+
+98. Jibran Rashid. <em>When Does Nonlocality Distillation Outperform Entanglement</em> Concentration?(EasyChair Submission ID: 75) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/75-Rashid.pdf">abstract</a>
+<br/>
+
+
+99. J. Mosakowski, T. Ferrus, D. A. Williams, E. Owen, M. Dean and C. H. W. Barnes. <em>Optimizing charge qubit oscillations in double dot systems to unitary amplitude</em>(EasyChair Submission ID: 45) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/45-Mosakowski.pdf">abstract</a>
+<br/>
+
+
+100. Magdalena Zych, Fabio Costa, Igor Pikovski, and Caslav Brukner. <em>Bell Inequalities for Temporal Order</em>(EasyChair Submission ID: 74) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/74-Zych.pdf">abstract</a>
+<br/>
+
+
+101. Eyuri Wakakuwa, Akihito Soeda and Mio Murao. <em>Excluding one of the parties and Markovianizing of tripartite quantum states</em>(EasyChair Submission ID: 178) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/178-Wakakuwa.pdf">abstract</a>
+<br/>
+
+
+102. K. Horodecki, M. Horodecki, P. Horodecki, R. Horodecki, P. Joshi, S. Szarek and T. Szarek.<em>Fraction of Determinism Restricts Winnning Chances of 2xn Input Cardinality Games</em>(EasyChair Submission ID: 70)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/70-Horodecki.pdf">abstract</a>
+<br/>
+
+103. Justyna Lodyga, Pawel Mazurek, Andrzej Grudka and Michal Horodecki. <em>Simple scheme for encoding and decoding a qubit in unknown state for various topological codes</em>(EasyChair Submission ID: 82) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/82-Lodyga.pdf">abstract</a>
+<br/>
+
+
+104. Marcin Jarzyna, Rafal Demkowicz-Dobrzanski. <em>True precision limits in quantum metrology</em>(EasyChair Submission ID: 36) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/36-Jarzyna.pdf">abstract</a>
+<br/>
+
+
+105. Janusz Grabowski. <em>Generalized Schmidt rank and entanglement</em> 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Grabowski.pdf">abstract</a>
+<br/>
+
+
+106. Cheng Guo, Eric Chitambar, and Runyao Duan. <em>Common Resource State for Preparing Multipartite Quantum Systems via Local Operations and Classical Communication</em>(EasyChair Submission ID: 90) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/90-Guo.pdf">abstract</a>
+<br/>
+
+107. Shima Hassanpour and  Monireh Houshmand. <em>Efficient controlled quantum secure direct communication based on GHZ-like states</em>(EasyChair Submission ID: 120) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/120-Hassanpour.pdf">abstract</a>
+<br/>
+
+108. Donghoon Ha, Min Namkung, and Younghun Kwon. <em>Discriminating N-qudit states using geometric structure</em>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Ha.pdf">abstract</a>
+<br/>
+
+109. Min Namkung, Donghoon Ha and Younghun Kwon. <em>Non-classicality of Optical Hybrid States in Noisy Quantum Channel</em> 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Namkung.pdf">abstract</a>
+<br/>
+
+110. Giulio Chiribella, Rui Chao, and Yuxiang Yang. <em>Super-activation of quantum reference frames</em> (EasyChair Submission ID: 184) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/184-Chiribella.pdf">abstract</a>
+<br/>
+
+111. M.P. Woods, M. Cramer, M.B. Plenio. <em>Error bounds on simulated dynamics of a quantum system coupled to a bosonic environment</em>(EasyChair Submission ID: 56) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/56-Woods.pdf">abstract</a>
+<br/>
+
+112. Yuji Sekino and Satoshi Ishizaka. <em>Quantum-information Division and an Optimal Uncorrelated Channel</em> 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Sekino.pdf">abstract</a>
+<br/>
+
+113. Yi-Kai Liu. <em>Privacy Amplification in the Isolated Qubits Model</em>(EasyChair Submission ID: 194) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/194-Liu.pdf">abstract</a>
+<br/>
+
+114. Jaikumar Radhakrishnan, Pranab Sen and Naqueeb Warsi. <em>One-shot Marton inner bound for classical-quantum broadcast channel</em>(EasyChair Submission ID: 128) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/128-Radhakrishnan.pdf">abstract</a>
+<br/>
+
+115. Johannes Bausch and Toby Cubitt. <em>The Complexity of Divisibility</em>(EasyChair Submission ID: 17) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/17-Bausch.pdf">abstract</a>
+<br/>
+
+116. Karol Horodecki and Glaucia Murta. <em>Bounds on quantum non-locality via partial transposition</em>(EasyChair Submission ID: 116) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/116-Horodecki.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1407.6999">arxiv:1407.6999</a>
+<br/>
+
+117. Jeongwan Haah. <em>An invariant of topologically ordered states under local unitary transformations</em>(EasyChair Submission ID: 172) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/172-Haah.pdf">abstract</a>
+<br/>
+
+118. Dong-Sheng Wang and Barry C. Sanders. <em>Quantum Circuit Design for Accurate Simulation of Qudit Channels </em>(EasyChair Submission ID: 5) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/65-Wang.pdf">abstract</a>
+<br/>
+
+119. Anurag Anshu, Rahul Jain, Priyanka Mukhopadhyay, Ala Shayeghi and Penghui Yao. <em>A new operational interpretation of relative entropy and trace distance
+between quantum states </em>(EasyChair Submission ID: 7) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/7-Anshu.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1404.1366">arxiv:1404.1366</a>
+<br/>
+
+120. Joseph Renes and Volkher B. Scholz. Operationally-motivated Heisenberg uncertainty relations (EasyChair Submission ID: 103) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/103-Renes.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1402.6711">arxiv:1402.6711</a>
+<br/>
+
+121. Mathis Friesdorf, Albert Werner, Winton Brown, Volkher B. Scholz,  and Jens Eisert. <em>Many-body localisation implies that eigenvectors are
+matrix-product states</em> (EasyChair Submission ID: 92) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/92-Friesdorf.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.1252">arxiv:1409.1252</a>
+<br/>
+
+122. Ning Bao, Patrick Hayden, Grant Salton, and Nathaniel Thomas. <em>Universal Quantum Computation by Scattering in the Fermi-Hubbard Model</em> (EasyChair Submission ID: 156) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/156-Bao.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1409.3585">arxiv:1409.3585</a>
+<br/>
+
+123. Yudong Cao and Daniel Nagaj. <em>Perturbative gadgets without strong interactions</em> (EasyChair Submission ID: 53) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/53-Cao.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1408.5881">arxiv:1408.5881</a>
+<br/>
+
+124. Aharon Brodutch, Daniel Nagaj, Or Sattath, and Dominique Unruh. <em>Bombs do not have to explode, forgers can get away scot-free (an adaptive
+attack on Wiesner's quantum money)</em> (EasyChair Submission ID: 179) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/179-Brodutch.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1404.1507">arxiv:1404.1507</a>
+<br/>
+
+125. Harry Buhrman, Serge Fehr, and Christian Schaffner. <em>On the Parallel Repetition of Multi-Player Games: The No-Signaling Case</em> (EasyChair Submission ID: 4) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/4-Buhrman.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1312.7455">arxiv:1312.7455</a>
+<br/>
+
+126. Teresa Piovesan, Giannicola Scarpa, and Christian Schaffner.  <em>Multi-party zero-error classical channel coding with entanglement</em> (EasyChair Submission ID: 58) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/58-Piovesan.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1403.5003">arxiv:1403.5003</a>
+<br/>
+
+127. Christoph Hirche, Ciara Morgan and Mark M. Wilde. <em>Polar codes in network quantum information theory</em>(EasyChair Submission ID: 98)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/98-Hirche.pdf">abstract</a>
+<br/>
+
+128. Martin Ringbauer, Christopher J. Wood, Kavan Modi, Alexei Gilchrist, Andrew G. White, and Alessandro Fedrizzi.  <em>Characterizing quantum dynamics with initial system-environment correlations</em> (EasyChair Submission ID: 70) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/70-Ringbauer.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.5826">arxiv:1410.5826</a>
+<br/>
+
+129. Liu Yang and Shengyu Zhang.  <em>Fast quantum algorithms for Least Squares Regression and Statistic Leverage Scores</em> (EasyChair Submission ID: 34) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/34-Yang.pdf">abstract</a>
+<br/>
+
+130. Artur S. L. Malabarba, Anthony J. Short, Philipp Kammerlander.  <em>Autonomous thermal operations</em> (EasyChair Submission ID: 65) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/65-Malabarba.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1412.1338">arxiv:1412.1338</a>
+<br/>
+
+
+<!--
+131. Yuval Sanders, Markku Stenberg, and Frank Wilhelm.  <em>Efficient system characterization under conditions of extreme uncertainty</em>(EasyChair Submission ID: 53)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="./posters/53-Sanders.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1407.5631">arxiv:1407.5631</a>
+<br/>
+replaced by the following one-->
+
+131. Seung-Woo Lee, Hoyong Kim, and Hyunseok Jeong. <em>Hybrid quantum information processing with single photons and coherent
+states</em>(EasyChair Submission ID: 22) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/22-Lee.pdf">abstract</a>
+<br/>
+
+132. Ish Dhand, Hubert de Guise and Barry C Sanders. <em>Group-theoretic Algorithms for Multiphoton Interferometery</em> (EasyChair Submission ID: 87) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/87-Dhand.pdf">abstract</a>
+<br/>
+
+133. Koji Azuma, Kiyoshi Tamaki, and Hoi-Kwong Lo. <em> All photonic quantum repeaters </em> (EasyChair Submission ID: 66) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/66-Azuma.pdf">abstract</a>
+<br/>
+
+134. Raban Iten, Roger Colbeck, Jonathan Home, and Matthias Christandl. <em>Quantum Circuits for Isometries</em>(EasyChair Submission ID: 145) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/145-Iten.pdf">abstract</a>
+<br/>
+
+135. Anna Szymusiak.<em>Pure states of minimum and maximum uncertainty for SIC-POVMs</em>(EasyChair Submission ID: 42) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/42-Szymusiak.pdf">abstract</a>
+<br/>
+
+
+136. Christopher Perry, Rahul Jain and Jonathan Oppenheim.<em>Communication tasks with infinite quantum-classical separation</em>(EasyChair Submission ID: 41) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/41-Perry.pdf">abstract</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1407.8217">arxiv:1407.8217</a>
+<br/>
+
+
+137. Saleh Rahimi-Keshari, Austin Lund and Tim Ralph.<em>What can quantum optics say about computational complexity theory? </em>(EasyChair Submission ID: 29) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/29-Rahimi-Keshari.pdf">abstract</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1408.3712">arxiv:1408.3712</a>
+<br/>
+
+138. Marcin Wiesniak, Junghee Ryu and Arijit Dutta.<em>Outcome strategies in geometric Bell inequalities</em>(EasyChair Submission ID: 11) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/11-Wiesniak.pdf">abstract</a>
+<br/>
+
+
+139. Nairi Usher and Dan E. Browne.<em>Non-unitary quantum gates and QMA</em>(EasyChair Submission ID: 60) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/60-Usher.pdf">abstract</a>
+<br/>
+
+140. Alexander Muller-Hermes, David Reeb and Michael Wolf. <em>Tensor-stable positive maps for quantum information theory</em>(EasyChair Submission ID: 118) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/118-Muller-Hermes.pdf">abstract</a>
+<br/>
+
+141. Huy Nguyen Le, Yu Cai and Valerio Scarani. <em>Witnessing the complexity of multiqubit states</em> 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/Nguyen.pdf">abstract</a>
+<br/>
+
+142. Angela Karanjai, Stephen Bartlett and Terry Rudolph. <em>Classical Weak Values and what they tell us about the
+Quantum Weak Value</em>(EasyChair Submission ID: 66) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/66-Karanjai.pdf">abstract</a>
+<br/>
+
+143. A. Romanelli, R. Donangelo, R. Portugal and F. L. Marquezino. <em>Thermodynamics of N-dimensional quantum walks</em>(EasyChair Submission ID: 4) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/4-Romanelli.pdf">abstract</a>
+<br/>
+
+144. Mario Berta, Kaushik P. Seshadreesan and Mark M. Wilde. <em>Renyi generalizations of quantum information measures</em>(EasyChair Submission ID: 142) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/142-Berta.pdf">abstract</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1403.6102">arxiv:1403.6102</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1410.1443">arxiv:1410.1443</a>
+<br/>
+
+145. Somshubhro Bandyopadhyay, Alessandro Cosentino, Nathaniel Johnston, Vincent Russo, John Watrous, Nengkun Yu. <em>Limitations on separable measurements by convex optimization</em>(EasyChair Submission ID: 134) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/134-Bandyopadhyay.pdf">abstract</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1408.6981">arxiv:1408.6981</a>
+<br/>
+
+146. Keith Motes, Peter Rohde, Kaushik Seshadreesan, Jonathan Olson, Paul Knott, William Munro and Jonathan Dowling. <em>Boson-sampling with non-Fock states</em>(EasyChair Submission ID: 13) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/13-Motes.pdf">abstract</a>
+<br/>
+
+147. Christopher Chubb and Steven Flammia. <em>Polynomial-time degenerate ground state approximation of gapped 1D Hamiltonians</em>(EasyChair Submission ID: 63) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/63-Chubb.pdf">abstract</a>
+<br/>
+
+148. Hartmut Klauck and Supartha Podder. <em>Two Results about Quantum Messages</em>(EasyChair Submission ID:85)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/85-Klauck.pdf">abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1402.4312">arxiv:1402.4312</a>
+<br/>
+
+149. Michael Herold, Earl T. Campbell, Jens Eisert and Michael J. 
+Kastoryano. <em>Cellular-automaton decoders for topological quantum memories</em>(EasyChair Submission ID: 114) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/114-Herold.pdf">abstract</a>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://arxiv.org/abs/1406.2338">arxiv:1406.2338</a>
+<br/>
+
+150. Rafael N. Alexander, Natasha C. Gabay, Nicolas C. Menicucci. <em>Linear optical measurement-based quantum computation with gain tuning</em>(EasyChair Submission ID: 84) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/84-Alexander.pdf">abstract</a>
+<br/>
+
+151. G.K. Brennen, T. F. Demarie and N. C. Menicucci. <em>Anonymous broadcasting with a continuous variable surface code</em>(EasyChair Submission ID: 199) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/199-Brennen.pdf">abstract</a>
+<br/>
+
+152. Simon Burton. <em>Interaction Picture for Braiding and Fusion in TQFT's</em>(EasyChair Submission ID:58) 
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="posters/58-Burton.pdf">abstract</a>
+<br/>
+
+<br/><br/><br/><br/>
+</body></html>

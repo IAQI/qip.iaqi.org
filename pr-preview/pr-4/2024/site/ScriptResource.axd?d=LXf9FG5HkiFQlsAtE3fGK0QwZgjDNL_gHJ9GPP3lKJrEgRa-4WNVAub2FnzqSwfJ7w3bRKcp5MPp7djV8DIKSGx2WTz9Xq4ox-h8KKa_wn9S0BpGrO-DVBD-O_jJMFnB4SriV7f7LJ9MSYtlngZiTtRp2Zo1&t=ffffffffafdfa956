@@ -1,0 +1,79 @@
+// Name:        Seadragon.Seadragon.Config.debug.js
+// Assembly:    AjaxControlToolkit
+// Version:     4.1.7.725
+// FileVersion: 4.1.7.0725
+// (c) 2010 CodePlex Foundation
+Type.registerNamespace('Sys.Extended.UI.Seadragon');
+Type.registerNamespace('Seadragon');
+Sys.Extended.UI.Seadragon.Config = function() {
+
+    this.debugMode = true;
+
+    this.animationTime = 1.5;
+
+    this.blendTime = 0.5;
+
+    this.alwaysBlend = false;
+
+    this.autoHideControls = true;
+
+    this.immediateRender = false;
+
+    this.wrapHorizontal = false;
+
+    this.wrapVertical = false;
+
+    this.minZoomDimension = 0.8;
+
+    this.maxZoomPixelRatio = 2;
+
+    this.visibilityRatio = 0.5;
+
+    this.springStiffness = 5.0;
+
+    this.imageLoaderLimit = 2;
+
+    this.clickTimeThreshold = 200;
+
+    this.clickDistThreshold = 5;
+
+    this.zoomPerClick = 2.0;
+
+    this.zoomPerSecond = 2.0;
+
+    this.showNavigationControl = true;
+
+    this.maxImageCacheCount = 100;
+
+    this.minPixelRatio = 0.5;
+
+    this.mouseNavEnabled = true;
+
+    this.navImages = {
+        zoomIn: {
+            REST: 'WebResource.axd?d=08IbcGsleLCLOYq28753FUC87j-GS506XyZg0bI34TDnfxQgggOFo_qKvXC6FW6mN5Xizz2SldK2WI8wiX8ntcAFajLOShdj7ezE6iuttYqm56rV7ZZ-Kv77uOP0Lzmj3wLjpA2&t=635154913704088000',
+            GROUP: 'WebResource.axd?d=1a0P4QZmftMUpXqKtSuBNSvPd3CxXkFogcCb8fmEMkURS_xt38LFjljCFdSMdztv2pFdiSsKnJqIoq6YEHaWbyT8eGUkQDyzoOcfpnMni2JZCBUjYTOKfuH7bp75Hw2RwH8YwTTkydNn8lRlBTv0TJC2PUI1&t=635154913704088000',
+            HOVER: 'WebResource.axd?d=poKDT57Uf2z5ih3wIG-gWlTEvFP6kdHyWgdR6MnZ02bSc-5MSbEdhTAKpHDs11Uwnhk-eqdlyQG4S3vyxVGsQ7z3Sy2LI_W1zoL8JTgNYx5Wbm4DasjlSS9f4Z95PqWN-xPqXw2&t=635154913704088000',
+            DOWN: 'WebResource.axd?d=kFkrRIhennkl1Qr1OUYHcbpwgcfoDxwOIfJYjxwKnz_AHh6e2NXZcouyxxbEF_KtN_RQEc8-QQrK9vl75yrbXFxU8LoHssaa546damPDSuvVMTzAOeizCtegKEspiYXErMw9rA2&t=635154913704088000'
+        },
+        zoomOut: {
+            REST: 'WebResource.axd?d=WR94Xew4IA59yyvblmPiL0WRxVsv-5VPzGJG_qC_4z_VvtEvMG4SrcwQbFU8Bc8qSviwA1eTglx31y7Q2I43UbgyNrNOO55q41u0hEcTAmR1zQb-KrKqTNOrTzTDkmF-n0erxA2&t=635154913704088000',
+            GROUP: 'WebResource.axd?d=Md-ywT3oU7uAUTdrFzWKHWOLkVuXOIm6V5OomQqiTF22oL49PHCBHc9Iz3-P7UXPc9a8PDtq9mOG1T0K7CCLGIK8VzgXyaVKvoxadhdl6SvXmWECmIryXa_RciQ1xgk7nZ08vYJtwXmjOK0o4C9p2DHYYFU1&t=635154913704088000',
+            HOVER: 'WebResource.axd?d=g4PuriYKKXMO-X6wcEN7jQbM5eMynR6VkV7DKzvxyCkcT7l20GM5p6KM4N69p0ALh1ElhAKkdHKQEQK1sgoYGkdOFcJ_BifhBaaLRXOF5OTlVGgpS-t5HA-mUnba9_K4Vh0Aww2&t=635154913704088000',
+            DOWN: 'WebResource.axd?d=Nx5iDAC4FX3COOLEIg9QQiQdDKOpyYOOoX7yhqrpD6r3cjYqU9UXvfklEvsjHYUmKfLxsJ7Y58ZIJm8rBv_yD_G_pyckze1DJ8aUFI8NsNLVuhJHCNLEC2SQ3BwmfoFRRV-7SlNzVOgYgGG-2w-zbEuZaTU1&t=635154913704088000'
+        },
+        home: {
+            REST: 'WebResource.axd?d=oZ-FU6oZ-o3X1_YQygos7emRFD_3EiY_bfZVMS8eWJI7wCC_6rtt-LURP9MGcwYxT3Y-XWncX8HXQKQCfaIZbjoTPUxpJusde_B2fX7_SsYarrZzwXBHQJQeokY5ayclAOoSuQ2&t=635154913704088000',
+            GROUP: 'WebResource.axd?d=fFcl4OFDVAWCosxbnciyiZ_ffJ0GVRwqZu6qYKaNacgQ59UNpvzs1UEo4rhwZ71zFZLB_5NN3yye-83DS3im7rTHPSWBNksRVF4aotK-eCOoJAUcXyqYqZB-7WnBHWCkX_wJ5zcC3hTrzHg089niy3_vBhU1&t=635154913704088000',
+            HOVER: 'WebResource.axd?d=FwEUG6G4OKbHqAy9biHSZphZbullONzwRdeMO4LciSHtslx_uq_sDh2w4QV_qWVm1lGz3GUw-DEqwhDrBm3NMsYjebpjGFYf9NJUR7ne_anfCl2-KNrBhAe0i4NAkNq5CKm0RQ2&t=635154913704088000',
+            DOWN: 'WebResource.axd?d=_5odbsHXhr8zdAGCAyEmtJqTYIP5iUa3QOdhz6WdxRebdHKzYv_bP7yfg10Fluej5tvk7NERVEWUoIdEy0tmUxAtf9XMb2kP6RaQBQwqqoOIo4Lo82ABzhq1ocCRBQXHNGxLQg2&t=635154913704088000'
+        },
+        fullpage: {
+            REST: 'WebResource.axd?d=RBB9zsILfDBju_zNfhvdFRl83zG-C8byAahQFseYsAwl8DQJgAkwaayprHTArL3Nsf5cH-6E22WKPr0KG6O5inKqRk2Q3CqMH7dBk072iYnuVs8blwv6J9k63xKgRiLTfvCBkw2&t=635154913704088000',
+            GROUP: 'WebResource.axd?d=-dkvoY3D4caxoT5qQGnyQi0JAHNjNFdAcnf1sJp8RMxLYVfQutOyLp9TeXNWKzzhdq8-F9c24zw-yAOSRWOxl783DDXeYsCbW6_YW3DFb2ZjDtTfZkeOWJMlClHFPV02zYMtlxPiESFyDRw9uZ5Fi-39HaY1&t=635154913704088000',
+            HOVER: 'WebResource.axd?d=BFaQwlDRtPXJbehG7_1LGq3E75JTkuEhOH_21c-ci5u-Vi0kP_59NoEvFWKCxlf5QjJSz4dOjbpg8lBJCmYB5Ef4v8Q7_KCn9xj96K2hQzUTfkpKHKSDVleH9d_oYBd9dNrJMg2&t=635154913704088000',
+            DOWN: 'WebResource.axd?d=9wiJ6dsrWx-eOxSCBDrkRM-Y0LbiIYxRGKMkXq2_sCqBx-_1P67SLGA3cKVoeQ9p3nYll62jk6pTOjD-V8lAHbAABTm1ZfpjgxxEFLQidfdTHWP_KbNm4Aeo44r0K3SlBnqbYxPHwaimHa0qJcKlXTxqSN81&t=635154913704088000'
+        }
+    };
+};
+Sys.Extended.UI.Seadragon.Config.registerClass('Sys.Extended.UI.Seadragon.Config', null, Sys.IDisposable);

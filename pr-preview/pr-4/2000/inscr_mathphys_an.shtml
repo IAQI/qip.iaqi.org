@@ -1,0 +1,229 @@
+<!DOCTYPE html><html><head>
+<title>CRM: Registration - Mathematical Physics 1999-2000</title>
+<link rel="StyleSheet" href="general-reg.css" title="general" media="screen">
+</head>
+
+<body bgcolor="#FFFFFF"><a name="top"></a>
+<p class="header" align="CENTER">C&nbsp;e&nbsp;n&nbsp;t&nbsp;r&nbsp;e&nbsp;&nbsp;d&nbsp;e&nbsp;&nbsp;r&nbsp;e&nbsp;c&nbsp;h&nbsp;e&nbsp;r&nbsp;c&nbsp;h&nbsp;e&nbsp;s&nbsp;&nbsp;m&nbsp;a&nbsp;t&nbsp;h&nbsp;é&nbsp;m&nbsp;a&nbsp;t&nbsp;i&nbsp;q&nbsp;u&nbsp;e&nbsp;s</p>
+<p class="lang" align="RIGHT"><a class="lang" href="inscr_mathphys_fr.shtml">en français</a></p>
+
+<h1 align="CENTER">Registration</h1>
+<h3 align="CENTER">for the activities of the <a href="../theme/theme_1999-2000_an.html">1999-2000 Theme Year</a> in</h3>
+<h2 align="CENTER">Mathematical Physics</h2>
+
+<hr>
+
+<form method="POST" action="../../cgi/InscriptionGeneraleEng.csh">
+<input type="HIDDEN" name="Activity" value="Theme Year in Mathematical Physics, 1999-2000">
+<input type="HIDDEN" name="Language" value="English">
+
+<h3>Activity(ies) chosen</h3>
+
+<center>
+<table border="1">
+
+<tbody><tr>
+<th colspan="3">Please indicate your choice(s): </th>
+</tr>
+
+<!-- Workshops -->
+
+<tr>
+<th align="LEFT" colspan="3"><font size="+1">Workshops:</font><br></th>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Theoretical Methods for Strongly Correlated Fermions" value="Chosen"> </td>
+<td align="LEFT">Workshop on Theoretical Methods for Strongly Correlated Fermions </td>
+<td align="RIGHT">May 26-30, 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Non-linear Dynamics and Renormalization Group" value="Chosen"> </td>
+<td align="LEFT">Workshop on Non-linear Dynamics and Renormalization Group </td>
+<td align="RIGHT">August 22-27, 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Aspects of Quantization" value="Chosen"> </td>
+<td align="LEFT">Workshop on Aspects of Quantization </td>
+<td align="RIGHT">September 23-28, 1999 </td>
+</tr>
+
+<tr>
+<!--<TD ALIGN=CENTER VALIGN=MIDDLE><INPUT TYPE=CHECKBOX NAME="Workshop on Quantum Information Processing" VALUE="Chosen"> </TD>-->
+<td align="CENTER" valign="MIDDLE"> -&gt; </td>
+<td align="LEFT">Workshop on Quantum Information Processing: 
+   <li><input type="CHECKBOX" name="Workshop on Quantum Information Processing (Tutorial 6 December)" value="Chosen">Tutorial (6 December)
+   </li><li><input type="CHECKBOX" name="Workshop on Quantum Information Processing (Technical sessions 7-11 December)" value="Chosen">Technical sessions (7-11 December)
+</li></td>
+
+
+<td align="RIGHT">December 6-11, 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Strings, Duality and Geometry(March 22-25, 2000)" value="Chosen"> </td>
+<td align="LEFT">Workshop on Strings, Duality and Geometry </td>
+<td align="RIGHT">March 22-25,  2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Isomonodromic Deformations and Applications in Physics" value="Chosen"> </td>
+<td align="LEFT">Workshop on Isomonodromic Deformations and Applications in Physics </td>
+<td align="RIGHT">May 1-6, 2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Workshop on Mathematical Physicists in Finance and Industry" value="Chosen"> </td>
+<td align="LEFT">Workshop on Mathematical Physicists in Finance and Industry </td>
+<td align="RIGHT">June 12-17, 2000 </td>
+</tr>
+
+<!-- Concentration Periods -->
+
+<tr>
+<th align="LEFT" colspan="3"><font size="+1">Concentration Periods:</font><br></th>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Quantum Algebras and Integrability" value="Chosen"> </td>
+<td align="LEFT">Quantum Algebras and Integrability </td>
+<td align="RIGHT">April 2-30, 2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Integrable Models in Condensed Matter and Non-Equilibrium Physics" value="Chosen"> </td>
+<td align="LEFT">Integrable Models in Condensed Matter and Non-Equilibrium Physics </td>
+<td align="RIGHT">May 14 - June 11, 2000 </td>
+</tr>
+
+</tbody></table>
+</center>
+
+<!-- SubFormEngPersonnel.html -->
+
+<h3>Personal Data:</h3>
+<p><b>Title: </b>
+<select name="Title">
+<option value="Dr." selected=""> Dr.
+</option><option value="Mr."> Mr.
+</option><option value="Ms."> Ms.
+</option></select></p>
+<p><b>Status: </b>
+<select name="Status">
+<option value="Graduate Student"> Graduate student
+</option><option value="Postdoctoral Fellow"> Postdoctoral Fellow
+</option><option value="Professor" selected=""> Professor
+</option><option value="Other Status"> Other
+</option></select></p>
+<pre>	     Surname: <input name="Surname">		   Given name: <input name="Given name">
+	 Institution: <input name="Affiliation" type="text" size="66">
+Institutional Address (including city, province/state, postal/zip code, country):
+		      <textarea name="Institutional Address" rows="5" cols="66"></textarea>
+Mailing Address (if different from the above):
+		      <textarea name="Mailing Address" rows="5" cols="66"></textarea>
+    Office Telephone: <input name="Office Telephone">	       Home Telephone: <input name="Home Telephone">
+		 Fax: <input name="Fax">
+      E-mail address: <input name="E-mail address" type="text" size="66">
+ WEB address: http:// <input name="WEB address: http://" type="text" size="66">
+	 Citizenship: <input name="Citizenship">
+</pre>
+
+
+<hr size="3" width="80%">
+
+<h3>Registration Fees (no registration fee is charged for the Workshop on Quantum Information Processing)<br><font size="-1">(non-refundable)</font></h3>
+<center>
+<table border="2">
+<tbody><tr><th align="LEFT">Please indicate the appropriate category: </th><th align="RIGHT">Price per workshop or concentration period<br></th></tr>
+<tr><th align="LEFT"><input type="radio" name="Category" value="Faculty member" checked="">Faculty member</th><td align="RIGHT">CDN&nbsp;$&nbsp;100<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Category" value="Postdoctoral fellow">Postdoctoral fellow</th><td align="RIGHT">CDN&nbsp;$&nbsp;50<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Category" value="Full-time student">Full-time student</th><td align="RIGHT">CDN&nbsp;$&nbsp;25<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Category" value="Industrial researcher">Industrial researcher</th><td align="RIGHT">CDN&nbsp;$&nbsp;200<br></td></tr>
+</tbody></table>
+</center>
+
+<!-- SubFormEngPaiement.html -->
+
+<h3>Method of payment:</h3>
+
+<p><input type="radio" name="Method of payment" value="Cheque" checked="">
+Cheque payable to <em>Centre de recherches mathématiques</em> (drawn on Canadian or US bank only)</p>
+
+<p><input type="radio" name="Method of payment" value="Money order">
+International money order payable to <em>Centre de recherches mathématiques</em> (drawn on Canadian or US bank only)</p>
+
+<p><input type="radio" name="Method of payment" value="VISA"> Credit card: VISA</p>
+
+<p><input type="radio" name="Method of payment" value="MasterCard"> Credit card: MasterCard</p>
+
+<p>If you pay by cheque or money order, or if you prefer to send your credit card info. by post, our postal address is:</p>
+<pre>	Centre de recherches mathématiques
+	Université de Montréal
+	Case postale 6128, succursale centre-ville
+	Montréal (Québec) H3C 3J7</pre>
+
+<p><strong>Information about credit card:</strong></p>
+<pre>      Name of Cardholder: <input name="Name of cardholder">
+		  Number: <input name="Number of credit card">
+	     Expiry Date: <input name="Expiry date of credit card"></pre>
+
+<h5 align="CENTER">IMPORTANT: The above information <em>will not be encoded.</em><br>
+Transmission of this data by Internet is at your own risk.<br>
+You may, if you prefer, send this information by post (see address above) or fax it to (514) 343-2254.</h5>
+
+
+<hr size="3" width="80%">
+
+<!-- SubFormEngLogement.html -->
+
+<h3>Accommodation:</h3>
+<pre><strong>Would you like the CRM to book accommodation for you?</strong>	<input type="radio" name="Reserve accomodation" value="Yes">Yes	<input type="radio" name="Reserve accomodation" value="No" checked="">No</pre>
+<strong>Hotel</strong> (consult <a href="../../coord/hotels_an.html">this list of hotels</a>)
+<pre>	  First choice: <input name="First choice of hotel">
+	 Second choice: <input name="Second choice of hotel">
+</pre>
+<pre><strong>Occupancy:</strong>	<input type="radio" name="Occupancy" value="single" checked="">Single	<input type="radio" name="Occupancy" value="double">Double</pre>
+<pre>    Date of arrival at hotel: <input name="Date of arrival at hotel">
+    Time of arrival at hotel: <input name="Time of arrival at hotel">
+Date of departure from hotel: <input name="Date of departure from hotel">
+</pre>
+<h4>Important: In order to guarantee your hotel reservation,<br>
+please enter credit card information in the section "Method of payment",<br>
+even if you have chosen a different payment method.</h4>
+
+
+<hr size="3" width="80%">
+
+<!-- SubFormEngDivers.html -->
+
+<h3>Further Information:</h3>
+<p>Please enter any further information or explanatory comments
+which you would like to include with your registration:</p>
+<p><textarea name="Further Information" rows="5" cols="66"></textarea></p>
+
+
+<hr size="3" width="80%">
+<h3>If you have completed this form...</h3>
+<p>
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</p>
+
+</form>
+
+<hr>
+
+<h3><img src="ball.gif" alt="o">&nbsp;Return to the <a href="../theme/theme_1999-2000_an.html">1999-2000 Theme Year</a> page</h3>
+
+<hr>
+<p align="CENTER">
+<a href="../../CRM_HOME_Frn.html"><img src="HomeFrancais.gif" alt="[Page d'accueil du CRM]" width="129" height="37"></a>
+<a href="../../CRM_HOME_Eng.html"><img src="HomeEnglish.gif" alt="[CRM Home Page]" width="129" height="37"></a><br>
+<strong>4 mars 1999, <em><a href="mailto:webmaster@CRM.UMontreal.CA">webmaster@CRM.UMontreal.CA</a></em></strong>
+</p>
+
+
+
+</body></html>

@@ -1,0 +1,90 @@
+BODY{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+}
+TD{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+  color:#000000;
+}
+H1{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:18pt;
+  color:#000015;
+}
+H2{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:16pt;
+  color:#000015;
+}
+H3{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:12pt;
+  color:#000015;
+}
+H4{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+  color:#000015;
+}
+H5{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+  color:#000015;
+}
+H6{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:9pt;
+  color:#000015;
+}
+/*Class 'bodytext'*/
+.bodytext{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+}
+/*Class 'dates'*/
+.dates{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+  font-weight:bold;
+}
+/*Class 'description'*/
+.description{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+}
+/*Class 'email'*/
+.email{
+  font-family:"Andale Mono","Courier","Courier New","monospaced";
+  font-size:10pt;
+}
+/*Class 'medium'*/
+.medium{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:12pt;
+}
+/*Class 'menulinks'*/
+.menulinks{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+}
+/*Class 'nametitle'*/
+.nametitle{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:18pt;
+  font-weight:bold;
+}
+/*Class 'small'*/
+.small{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:10pt;
+}
+/*Class 'supersmall'*/
+.supersmall{
+  font-family:"Verdana","Arial","Geneva","Helvetica",sans-serif;
+  font-size:9pt;
+}
+/*Class 'whiteout'*/
+.whiteout{
+  color:white;
+}

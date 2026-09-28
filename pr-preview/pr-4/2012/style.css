@@ -1,0 +1,131 @@
+﻿@charset "ISO-8859-6";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Selecteurs d'elements/balises ~~ */
+ul, ol, dl { /* En raison des variations entre les navigateurs, il est conseille d'attribuer une valeur de zero aux marges interieures et aux marges des listes. A des fins de coherence, vous pouvez definir les valeurs desirees dans cette zone ou dans les elements de liste (LI, DT, DD) qu'elle contient. N'oubliez pas que les parametres que vous definissez ici se repercuteront sur la liste .nav, sauf si vous redigez un selecteur plus specifique. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la suppression de la marge superieure resout un probleme ou les marges sortent de leur div conteneur. La marge inferieure restante l'eloignera de tout element qui suit. */
+	padding-right: 15px;
+	padding-left: 15px; /* l'ajout de la marge interieure aux cotes des elements a l'interieur des divs, et non aux divs proprement dit, evite le recours a des calculs de modele de boite. Une autre methode consiste a employer une div imbriquee avec marge interieure laterale. */
+}
+a img { /* ce selecteur elimine la bordure bleue par defaut affichee dans certains navigateurs autour d'une image lorsque celle-ci est entouree d'un lien. */
+	border: none;
+}
+
+/* ~~ La definition du style des liens de votre site doit respecter cet ordre, y compris le groupe de selecteurs qui creent l'effet de survol. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* a moins que vous ne definissiez un style particulierement exclusif pour vos liens, mieux vaut prevoir un soulignement, qui garantit une identification visuelle rapide. */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* ce groupe de selecteurs offrira a un navigateur au clavier la meme experience de survol que celle d'une personne employant la souris. */
+	text-decoration: none;
+}
+
+/* ~~ Ce conteneur a largeur fixe entoure toutes les autres divs ~~ */
+.container {
+	width: 1000px;
+	background: #FFFFFF;
+	margin: 0 auto; /* la valeur automatique sur les cotes, associee a la largeur, permet de centrer la mise en page */
+}
+
+/* ~~ Aucune largeur n'est attribuee a l'en-tete. Il occupera toute la largeur de votre mise en page. Il contient un espace reserve pour une image, qui doit etre remplace par votre logo lie. ~~ */
+.header {
+	background: #fff;
+}
+
+/* ~~ Colonnes pour la mise en page. ~~ 
+
+1) La marge interieure n'est placee qu'en haut et/ou en bas des divs. Les elements a l'interieur de ces divs possederont une marge interieure sur les cotes. Vous evitez ainsi de devoir recourir a des <<?calculs de modele de boite?>>. N'oubliez pas que si vous ajoutez une marge interieure laterale ou une bordure a la div proprement dite, elle sera ajoutee a la largeur que vous definissez pour creer la largeur totale. Vous pouvez egalement supprimer la marge interieure de l'element dans la div et placer une seconde div a l'interieur, sans largeur et possedant une marge interieure appropriee pour votre concept.
+
+2) Toutes les colonnes etant flottantes, aucune marge ne leur a ete attribuee. Si vous devez ajouter une marge, evitez de la placer du cote vers lequel vous effectuez le flottement (par exemple, une marge droite sur une div configuree pour flotter vers la droite). Dans de nombreux cas, vous pouvez plutot employer une marge interieure. Pour les divs ou cette regle ne peut pas etre respectee, ajoutez une declaration <<?display:inline?>> a la regle de la div, afin de contourner un bogue qui amene certaines versions d'Internet Explorer a doubler la marge.
+
+3) Comme des classes peuvent etre employees a plusieurs reprises dans un document (et que plusieurs classes peuvent aussi etre attribuees a un element), les colonnes ont recu des noms de classes au lieu d'ID. Par exemple, deux divs de barre laterale peuvent etre empilees si necessaire. Elles peuvent etre tres facilement remplacees par des ID si vous le souhaitez, pour autant que vous ne les utilisiez qu'une fois par document.
+
+4) Si vous preferez que la navigation se trouve a droite et pas a gauche, faites flotter ces colonnes en sens oppose (toutes vers la droite au lieu de vers la gauche). Leur rendu s'effectuera dans l'ordre inverse. Il n'est pas necessaire de deplacer les divs dans le code HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background: #fff;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+}
+.sidebar2 {
+	float: left;
+	width: 220px;
+	background: #fff;
+	padding: 10px 0;
+}
+
+/* ~~ Ce selecteur groupe donne de l'espace aux listes dans la zone .content ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* cette marge interieure reflete la marge interieure droite dans les en-tetes et la regle de paragraphe ci-dessus. Une marge interieure a ete placee en bas, afin d'assurer un espace entre les autres elements des listes, et a gauche pour creer le retrait. Vous pouvez les regler comme bon vous semble. */
+}
+
+/* ~~ Styles de liste de navigation (peuvent etre supprimes si vous optez pour un menu de survol predefini tel que Spry) ~~ */
+ul.nav {
+	list-style: none; /* entraine la suppression du marqueur de liste */
+	border-top: 1px solid #666; /* cree la bordure superieure des liens?; les autres sont placees a l'aide d'une bordure inferieure sur la balise LI */
+	margin-bottom: 15px; /* cree l'espace entre la navigation et le contenu en dessous */
+	 
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* cree la separation des boutons */
+	 
+}
+ul.nav a, ul.nav a:visited { /* le regroupement de ces selecteurs garantit que vos liens conservent leur apparence de bouton, meme apres avoir ete actives */
+	padding: 5px 5px 5px 15px;
+	display: block; /* donne au bloc d'ancrage de facon a ce qu'il remplisse tout l'element LI qui le contient, de facon a ce que la zone tout entiere reagisse a un clic de souris. */
+	width: 160px;  /*cette largeur permet de cliquer sur le bouton entier dans IE6. Si la compatibilite avec IE6 n'est pas necessaire, vous pouvez la supprimer. Pour calculer la largeur approprie, soustrayez la marge interieure de ce lien de la largeur du conteneur de barre laterale. */
+	text-decoration: none;
+	background: #9acbe0; /* #ADB96E; */
+	color: #FFF;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* modifie la couleur de l'arriere-plan et du texte pour les navigateurs a la souris et au clavier. */
+	background: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ Styles de pied de page ~~ */
+.footer {
+	padding: 10px 0;
+	background: #9acbe0;
+	position: relative;/* donne hasLayout a IE6 de facon a permettre un effacement correct */
+	clear: both; /* cette propriete d'effacement force le .container a comprendre ou se terminent les colonnes et a les contenir */
+}
+
+/* ~~ Classes flottant/effacement diverses ~~ */
+.fltrt {  /* cette classe peut servir a faire flotter un element depuis la droite sur votre page. L'element flottant doit preceder l'element a cote duquel il doit apparaitre sur la page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* cette classe peut servir a faire flotter un element depuis la gauche sur votre page. L'element flottant doit preceder l'element a cote duquel il doit apparaitre sur la page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* cette classe peut etre placee sur une div <br /> ou vide, en tant qu'element final suivant la derniere div flottante (dans le .container) si le parametre .footer est supprime ou retire du .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}

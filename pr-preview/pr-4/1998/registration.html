@@ -1,0 +1,424 @@
+<html><head>
+	<title> AQIP'98 Registration Form</title>
+
+<script language="JavaScript">
+<!--
+
+ function DisplayMessageWindow(mess,syntax,example){
+   dialog=window.open('', 'displayWindow', 'width=520,height=200')
+   dialog.document.write("<HTML><HEAD><TITLE>AQIP'98 Registration Error Message</TITLE>\
+                          <BODY><H3 ALIGN=CENTER>AQIP'98 Registration Error Message</H3>")
+   dialog.document.write("<B>Error: <I>" + mess + "</B></I><BR>")
+   if(syntax != ""){
+    dialog.document.write("<P>The expected input format is:<B> " +
+             syntax + "</B><BR>")
+   }
+   if(example != ""){
+    dialog.document.write("<P>as, for instance, in:<I> " + example + "</I>")
+   }
+   dialog.document.write("<P ALIGN=CENTER> \
+                            <B>Please check your input and submit again</B>" +
+                         "<CENTER>                             \
+                              <FORM>                           \
+                                <INPUT TYPE=\"button\"         \
+                                    NAME=\"Button\"            \
+                                    VALUE=\"Dismiss\"          \
+                                    onClick=\"window.close()\">\
+                              </FORM>")
+ }
+
+ function isSep(c){
+   return c == '.' || c == '+' || c == '(' || c == ')' || c == '-' || c == ' ';
+ }
+
+ function isDigit(c){
+   return '0' <= c && c <= '9';
+ }
+
+ function Empty(str){
+  if(str == "")
+     return true;
+  for(var i=0;i<str.length;i++)
+     if(str.charAt(i) != " " && str.charAt(i) != "\t")
+         return false;
+  return true;
+ }
+ 
+ function CheckNumber(s){
+   for(var i=0;i<s.length;i++){
+       if(!isDigit(s.charAt(i)) && !isSep(s.charAt(i))){
+	   return false;
+       }
+   }
+   return true;
+ }
+
+function isNParseInt (s) {
+   var i;
+   i = parseInt(s);
+   if (!isNaN(i)) { return i }
+   else { return 0 }
+}
+
+function CheckEmail(s){
+   for(var i=0;i<s.length;i++)
+     if(s.charAt(i)=="@" && i>0) break
+         else if(s.charAt(i)==" ") return false;
+   if(i==s.length)
+        return false;
+   for(var j=++i;j<=s.length;j++)
+     if(s.charAt(j)=="." && j>i) break
+         else if(s.charAt(j)==" ") return false;
+   return j<s.length;
+ }
+
+function CheckForm(f){
+   if(Empty(f.surname.value)){
+       DisplayMessageWindow("A SURNAME MUST BE PROVIDED",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.firstname.value)){
+       DisplayMessageWindow("A FIRST NAME MUST BE PROVIDED",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.affiliation.value)){
+       DisplayMessageWindow("AFFILIATION IS MANDATORY",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.mailingaddress.value)){
+       DisplayMessageWindow("A MAILLING ADDRESS FOR CORRESPONDENCE MUST BE GIVEN",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.postalcode.value)){
+       DisplayMessageWindow("POSTAL CODE MUST BE STATED",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.city.value)){
+       DisplayMessageWindow("CITY MUST BE STATED",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.country.value)){
+       DisplayMessageWindow("COUNTRY MUST BE PROVIDED",
+                            "A non-empty string","");
+       return false;
+   }
+   if(Empty(f.email.value) || !CheckEmail(f.email.value)){
+       DisplayMessageWindow("AN EMAIL ADDRESS MUST BE PROVIDED",
+                            "user@site(.subdomain)*.domain",
+                            "name@dept.univ.country");
+       return false;
+   }
+   if(Empty(f.phone.value) || !CheckNumber(f.phone.value)){
+       DisplayMessageWindow("A PHONE NUMBER MUST BE PROVIDED",
+                            "[digit,+,-,(,), ]+",
+                            "+1 (30) 2321</I>.\
+                           Enter a - if you do not have a phone.<I>");
+       return false;
+   }
+   if(Empty(f.fax.value) || !CheckNumber(f.fax.value)){
+       DisplayMessageWindow("A FAX NUMBER MUST BE PROVIDED",
+                            "[digit,+,-,(,), ]+",
+                            "+1 (30) 2321</I>.\
+                           Enter a - if you do not have a fax.<I>");
+       return false;
+   };
+   if ((!Empty(f.absarr.value)||!Empty(f.absdep.value))
+    && (!Empty(f.abdarr.value)||!Empty(f.abddep.value))) {
+       DisplayMessageWindow("YOU CANNOT BOOK BOTH A SINGLE AND A DOUBLE ROOM",
+                            "","");
+       return false;
+   };
+   if (!checkAccBookCat (f.absarr,f.absdep)) { return false };
+   if (!checkAccBookCat (f.abdarr,f.abddep)) { return false };
+   if (!(f.stapply.checked || f.stnoapply.checked)) {
+       DisplayMessageWindow("PLEASE STATE WHETHER YOU WOULD LIKE\
+       TO APPLY FOR A STIPEND",
+                            "Checked checkbox","");
+       return false;
+   };
+   if (f.stapply.checked && !(f.ptnowithdraw.checked
+      || f.ptwithdraw.checked)) {
+       DisplayMessageWindow("PLEASE STATE WHETHER YOU WANT THE REGISTRATION\
+       TO BE PROSSED AS A NORMAL ONE IN CASE NO MORE PHD STIPENDS ARE\
+       AVAILABLE",
+                            "Checked checkbox","");
+       return false;
+   };
+   return true;
+}
+
+function onStipendType (stipendtype) {
+  if (stipendtype.checked) {
+    // clear all others
+    if (stipendtype.name != "stnoapply") {
+      document.f.stnoapply.checked = false };
+    if (stipendtype.name != "stapply") {
+      document.f.stapply.checked = false;
+      clearProcessType () }; }
+  else {
+    // clear fields which only makes sense with stipendtype checked
+    if (stipendtype.name == "stapply") { clearProcessType () };
+    // and becase there is only one other possible choise, check it
+    if (stipendtype.name == "stnoapply") { document.f.stapply.checked = true }
+    else { document.f.stnoapply.checked = true };
+  }
+}
+
+function onProcessType (processtype) {
+  if (processtype.checked) {
+    clearProcessType ();
+    processtype.checked = true;
+    implyProcessType ();
+    }
+  else {
+    document.f.stnoapply.checked = true;
+    document.f.stapply.checked = false;
+    clearProcessType () }
+}
+
+function clearProcessType () {
+  document.f.ptnowithdraw.checked = false;
+  document.f.ptwithdraw.checked = false;
+}
+
+function implyProcessType () {
+  if (!document.f.stapply.checked) {
+      document.f.stapply.checked = true;
+      onStipendType(document.f.stapply) }
+}
+
+function checkAccBookCat (arr,dep) {
+  if (!Empty(arr.value) || !Empty(dep.value)) {
+    if(Empty(arr.value)){
+      DisplayMessageWindow("PLEASE STATE DATE OF ARRIVAL",
+                           "A non-empty string","January 11");
+      return false };
+    if(Empty(dep.value)){
+      DisplayMessageWindow("PLEASE STATE DATE OF DEPARTURE",
+                           "A non-empty string","January 17");
+      return false }
+    return true}
+  else { return true }
+}
+
+// -->
+</script>
+<!-- Script made by Uffe Engberg (engberg@brics.dk)-->
+
+</head>
+
+<body background="index_files/bklb1605.gif" bgcolor="#3A61B6" text="#000000" link="#0000EE" vlink="#6B238E" alink="#00FFFF" "="">
+
+
+ <font size="+2">
+	     Fill in the registration form below, and submit it. This will return 
+	     by email a
+         completed form in Postscript format. You can print it out and use it
+             as your registration aknowledgement. The deadline for registration is
+             <ul>
+	        <li> <strong>January 2, 1998</strong> in normal case but
+                </li><li> <strong>December 15, 1997</strong> if you apply for a stipend.
+	     </li></ul> 
+             Do not fill this form if you  are an invited speaker.
+	     </font><p><font size="+2">
+	     <b>Note</b> that the workshop registration
+             fee covers refreshments, lunches, excursion and dinner.
+
+</font>
+
+<br><br><br>
+</p><center>
+<img src="index_files/bar227.gif" width="590" height="14">
+</center>
+<br><br>
+
+<form name="f" method="POST" action="../../cgi-engberg/AQIP98Reg/index.html">
+
+
+
+<center>
+<font size="+2"><b>BRICS</b></font><br>
+theme on <br>
+<font size="+2"><b>Algorithms in Quantum Information Processing '98</b></font><p>
+<b>UNIVERSITY OF AARHUS - DENMARK</b><br><br>
+<em>Workshop talks are scheduled for January 12-16</em>
+<br><br>
+<b>REGISTRATION FORM</b>
+</p></center>
+
+<br>
+<table border="1" cellspacing="0" cellpadding="2">
+
+<tbody><tr>
+<td>Surname:</td>
+<td><input type="text" name="surname" value="" size="25"></td>
+<td>First name:</td>
+<td><input type="text" name="firstname" value="" size="25"></td>
+</tr>
+
+<tr>
+<td>Affiliation:</td>
+<td colspan="3"><input type="text" name="affiliation" value="" size="60"></td>
+</tr>
+
+<tr>
+<td>Mailing address:</td>
+<td colspan="3"><input type="text" name="mailingaddress" value="" size="60"></td>
+</tr>
+
+<tr>
+<td>Postal code:</td>
+<td><input type="text" name="postalcode" value="" size="25"></td>
+<td>City:</td>
+<td><input type="text" name="city" value="" size="25"></td>
+</tr>
+
+<tr>
+<td>Country:</td>
+<td><input type="text" name="country" value="" size="25"></td>
+<td>E-mail:</td>
+<td><input type="text" name="email" value="" size="25"></td>
+</tr>
+
+<tr>
+<td>Phone: (+country code)</td>
+<td><input type="text" name="phone" value="" size="25"></td>
+<td>Fax:</td>
+<td><input type="text" name="fax" value="" size="25"></td>
+</tr>
+
+<tr>
+<td>Accompanying person(s) - Name:</td>
+<td colspan="3"><input type="text" name="accname" value="" size="60"></td>
+</tr>
+
+</tbody></table>
+
+<p>
+
+</p><p>
+<strong>DIETARY REQUIREMENTS:</strong>
+Vegetarian <input type="CHECKBOX" name="drvegetarian" value="x">
+
+
+</p><p><strong>PAYMENT:</strong> The registration fees is paid upon arrival to
+the workshop. It is
+</p><ul>
+  <li> 1000 DKK for a single person including lunches, refreshments and
+       social events.  The social events include an excursion and a
+       dinner. The fee does not include accommodation. 
+  </li><li> If an accompanying person will also attend the excursion and the
+       dinner it will cost an extra 500 DKK. If an accompanying person will
+       attend both the social events and the lunches then it will cost an
+       extra 1000 DKK.
+</li></ul>
+
+<p><strong>ACCOMODATION:</strong>
+
+</p><p> If you want to apply for a room from our pool, fill the following
+fields. The number of rooms is limited so we cannot guarantee you will get
+one. We handle the reservations on a first-come-first-served basis. Rooms
+are available during the period starting on January 11 to January 16.  We
+will notify you whether your demand can be satisfied or not. If not then
+you can search through the list of hotels reachable from the <a href="index.html#hotelinfo">home
+page</a>.  If you apply for a <a href="registration.html#stipend">stipend</a> and you get
+it, we might book you at our convenience so the registration information
+below would not be used.
+
+</p><p>
+<table border="1" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<td colspan="4"><b><center>ACCOMMODATION BOOKING</center>
+</b></td>
+</tr>
+<tr>
+<td><b>Category</b></td>
+<td align="CENTER"><b>DKK per night</b></td>
+<td align="CENTER"><b>Date of arrival</b></td>
+<td align="CENTER"><b>Date of departure</b></td>
+</tr>
+<tr>
+<td>Single room</td>
+<td align="CENTER">535</td>
+<td><input type="TEXT" name="absarr" size="16"></td>
+<td><input type="TEXT" name="absdep" size="16"></td>
+</tr>
+<tr>
+<td>Double room</td>
+<td align="CENTER">685</td>
+<td><input type="TEXT" name="abdarr" size="16" value=""></td>
+<td><input type="TEXT" name="abddep" size="16" value=""></td>
+</tr>
+</tbody></table>
+<br><i>Room prices include breakfast, VAT and service charges. Payment 
+directly to the hotel desk upon departure.</i>
+
+
+</p><p>
+I wish to share a double room with (state name):
+<input type="TEXT" name="shareroomwith" size="37" value="">
+
+</p><p>
+<strong>
+<a name="stipend">PHD STIPENDS:</a>
+</strong>
+
+</p><p> This section is for PhD students who want to apply for a stipend
+covering registration fee, accommodation and living expenses. It does not
+cover the traveling expense. The number of stipends available is limited.
+The deadline to apply for such a stipend is <strong>December 15</strong>.
+The conditions are:
+
+</p><ul>
+<li> You must be a PhD student,
+</li><li> Your supervisor must acknowledge that you are a PhD student. This can
+     be done by sending an <a href="mailto:aqip@brics.dk">e-mail</a> 
+     to <em>aqip@brics.dk</em>.
+</li></ul>
+Please state whether you would like to apply for a stipend:
+<dl compact="COMPACT">
+   <dt> <input type="checkbox" name="stnoapply" value="x" onclick="onStipendType (stnoapply)">  </dt><dd> I don't apply  for a PhD stipend.
+   </dd><dt> <input type="checkbox" name="stapply" value="x" onclick="onStipendType (stapply)"> </dt><dd> I wish to apply for a PhD stipend.
+
+<p>You will be notified when your demand is completed (including your
+supervisor acknowledgement) and processed. We process your demand only upon
+reception of your supervisor letter.  In case of no more stipends is
+available, do you want us to process your registration as a normal one?
+
+</p><p>
+</p><dl compact="COMPACT">
+   <dt> <input type="checkbox" name="ptnowithdraw" value="x" onclick="onProcessType(ptnowithdraw)"> </dt><dd> Yes, I want the
+	  registration to be processed as a normal one in case no more
+	  PhD stipends are available.
+   </dd><dt> <input type="checkbox" name="ptwithdraw" value="x" onclick="onProcessType(ptwithdraw)"> </dt><dd> No, I withdraw my
+	  registration in case no more PhD stipends are available.
+</dd></dl>
+</dd></dl>
+<hr>
+
+<p><b>Notice:</b> When submitting the registration form, a filled out form
+in Postscript format will be returned immediately to your e-mail address. 
+Later we will send you a confirmation of booking.
+
+</p><p><b>Paper:</b> <select name="pagesize"> <option> Letter </option><option selected=""> A4
+</option></select> </p><p>
+
+To submit your registration, press this button:
+<input type="submit" value="submit registration form" onclick="return CheckForm(f)">.<br>
+
+To reset the form, press this button: <input type="reset" value="Reset">.
+</p></form>
+<center>
+<img src="index_files/bar227.gif" width="590" height="14">
+</center>
+
+
+
+
+</body></html>

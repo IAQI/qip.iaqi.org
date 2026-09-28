@@ -1,0 +1,49 @@
+
+.taxonomy-images-the-terms {
+	margin: 10px 0;
+	padding: 0;
+	zoom: 1;
+}
+
+.taxonomy-images-the-terms:before,
+.taxonomy-images-the-terms:after {
+	clear: both;
+	content: "\0020";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.taxonomy-images-the-terms li,
+.taxonomy-images-the-terms a,
+.taxonomy-images-the-terms img {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.taxonomy-images-the-terms li {
+	list-style-type: none;
+	margin: 0 10px 10px 0;
+}
+
+/*
+     FILE ARCHIVED ON 15:22:18 Sep 21, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:25:40 Jan 26, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.166
+  exclusion.robots: 0.039
+  exclusion.robots.policy: 0.024
+  esindex: 0.015
+  cdx.remote: 13.11
+  LoadShardBlock: 316.928 (6)
+  PetaboxLoader3.datanode: 291.832 (7)
+  load_resource: 75.865
+  PetaboxLoader3.resolve: 68.307
+*/

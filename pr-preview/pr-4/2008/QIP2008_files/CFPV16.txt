@@ -1,0 +1,68 @@
+QIP 2008
+CALL FOR SUBMISSIONS
+
+The Eleventh Workshop on
+QUANTUM INFORMATION PROCESSING
+India International Centre
+New Delhi, India
+December 17--21, 2007
+
+SUBMISSIONS of abstracts for CONTRIBUTED TALKS are sought in research
+areas related to quantum information science and quantum information
+processing. All submissions will be judged primarily by the content of
+their first TWO PAGES. Therefore, these two pages should clearly
+describe the ideas, results, techniques, and make a comparison with
+previous related work. Beyond the first two pages, more details can be
+provided; however, any material beyond the first two pages may be
+ignored at the discretion of the Program Committee. Submissions that
+deviate from this format risk rejection without consideration of their
+merits. Submissions MUST be received by 23:59 EDT, SEPTEMBER 20, 2007.
+
+(POSTER submissions are due on November 15, 2007, and instructions
+for submitting them will be available at the conference web site.)
+
+PROGRAM COMMITTEE
+Andris Ambainis (University of Latvia & Univeristy of Waterloo)
+Dave Bacon (University of Washington)
+Harry Buhrman (CWI, Amsterdam)
+Richard Cleve (U. of Waterloo & Perimeter Institute, Chair)
+Manny Knill (NIST, Boulder)
+Ben Reichardt (California Institute of Technology)
+Pranab Sen (Tata Institute of Fundamental Research)
+Adam Smith (Pennsylvania State University)
+Barbara Terhal (IBM Watson Research Center)
+John Watrous (University of Waterloo)
+
+LOCAL ORGANIZERS
+Naveen Garg (IIT Delhi)
+Amit Kumar (IIT Delhi)
+Sanjiva Prasad (IIT Delhi)
+Jaikumar Radhakrishnan (TIFR Mumbai, Chair)
+SM Roy (JNU, New Delhi)
+Sandeep Sen (IIT Delhi)
+
+STEERING COMMITTEE
+Keiji Matsumoto (NII, Tokyo)
+Cristopher Moore (University of New Mexico & Santa Fe Institute)
+Michael Nielsen (Perimeter Institute)
+John Preskill (California Institute of Technology)
+Jaikumar Radhakrishnan (TIFR Mumbai)
+Peter Shor (Massachusetts Institute of Technology)
+Umesh Vazirani (UC Berkeley)
+Andreas Winter (University of Bristol)
+Ronald de Wolf (CWI, Amsterdam)
+
+IMPORTANT DATES
+Submission deadline for contributed talks . . September 20, 2007
+Notification of acceptance  . . . . . . . . . . October 20, 2007
+Submission deadline for posters . . . . . . .  November 15, 2007
+Early registration deadline . . . . . . . . .  November 15, 2007
+
+CONFERENCE WEB SITE (linked to electronic submission server)
+http://www.tifr.res.in/~qip08/
+
+CONTACT INFORMATION
+Email: qip08@tifr.res.in
+
+
+

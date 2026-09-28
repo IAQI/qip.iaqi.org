@@ -1,0 +1,15 @@
+div.page-header:not(.event-page-header),
+.indico-top-bar {
+  background-color: #5b58cc;
+}
+
+div.page-header img.header-logo {
+  width: 145px;
+  height: unset;
+  margin: 17px 0 0 40px;
+}
+
+#global-menu {
+  --surface-inverse-color: #38375e;
+  --surface-highlight-inverse-color: #514f87;
+}

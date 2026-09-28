@@ -1,0 +1,1 @@
+import{aP as s}from"./@vue-runtime-core-DbrY_FII.js";const r=()=>{const l=s(!1),a=s(!1),o=s(null),t=(e=null)=>{e&&(o.value=e),l.value=!0},n=()=>{o.value=null};return{loading:a,opened:l,open:t,close:(e=!0)=>{l.value=!1,e&&n()},reset:n,modalData:o}};export{r as u};

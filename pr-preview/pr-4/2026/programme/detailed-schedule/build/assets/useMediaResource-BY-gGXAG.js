@@ -1,0 +1,1 @@
+function t(){const r=e=>e?.original_file_name?e.original_file_name:null;return{getPreviewUrl:e=>e?.preview_url?e.preview_url:null,getOriginalUrl:e=>e?.preview_url?e.original_url:null,getFieldValue:e=>r(e)?[{name:r(e)}]:null,getName:r}}export{t as u};

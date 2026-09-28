@@ -1,0 +1,234 @@
+<!DOCTYPE html><html><head>
+<title>CRM: Inscription - Physique mathématique 1999-2000</title>
+<link rel="StyleSheet" href="general-reg.css" title="general" media="screen">
+</head>
+
+<body bgcolor="#FFFFFF"><a name="top"></a>
+<p class="header" align="CENTER">C&nbsp;e&nbsp;n&nbsp;t&nbsp;r&nbsp;e&nbsp;&nbsp;d&nbsp;e&nbsp;&nbsp;r&nbsp;e&nbsp;c&nbsp;h&nbsp;e&nbsp;r&nbsp;c&nbsp;h&nbsp;e&nbsp;s&nbsp;&nbsp;m&nbsp;a&nbsp;t&nbsp;h&nbsp;é&nbsp;m&nbsp;a&nbsp;t&nbsp;i&nbsp;q&nbsp;u&nbsp;e&nbsp;s</p>
+<p class="lang" align="RIGHT"><a class="lang" href="inscr_mathphys_an.shtml">in English</a></p>
+
+<h1 align="CENTER">Inscription</h1>
+<h3 align="CENTER">aux activités de l'<a href="../theme/theme_1999-2000_fr.html">Année thématique 1999-2000</a> en</h3>
+<h2 align="CENTER">Physique mathématique</h2>
+
+
+
+<hr>
+
+<form method="POST" action="../../cgi/InscriptionGeneraleFrn.csh">
+<input type="HIDDEN" name="Activité" value="Année thématique en Physique mathématique, 1999-2000">
+<input type="HIDDEN" name="Langue" value="français">
+
+<h3>Activité(s) choisie(s)</h3>
+
+<center>
+<table border="1">
+
+<tbody><tr>
+<th colspan="3">S.V.P. indiquez un ou plusieurs choix: </th>
+</tr>
+
+<!-- Ateliers -->
+
+<tr>
+<th align="LEFT" colspan="3"><font size="+1">Ateliers:</font><br></th>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier sur les methodes theoriques pour les fermions fortement correles" value="Chosen"> </td>
+<td align="LEFT">Atelier sur les methodes theoriques pour les fermions fortement correles </td>
+<td align="RIGHT">26-30 mai 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier sur la dynamique non-linéaire et le groupe de renormalisation" value="Chosen"> </td>
+<td align="LEFT">Atelier sur la dynamique non-linéaire et le groupe de renormalisation </td>
+<td align="RIGHT">22-27 aout 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier sur les aspects de la quantification" value="Chosen"> </td>
+<td align="LEFT">Atelier sur les aspects de la quantification </td>
+<td align="RIGHT">23-28 septembre 1999 </td>
+</tr>
+
+
+<tr>
+<!--<TD ALIGN=CENTER VALIGN=MIDDLE><INPUT TYPE=CHECKBOX NAME="Atelier sur l'informatique quantique" VALUE="Chosen"> </TD>-->
+<td align="CENTER" valign="MIDDLE"> -&gt; </td>
+<td align="LEFT">Atelier sur l'informatique quantique:
+   <li><input type="CHECKBOX" name="Atelier sur l'informatique quantique (Cours du 6 décembre)" value="Chosen">Cours (6d&eacute;cembre)
+   <li><input type="CHECKBOX" name="Atelier sur l'informatique quantique (Conférences scientifiques 7-11 décembre)" value="Chosen">Conf&eacute;rences scientifiques (7-11 d&eacute;cembre)
+</td>
+<td align="RIGHT">6-11 decembre 1999 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier sur les cordes, la dualité et la géométrie(22-25 mars 2000)" value="Chosen"> </td>
+<td align="LEFT">Atelier sur les cordes, la dualité et la géométrie </td>
+<td align="RIGHT">22-25 mars 2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier sur les déformations isomonodromiques et leurs applications en physique" value="Chosen"> </td>
+<td align="LEFT">Atelier sur les déformations isomonodromiques et leurs applications en physique </td>
+<td align="RIGHT">1-6 mai 2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Atelier «Finance et physique mathématique»" value="Chosen"> </td>
+<td align="LEFT">Atelier «Finance et physique mathématique» </td>
+<td align="RIGHT">12-17 juin 2000 </td>
+</tr>
+
+<!-- Périodes de concentration -->
+
+<tr>
+<th align="LEFT" colspan="3"><font size="+1">Périodes de concentration:</font><br></th>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Algèbre quantique et intégrabilité" value="Chosen"> </td>
+<td align="LEFT">Algèbre quantique et intégrabilité </td>
+<td align="RIGHT">2-30 avril 2000 </td>
+</tr>
+
+<tr>
+<td align="CENTER" valign="MIDDLE"><input type="CHECKBOX" name="Modèles intégrables, matière condensée et phénomènes loin de l'équilibre" value="Chosen"> </td>
+<td align="LEFT">Modèles intégrables, matière condensée et phénomènes loin de l'équilibre </td>
+<td align="RIGHT">14 mai - 11 juin, 2000 </td>
+</tr>
+
+</tbody></table>
+</center>
+
+<!-- SubFormFrnPersonnel.html -->
+
+<h3>Informations personnelles:</h3>
+<p><b>Titre: </b>
+<select name="Titre">
+<option value="Docteur" selected> Dr
+<option value="Monsieur"> M.
+<option value="Madame"> Mme
+</select></p>
+<p><b>Statut: </b>
+<select name="Statut">
+<option value="Étudiant"> Étudiant(e) 2e ou 3e cycle
+<option value="Boursier"> Boursier postdoc
+<option value="Professeur" selected> Professeur
+<option value="Autre statut"> Autre
+</select></p>
+<pre>
+		 Nom: <input name="Nom de famille">		       Prénom: <input name="Prénom">
+	 Affiliation: <input name="Affiliation" type="text" size="66">
+Adresse de l'affiliation (y compris ville, province/état, code postal/zip, pays):
+		      <textarea name="Adresse de l'affiliation" rows="5" cols="66"></textarea>
+Adresse de correspondance (si différente de celle ci-dessus):
+		      <textarea name="Adresse de correspondance" rows="5" cols="66"></textarea>
+    Téléphone bureau: <input name="Téléphone au bureau">		Téléphone rés: <input name="Téléphone résidence">
+         Télécopieur: <input name="Télécopieur">
+    Adresse courriel: <input name="Adresse courriel" type="text" size="66">
+ Adresse WEB: http:// <input name="Adresse WEB: http://" type="text" size="66">
+	 Citoyenneté: <input name="Citoyenneté">
+</pre>
+
+
+<hr size="3" width="80%">
+
+<h3>Frais d'inscription <font size="-1">(il n'y a aucun frais d'inscription pour l'Atelier sur l'informatique quantique)<br>(non remboursables)</font></h3>
+<center>
+<table border="2">
+<tr><th align="LEFT">S.V.P. choisissez la catégorie appropriée: </th><th align="RIGHT">Prix par atelier ou période de concentration<br></th></tr>
+<tr><th align="LEFT"><input type="radio" name="Catégorie" value="Professeur universitaire" checked>Professeur universitaire</th><td align="RIGHT">100&nbsp;$&nbsp;CDN<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Catégorie" value="Boursier postdoctoral">Boursier postdoctoral</th><td align="RIGHT">50&nbsp;$&nbsp;CDN<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Catégorie" value="Étudiant à temps plein">Étudiant à temps plein</th><td align="RIGHT">25&nbsp;$&nbsp;CDN<br></td></tr>
+<tr><th align="LEFT"><input type="radio" name="Catégorie" value="Chercheur industriel">Chercheur industriel</th><td align="RIGHT">200&nbsp;$&nbsp;CDN<br></td></tr>
+</table>
+</center>
+
+<!-- SubFormFrnPaiement.html -->
+
+<h3>Mode de paiement:</h3>
+
+<p><input type="radio" name="Mode de paiement" value="Chèque" checked>
+Chèque à l'ordre du <em>Centre de recherches mathématiques</em> (en dollars canadiens ou américains seulement)</p>
+
+<p><input type="radio" name="Mode de paiement" value="Traite bancaire">
+Traite bancaire émise à l'ordre du <em>Centre de recherches mathématiques</em> (en dollars canadiens ou américains seulement)</p>
+
+<p><input type="radio" name="Mode de paiement" value="VISA"> Carte de crédit VISA</p>
+
+<p><input type="radio" name="Mode de paiement" value="MasterCard"> Carte de crédit MasterCard</p>
+
+<p>Si vous payez par chèque ou par traite bancaire, ou si vous préférez nous faire parvenir vos info. de carte de crédit par la poste,
+notre adresse postale est:</p>
+<pre>	Centre de recherches mathématiques
+	Université de Montréal
+	Case postale 6128, succursale centre-ville
+	Montréal (Québec) H3C 3J7</pre>
+
+<p><strong>Informations pour carte de crédit:</strong></p>
+<pre>	Nom du détenteur: <input name="Nom du détenteur de la carte de crédit">
+		  Numéro: <input name="Numéro de la carte de crédit">
+	 Date d'échéance: <input name="Date d'échéance de la carte de crédit"></pre>
+
+<h5 align="CENTER">NOTA BENE: Ces informations <em>ne seront pas crypt&eacute;es.</em><br>
+L'envoi de ces données par Internet se fait à vos propres risques et périls.<br>
+Vous pouvez, si vous le préférez, nous faire parvenir ces info. par la poste (voir adresse plus haut) ou par télécopieur à (514) 343-2254.</h5>
+
+
+<hr size="3" width="80%">
+
+<!-- SubFormFrnLogement.html -->
+
+<h3>Logement:</h3>
+<pre><strong>Désirez-vous que le CRM vous réserve un logement?</strong>	<input type="radio" name="Réservation de logement" value="Oui">Oui	<input type="radio" name="Réservation de logement" value="Non" checked>Non</pre>
+<strong>Hôtel</strong> (vous référer à <a href="/web/20001217104400/http://www.crm.umontreal.ca/coord/hotels_fr.html">cette liste d'hôtels</a>)
+<pre>	 Premier choix: <input name="Premier choix d'hôtel">
+	Deuxième choix: <input name="Deuxième choix d'hôtel">
+</pre>
+<pre><strong>Occupation:</strong>	<input type="radio" name="Occupation" value="simple" checked>Chambre simple	<input type="radio" name="Occupation" value="double">Chambre double</pre>
+<pre>
+ Date d'arrivée à l'hôtel: <input name="Date d'arrivée à l'hôtel">
+Heure d'arrivée à l'hôtel: <input name="Heure d'arrivée à l'hôtel">
+Date de départ de l'hôtel: <input name="Date de départ de l'hôtel">
+</pre>
+<h4>Nota bene: Afin de garantir votre r&eacute;servation,<br>
+s.v.p. entrer les informations au sujet de votre carte de credit<br>
+dans la section "Mode de paiement", et ce, m&ecirc;me si vous avez<br>
+choisi un autre mode de paiement.</h4>
+
+
+<hr size="3" width="80%">
+
+<!-- SubFormFrnDivers.html -->
+
+<h3>Informations diverses:</h3>
+<p>Veuillez entrer dans cette case toute autre information ou tout commentaire
+que vous voudriez inclure avec votre inscription:</p>
+<p><textarea name="Informations diverses" rows="5" cols="66"></textarea></p>
+
+
+<hr size="3" width="80%">
+<h3>Alors, vous avez tout rempli...</h3>
+<p>
+<input type="submit" value="Soumettre l'inscription">
+<input type="reset" value="Effacer">
+</p>
+
+</form>
+
+<hr>
+
+<h3><img src="ball.gif" alt="o">&nbsp;Retour à la page de l'<a href="http://www.crm.umontreal.ca/act/theme/theme_1999-2000_fr.html">Année thématique 1999-2000</a></h3>
+
+<hr>
+<p align="CENTER">
+<a href="http://www.crm.umontreal.ca/CRM_HOME_Frn.html"><img src="HomeFrancais.gif" alt="[Page d'accueil du CRM]" width="129" height="37"></a>
+<a href="http://www.crm.umontreal.ca/CRM_HOME_Eng.html"><img src="HomeEnglish.gif" alt="[CRM Home Page]" width="129" height="37"></a><br>
+<strong>4 mars 1999, <em><a href="mailto:webmaster@CRM.UMontreal.CA">webmaster@CRM.UMontreal.CA</a></em></strong>
+</p>
+</body>
+</html>
+
+

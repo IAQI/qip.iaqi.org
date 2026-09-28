@@ -1,0 +1,86 @@
+
+
+BODY		{
+		background:	#FFFFFF none;
+		color:		#000000;
+		}	
+		
+
+a:link {font-family: "Gill Sans", Verdana, Helvetica, sans-serif; color: #blue; text-decoration: none }
+a:visited {color: #3333ff ; text-decoration: none}
+a:hover {background: #888888 ; text-decoration: none }
+
+
+                      
+P.header	{
+		font:		bold large sans-serif;
+		background:	#000066 none;
+		color:		#CCCCCC;
+		border:		none;
+		padding:	0.30em;
+		margin:		0em;
+		text-align:	center;
+		}
+H1		 { color: #000066; font-size: medium; font-family: "Gill Sans", Verdana, Helvetica, sans-serif; background: white; text-align: center; margin-top: 0.5em; margin-bottom: 0.5em; padding: 0.1em; border: ridge 0.2em #666699 }
+H2		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		background:	white none;
+		color:		#000066;
+		border:		none;
+		text-align:	center;
+		}
+H3		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	14pt;
+		color:		black;
+		background:	white none;
+		}
+H4		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	12pt;
+		color:		black;
+		background:	white none;
+		}
+H5		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	10pt;
+		color:		black;
+		background:	white none;
+		}
+H6		{
+		font-family:	"Gill Sans", Verdana, Helvetica, sans-serif;
+		font-size:	8pt;
+		color:		black;
+		background:	white none;
+		}
+A.lang		{
+		text-decoration:none;
+		}
+P.lang		{
+		font:		bold small sans-serif;
+		color:		black;
+		background:	#CCCCFF none;
+		border:		none;
+		padding:	0.2em;
+		margin-top:	0em;
+		margin-bottom:	0em;
+		text-align:	right;
+		}
+A.special	{
+		font:		bold medium sans-serif;
+		color:		black;
+		background:	#CCCCFF none;
+		border:		none;
+		padding:	0.30em;
+		margin:		0em;
+		text-decoration:none;
+		}
+		
+#h3link   { color: black; font-size: 14pt; font-family: "Gill Sans", Verdana, Helvetica, sans-serif; background: white none; }
+		
+CODE		{
+		font-family:	Courier, monospace;
+		}
+
+.bckg   { color: white; background-color: #7f5eff }
+.vertbar  { border-right: 2pt solid #ccf }

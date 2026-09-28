@@ -1,0 +1,6 @@
+wget --recursive --page-requisites --convert-links --html-extension --restrict-file-names=windows --domains ucalgary.ca --exclude-domains careers.ucalgary.ca,phas.ucalgary.ca  --cut-dirs=1 --no-parent -e robots=off --span-hosts --no-directories --no-clobber  http://www.ucalgary.ca/qip2016/
+
+
+
+
+wget --recursive --page-requisites --convert-links --adjust-extension  --domains stationq.microsoft.com --no-parent https://stationq.microsoft.com/qip-2017details/

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+		<title>Interactive Room Finder</title>
+		<link rel="shortcut icon" href="shortcut.ico">
+		<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css"  href="jimu.js/css/jimu-ie.css" />
+    <![endif]-->
+		<style type="text/css">
+		*{box-sizing: border-box;}
+			body,html {
+			  width:100%;
+			  height:100%;
+			  margin:0;
+			  padding:0;
+			  overflow:hidden;
+			}
+			#main-loading{
+				width: 100%;
+				height: 100%;
+				background-color: #FFFFFF;
+				text-align: center;
+				overflow: hidden;
+			}
+			#main-loading #app-loading, #main-loading #ie-note{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      #main-loading #app-loading{
+        width: 100%;
+        height: 100px;
+      }
+      #main-loading .app-name{
+        font: 24px arial;
+        font-weight: bold;
+        position: relative;
+        text-align:center;
+        z-index: 2;
+      }
+			#main-loading img{
+				position: relative;
+				display: block;
+				margin: auto;
+			}
+			#main-loading .loading-info{
+				font: 14px 'arial';
+				margin-top: 50px;
+				overflow: hidden;
+				position: relative;
+			}
+			#main-loading .loading-info .loading{
+				width: 260px;
+				height: 4px;
+				border-radius: 2px;
+				background-color: #373737;
+				margin: auto;
+			}
+			#main-loading .loading-info .loading-progress{
+				height: 4px;
+				border-radius: 2px;
+				background-color: #FF0D00;
+			}
+			#main-loading #ie-note {
+        width: 586px;
+        height: 253px;
+        background-image: url('notes.png');
+        padding: 0 30px 40px 30px;
+        font-size: 14px;
+        color: #596679;
+      }
+      #ie-note .hint-title{
+        height: 40px;
+        line-height: 48px;
+        text-align: left;
+        font-weight: bold;
+      }
+      #ie-note .hint-img{
+        background-image: url('hint.png');
+        background-position: left;
+        padding-left: 40px;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        height: 30px;
+        text-align: left;
+        line-height: 30px;
+        font-weight: bold;
+      }
+      #ie-note span{
+        display: block;
+        line-height: 14px;
+      }
+			#main-page{
+				display: none;
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+
+			#jimu-layout-manager{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+		#UCMAPS_status_msg {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background: #DCD8C5;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #000000;
+	text-align: right;
+	float: center;
+	font-size: 7pt;
+	width: 100%;
+}
+
+#UCMAPS_overlay_msg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	background: #FF0D00;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #EFEEEE;
+	text-align: center;
+	float: center;
+	font-size: 16pt;
+	width: 100%;
+}
+
+</style>
+
+
+		<script>
+			/*******************************
+			* This is the function you can modify to customize the loading page
+			* This function will be invoked when one resource is loaded.
+			********************************/
+			var progress;
+			function loadingCallback(url, i, count) {
+				var loading = document.getElementById('main-loading-bar');
+				loading.setAttribute('title', url);
+			  if(!progress){
+			    progress = document.createElement('div');
+			    progress.setAttribute('class', 'loading-progress');
+			    loading.appendChild(progress);
+			  }
+			  progress.style.width = (((i - 1)/count) * 100) + '%';
+			}
+		</script>
+	</head>
+	<body class="claro">
+		<div id="UCMAPS_overlay_msg" onclick="document.getElementById('UCMAPS_overlay_msg').innerHTML = '';">
+			<!-- System maintenance, shutdown messages, etc. Also a cool line at the top of the app.-->
+
+			<!--SystemMessage-->
+		</div>
+
+		
+		<div id="main-loading">
+
+			<!-- This is section you can modify to customize the loading page -->
+			<div id="app-loading">
+				<div class="app-name">
+					<span style="color:#373737"></span>
+				</div>
+				                <div>
+                    <span style="color:#373737;font: 12px arial; font-weight: bold; position: relative; text-align:center; z-index: 2;">Helping You Find Your Way</span>
+                </div>
+				<div class="loading-info">
+					<div id="main-loading-bar" class="loading"></div>
+				</div>
+			</div>
+			<!-- //////////////////    END    ////////////////////////////// -->
+			<div id="ie-note" style="display:none;">
+        <div class="hint-title">Error</div>
+        <div class="hint-img">Your browser is currently not supported.</div>
+        <p class="hint-text">
+          <span>
+            Please note that creating presentations is not supported in Internet Explorer versions 6, 7.
+          </span>
+          <br>
+          <span>
+            We recommend upgrading to the latest Internet Explorer, Google Chrome, or Firefox.
+          </span>
+          <br>
+          <span>
+            If you are using IE 8 or later, make sure you turn off "Compatibility View".
+          </span>
+        </p>
+      </div>
+		</div>
+		<div id="main-page">
+			<div id="jimu-layout-manager"></div>
+		</div>		
+
+		<script src="env.js"></script>
+		<script type="text/javascript" src="simpleLoader.js"></script>
+		<script type="text/javascript" src="init.js"></script>
+	
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//ucmaps01.ucalgary.ca:8081/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 3]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="piwik.php@idsite=3" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12454995-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics Code -->
+
+ 
+
+		<div id="UCMAPS_status_msg" onclick="document.getElementById('UCMAPS_status_msg').innerHTML = '';">
+			<!-- Current Application status, notifications, etc.  Also a cool line at the bottom of the app.-->
+			This web application is currently under active development (last update Tue Aug 18 10:04:55 2015).
+		</div>
+
+</body>
+
+
+</html>
