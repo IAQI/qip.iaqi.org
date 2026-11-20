@@ -1,0 +1,264 @@
+# QIP archive
+
+> Static copies of the websites of past Quantum Information Processing (QIP) conferences, 1998–2026, preserved by the International Association for Quantum Information (IAQI). Pages are archived as they were published; programs, accepted papers, abstracts and slides are mostly in HTML and PDF.
+
+The current conference is at https://qipconference.org/. For structured, machine-readable data (talks, posters, authors with ORCID, committees, videos) use QuantumDB, which covers the same conferences: https://quantumdb.iaqi.org/llms.txt (data under CC0 1.0).
+
+## Structured data (recommended for agents)
+
+- [All conferences, with links to every per-year export](https://quantumdb.iaqi.org/api/v1/export/all.json)
+- One conference as JSON: `https://quantumdb.iaqi.org/api/v1/export/conferences/qip-<year>`; CSV: append `/talks.csv`, `/posters.csv` or `/committees.csv`
+- [QuantumDB guide for LLMs](https://quantumdb.iaqi.org/llms.txt)
+
+## Archived editions
+
+### QIP 2026
+
+2026-01-26 to 2026-01-30; Riga, Latvia
+
+- [Archived website](https://qip.iaqi.org/2026/)
+- [Programme](https://qip.iaqi.org/2026/programme/programme/)
+- [Detailed schedule](https://qip.iaqi.org/2026/programme/detailed-schedule/)
+- [Accepted Papers](https://qip.iaqi.org/2026/programme/accepted-papers/)
+- [Invited Speakers](https://qip.iaqi.org/2026/programme/invited-speakers/)
+- [Steering Committee](https://qip.iaqi.org/2026/about/steering-committee/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2026), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2026/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2026/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2026/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2026)
+
+### QIP 2025
+
+2025-02-22 to 2025-02-28; Raleigh, United States
+
+- [Archived website](https://qip.iaqi.org/2025/)
+- [Accepted Talks](https://qip.iaqi.org/2025/accepted-talks/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2025), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2025/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2025/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2025/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2025)
+
+### QIP 2024
+
+2024-01-13 to 2024-01-19; Taipei, Taiwan
+
+- [Archived website](https://qip.iaqi.org/2024/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2024), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2024/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2024/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2024/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2024)
+
+### QIP 2023
+
+2023-02-04 to 2023-02-10; Ghent, Belgium
+
+- [Archived website](https://qip.iaqi.org/2023/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2023), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2023/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2023/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2023/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2023)
+
+### QIP 2021
+
+2021-01-30 to 2021-02-05; Munich, Germany; online
+
+- [Archived website](https://qip.iaqi.org/2021/)
+- [Accepted Talks](https://qip.iaqi.org/2021/qip2021/submissions/qip-accepted-talks.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2021), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2021/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2021/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2021/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2021)
+
+### QIP 2020
+
+2020-01-04 to 2020-01-10; Shenzhen, China
+
+- [Archived website](https://qip.iaqi.org/2020/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2020), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2020/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2020/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2020/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2020)
+
+### QIP 2019
+
+2019-01-12 to 2019-01-18; Boulder, United States
+
+- [Archived website](https://qip.iaqi.org/2019/)
+- [QIP 2019: Program details](https://qip.iaqi.org/2019/program.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2019), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2019/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2019/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2019/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2019)
+
+### QIP 2018
+
+2018-01-13 to 2018-01-19; Delft, Netherlands
+
+- [Archived website](https://qip.iaqi.org/2018/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2018), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2018/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2018/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2018/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2018)
+
+### QIP 2017
+
+2017-01-14 to 2017-01-20; Seattle, United States
+
+- [Archived website](https://qip.iaqi.org/2017/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2017), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2017/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2017/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2017/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2017)
+
+### QIP 2016
+
+2016-01-09 to 2016-01-15; Banff, Canada
+
+- [Archived website](https://qip.iaqi.org/2016/)
+- [QIP 2016 Tutorial Program](https://qip.iaqi.org/2016/tutorial-program.html)
+- [QIP 2016 Accepted Talks](https://qip.iaqi.org/2016/accepted-talks.html)
+- [Invited Speakers](https://qip.iaqi.org/2016/invited-speakers.html)
+- [Committees](https://qip.iaqi.org/2016/committees.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2016), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2016/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2016/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2016/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2016)
+
+### QIP 2015
+
+2015-01-10 to 2015-01-16; Sydney, Australia
+
+- [Archived website](https://qip.iaqi.org/2015/)
+- [Scientific Program](https://qip.iaqi.org/2015/Program.php.html)
+- [Accepted Talks](https://qip.iaqi.org/2015/AcceptedTalks.php.html)
+- [Plenary Speakers](https://qip.iaqi.org/2015/Speakers.php.html)
+- [COMMITTEES](https://qip.iaqi.org/2015/Committees.php.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2015), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2015/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2015/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2015/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2015)
+
+### QIP 2014
+
+2014-02-03 to 2014-02-07; Barcelona, Spain
+
+- [Archived website](https://qip.iaqi.org/2014/)
+- [Program.pl](https://qip.iaqi.org/2014/cgi-bin/program.pl.html)
+- [Papers.pl](https://qip.iaqi.org/2014/cgi-bin/papers.pl.html)
+- [Speakers.pl](https://qip.iaqi.org/2014/cgi-bin/speakers.pl.html)
+- [Committees.pl](https://qip.iaqi.org/2014/cgi-bin/committees.pl.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2014), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2014/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2014/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2014/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2014)
+
+### QIP 2013
+
+2013-01-21 to 2013-01-25; Beijing, China
+
+- [Archived website](https://qip.iaqi.org/2013/)
+- [Program](https://qip.iaqi.org/2013/program.html.1.html)
+- [Speakers](https://qip.iaqi.org/2013/final/speakers.html)
+- [Committees](https://qip.iaqi.org/2013/final/committees.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2013), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2013/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2013/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2013/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2013)
+
+### QIP 2012
+
+2011-12-12 to 2011-12-16; Montreal, Canada
+
+- [Archived website](https://qip.iaqi.org/2012/)
+- [Callforpapers e](https://qip.iaqi.org/2012/callforpapers_e.php.html)
+- [Posters e](https://qip.iaqi.org/2012/posters_e.php.html)
+- [Committee e](https://qip.iaqi.org/2012/committee_e.php.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2012), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2012/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2012/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2012/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2012)
+
+### QIP 2011
+
+2011-01-10 to 2011-01-14; Singapore, Singapore
+
+- [Archived website](https://qip.iaqi.org/2011/)
+- [TUTORIAL PROGRAMME](https://qip.iaqi.org/2011/tutorialprogramme/)
+- [Postersession](https://qip.iaqi.org/2011/scientificprogramme/postersession.php.html)
+- [COMMITTEES](https://qip.iaqi.org/2011/committees/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2011), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2011/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2011/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2011/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2011)
+
+### QIP 2010
+
+2010-01-18 to 2010-01-22; Zurich, Switzerland
+
+- [Archived website](https://qip.iaqi.org/2010/)
+- [QIP 2010 Scientific Programme](https://qip.iaqi.org/2010/programme.html)
+- [QIP 2010 Postersession](https://qip.iaqi.org/2010/postersession.html)
+- [QIP 2010 Invited Speakers](https://qip.iaqi.org/2010/invitedspeakers.html)
+- [QIP 2010 Committees](https://qip.iaqi.org/2010/committee.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2010), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2010/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2010/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2010/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2010)
+
+### QIP 2009
+
+2009-01-12 to 2009-01-16; Santa Fe, United States
+
+- [Archived website](https://qip.iaqi.org/2009/)
+- [Talks -- QIP 2009](https://qip.iaqi.org/2009/talks.html)
+- [Posters -- QIP 2009](https://qip.iaqi.org/2009/posters.html)
+- [Organizing committees](https://qip.iaqi.org/2009/organizing-committees.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2009), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2009/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2009/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2009/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2009)
+
+### QIP 2008
+
+2007-12-17 to 2007-12-21; New Delhi, India
+
+- [Archived website](https://qip.iaqi.org/2008/)
+- [Program](https://qip.iaqi.org/2008/Program.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2008), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2008/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2008/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2008/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2008)
+
+### QIP 2007
+
+2007-01-30 to 2007-02-03; Brisbane, Australia
+
+- [Archived website](https://qip.iaqi.org/2007/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2007), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2007/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2007/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2007/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2007)
+
+### QIP 2006
+
+2006-01-16 to 2006-01-20; Paris, France
+
+- [Archived website](https://qip.iaqi.org/2006/)
+- [Schedule](https://qip.iaqi.org/2006/schedule.html)
+- [Accepted talks](https://qip.iaqi.org/2006/accepted_talks.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2006), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2006/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2006/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2006/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2006)
+
+### QIP 2005
+
+2005-01-13 to 2005-01-17; Cambridge, United States
+
+- [Archived website](https://qip.iaqi.org/2005/)
+- [Schedule.shtml](https://qip.iaqi.org/2005/schedule.shtml.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2005), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2005/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2005/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2005/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2005)
+
+### QIP 2004
+
+2004-01-15 to 2004-01-19; Waterloo, Canada
+
+- [Archived website](https://qip.iaqi.org/2004/)
+- [Conference Schedule](https://qip.iaqi.org/2004/schedule.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2004), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2004/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2004/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2004/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2004)
+
+### QIP 2003
+
+2002-12-13 to 2002-12-17; Berkeley, United States
+
+- [Archived website](https://qip.iaqi.org/2003/)
+- [Event Schedule](https://qip.iaqi.org/2003/schedule.html)
+- [Talks](https://qip.iaqi.org/2003/talks.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2003), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2003/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2003/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2003/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2003)
+
+### QIP 2002
+
+2002-01-14 to 2002-01-17; Yorktown Heights, United States
+
+- [Archived website](https://qip.iaqi.org/2002/)
+- [Schedule](https://qip.iaqi.org/2002/schedule.html)
+- [Posters](https://qip.iaqi.org/2002/posters.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2002), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2002/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2002/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2002/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2002)
+
+### QIP 2001
+
+2001-01-09 to 2001-01-12; Amsterdam, Netherlands
+
+- [Archived website](https://qip.iaqi.org/2001/)
+- [QIP 2001 Program](https://qip.iaqi.org/2001/program.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2001), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2001/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2001/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2001/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2001)
+
+### QIP 2000
+
+1999-12-06 to 1999-12-11; Montreal, Canada
+
+- [Archived website](https://qip.iaqi.org/2000/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2000), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2000/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2000/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-2000/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-2000)
+
+### QIP 1999
+
+1998-12-14 to 1998-12-18; Chicago, United States
+
+- [Archived website](https://qip.iaqi.org/1999/)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1999), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1999/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1999/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1999/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-1999)
+
+### QIP 1998
+
+1998-01-12 to 1998-01-16; Aarhus, Denmark
+
+- [Archived website](https://qip.iaqi.org/1998/)
+- [Program](https://qip.iaqi.org/1998/program.html)
+- Data: [JSON](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1998), [talks CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1998/talks.csv), [posters CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1998/posters.csv), [committees CSV](https://quantumdb.iaqi.org/api/v1/export/conferences/qip-1998/committees.csv), [QuantumDB page](https://quantumdb.iaqi.org/conferences/qip-1998)
+
+## Editions without an archived copy here
+
+- QIP 2022: [original website](https://cvent.me/QrzQvQ), [QuantumDB](https://quantumdb.iaqi.org/conferences/qip-2022)
+
+## Rights
+
+Facts about the conferences (titles, authors, dates) are free to use; QuantumDB dedicates its data to the public domain (CC0 1.0). Abstracts, slides, photos and recordings remain the property of their authors.
